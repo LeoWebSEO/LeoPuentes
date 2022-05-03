@@ -14,7 +14,7 @@ plugins:
 - jekyll-paginate
 - jekyll-seo-tag
 authors:
-  sal:
+  Leo:
     name: Leo Puentes
     site: https://leopuentes.me
     avatar: "/assets/images/avatar1.jpg"
@@ -25,13 +25,6 @@ authors:
       sea de tu agrado y podamos aprende '
     email: jholepual@gmail.com
     twitter: ''
-  jane:
-    name: Jane
-    site: https://www.wowthemes.net
-    avatar: "/assets/images/avatar2.jpg"
-    bio: Blogger, fashionista, love to explore new ideas and write on my morning coffee!
-    email: fakemail@gmail.com
-    twitter: https://twitter.com/wowthemesnet
 defaults:
 - scope:
     path: _posts
