@@ -15,13 +15,16 @@ plugins:
 - jekyll-seo-tag
 authors:
   sal:
-    name: Sal
-    site: https://www.wowthemes.net
+    name: Leo Puentes
+    site: https://leopuentes.me
     avatar: "/assets/images/avatar1.jpg"
-    bio: Hi, I am Sal, the author of Mundana, the theme you're currently previewing.
-      I hope you like it!
-    email: wowthemesnet@gmail.com
-    twitter: https://twitter.com/wowthemesnet
+    bio: 'Impulsar el potencial de Internet es mi pasión. He decidido crear este blog
+      donde deseo y quiero compartir todo el conocimiento que he aprendido y el que
+      voy aprendiendo. Me gusta enseñar y junto a ello he desarrollado habilidades
+      para Motivar, Programar e Invertir. Todo lo que soy esta en este blog, espero
+      sea de tu agrado y podamos aprender juntos. '
+    email: jholepual@gmail.com
+    twitter: ''
   jane:
     name: Jane
     site: https://www.wowthemes.net
