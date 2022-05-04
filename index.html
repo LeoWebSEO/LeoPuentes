@@ -28,7 +28,7 @@ description: Blog de conocimiento Motivación - Programación - Inversión
           </p>
           <div>
             <small class="d-block text-muted">
-              In <span class="catlist">
+              En <span class="catlist">
                 {% for category in latest_post.categories %}
                 <a class="text-capitalize text-muted smoothscroll" href="{{ 'categories.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
                 {% endfor %}
@@ -59,7 +59,7 @@ description: Blog de conocimiento Motivación - Programación - Inversión
             <a class="text-dark" href="{{second_post.url | relative_url }}">{{ second_post.title }}</a>
           </h2>
           <small class="d-block text-muted">
-            In <span class="catlist">
+            En <span class="catlist">
               {% for category in second_post.categories %}
               <a class="text-capitalize text-muted smoothscroll" href="{{ 'categories.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
               {% endfor %}
@@ -86,7 +86,7 @@ description: Blog de conocimiento Motivación - Programación - Inversión
             <a class="text-dark" href="{{ third_post.url | relative_url }}">{{ third_post.title }}</a>
           </h2>
           <small class="d-block text-muted">
-            In <span class="catlist">
+            En <span class="catlist">
               {% for category in third_post.categories %}
               <a class="text-capitalize text-muted smoothscroll" href="{{ 'categories.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
               {% endfor %}
@@ -113,7 +113,7 @@ description: Blog de conocimiento Motivación - Programación - Inversión
             <a class="text-dark" href="{{ fourth_post.url | relative_url }}">{{ fourth_post.title }}</a>
           </h2>
           <small class="d-block text-muted">
-            In <span class="catlist">
+            En <span class="catlist">
               {% for category in fourth_post.categories %}
               <a class="text-capitalize text-muted smoothscroll" href="{{ 'categories.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a><span class="sep">, </span>
               {% endfor %}
