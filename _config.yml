@@ -24,7 +24,7 @@ authors:
       para Motivar, Programar e Invertir. Todo lo que soy esta en este blog, espero
       sea de tu agrado y podamos aprender. '
     email: jholepual@gmail.com
-    twitter: ''
+    twitter: 'https://twitter.com/elsermillonario'
 defaults:
 - scope:
     path: _posts
