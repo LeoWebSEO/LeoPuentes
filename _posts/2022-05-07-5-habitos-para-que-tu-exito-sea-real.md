@@ -14,7 +14,11 @@ Tus hábitos hacen que las intenciones de alcanzar el éxito se conviertan en re
 >
 > James Clear.
 
-Te recomiendo un libro fantástico de [James Clear](https://jamesclear.com/) y que me ha ayudado a encontrar y trabajar en hábitos efectivos. El libro esta en Idioma Inglés y Español, te dejo el link a continuación: [Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3Flwz4R) || [Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3LSXUhj)
+Te recomiendo un libro fantástico de [James Clear](https://jamesclear.com/ "James Clear") y que me ha ayudado a encontrar y trabajar en hábitos efectivos. El libro esta en Idioma Inglés y Español, te dejo el link a continuación:
+
+[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3Flwz4R "Atomic Habit")
+
+[Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3LSXUhj "Habitos Atomicos")
 
 A menudo te encuentras con muchos propósitos para tu vida. Los cuales no tienes ni la menor idea de cómo llevarlos a cabo, ni mucho menos como iniciarlos. Entonces, empiezas a buscar información, empiezas a leer, investigar y nuevamente leer, investigar; sin lograr consolidar información precisa para emprender e iniciar las ideas.
 
