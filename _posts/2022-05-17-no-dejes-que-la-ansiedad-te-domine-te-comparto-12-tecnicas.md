@@ -8,7 +8,7 @@ author: Leo
 image: "/assets/images/superar-ansiedad.webp"
 
 ---
-Con mucha frecuencia me relaciono con personas que sufren de ansiedad; resultado de diferentes situaciones vividas. Rozan por la cual, quiero compartirte esta lectura con 12 técnicas para combatir la ansiedad y no permitir que te domine.
+Con mucha frecuencia me relaciono con personas que sufren de ansiedad; resultado de diferentes situaciones vividas. Razón por la cual, quiero compartirte esta lectura con 12 técnicas para combatir la ansiedad y no permitir que te domine.
 
 No sé, si lo vas a leer todo. Pero si lo haces, encontrarás información de valor para tu crecimiento personal.
 
