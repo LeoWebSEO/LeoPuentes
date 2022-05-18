@@ -3,6 +3,7 @@ layout: post
 categories:
 - Motivacion
 - Lectura
+- sticky
 title: SUEÑOS GRANDES CON EL PODER DE TU MENTE
 author: Leo
 image: "/assets/images/poder-mente.webp"
