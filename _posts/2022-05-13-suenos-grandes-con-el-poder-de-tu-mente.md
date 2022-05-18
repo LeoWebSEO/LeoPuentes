@@ -3,10 +3,10 @@ layout: post
 categories:
 - Motivacion
 - Lectura
-- sticky
 title: SUEÑOS GRANDES CON EL PODER DE TU MENTE
 author: Leo
 image: "/assets/images/poder-mente.webp"
+sticky: []
 
 ---
 Aprovechas a menudo el tiempo libre para liberar tu imaginación. La puedes dejar ir tan lejos como lo permitas, por lo tanto; si reprimes tu imaginación la puedes acondicionar para que se limite. En cambio, si decides aprovechar todo su potencial con el carácter apropiado y con el poder de tu mente verás que es ilimitada.
