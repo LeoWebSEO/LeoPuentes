@@ -4,7 +4,6 @@ description: Blog de conocimiento Motivación - Programación - Inversión
 logo: assets/images/logo.png
 favicon: assets/images/favicon.ico
 email: leopolseo@gmail.com
-mailchimp-list: https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b
 include:
 - _pages
 permalink: "/:title/"
@@ -25,6 +24,10 @@ authors:
       sea de tu agrado y podamos aprender. '
     email: jholepual@gmail.com
     twitter: 'https://twitter.com/elsermillonario'
+    facebook: 'https://www.facebook.com/elsermillonarioo'
+    instagram: 'https://www.instagram.com/elsermillonario'
+    tiktok: 'https://bit.ly/tiktokelsermillonario'
+    youtube: 'https://www.youtube.com/c/ElSerMillonario'
 defaults:
 - scope:
     path: _posts
