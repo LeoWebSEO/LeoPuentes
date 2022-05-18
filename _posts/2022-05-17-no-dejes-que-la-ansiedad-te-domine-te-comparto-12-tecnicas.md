@@ -3,7 +3,7 @@ layout: post
 categories:
 - Motivacion
 - Lectura
-title: NO DEJES QUE LA ANSIEDAD TE DOMINE TE COMPARTO 12 TÉCNICAS
+title: No dejes que la Ansiedad te domine. Te comparto 12 técnicas
 author: Leo
 image: "/assets/images/superar-ansiedad.webp"
 
