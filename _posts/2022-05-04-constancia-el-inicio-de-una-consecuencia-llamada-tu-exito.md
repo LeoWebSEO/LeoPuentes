@@ -3,7 +3,7 @@ layout: post
 categories:
 - Motivacion
 - Lectura
-title: Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!
+title: TU ÉXITO, ES LA CONSECUENCIA DE LA CONSTANCIA
 author: Leo
 image: "/assets/images/consecuencia-llamda-exito.webp"
 
