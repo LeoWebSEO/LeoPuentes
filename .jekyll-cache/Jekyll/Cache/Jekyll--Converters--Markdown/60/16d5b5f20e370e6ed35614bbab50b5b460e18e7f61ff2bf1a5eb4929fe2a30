@@ -1,0 +1,21 @@
+I"6<section class="encabezado">
+  <h1>CONJUNTO DE CATEGORÍAS - leopuentes.me</h1>
+  <h3>Conoce todas las categorías organizadas y agrupadas por nombre. Aquí encontrarás tanto las categorías de programación como las de crecimiento personal y educación financiera.</h3>
+</section>
+
+<section class="sec-categorie">
+  {% for category in site.categories %} 
+    <h2 class="separador-interno" id="{{ category[0] | downcase }}">{{ category[0] }}</h2>   
+      {% assign pages_list = category[1] %}
+      {% for post in pages_list %}
+        {% if post.title != null %}
+          {% if group == null or group == post.group %}
+            {% include main-loop-card.html %}
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      {% assign pages_list = nil %}
+      {% assign group = nil %}
+  {% endfor %}
+</section>
+:ET

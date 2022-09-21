@@ -1,0 +1,16 @@
+<h1>
+    <a class="logo" href="/"><img src="{{ site.logo }}" alt="logo leo web seo"><span class="lema">Leo Puentes</span></a>
+</h1>
+<nav>
+    <ul>
+        {% for item in site.data.menu %}
+        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+        {% endfor %}
+    </ul>
+</nav>
+<section class="buscar">
+    {% include search-lunr.html %}
+</section>
+<section class="donar">
+    <a href="https://www.paypal.com/donate/?hosted_button_id=UUNHTLSBB7SD6" target="_blank"><img src="{{ site.logo-donar }}" alt=""></a>
+</section>

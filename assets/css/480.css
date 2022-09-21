@@ -1,0 +1,112 @@
+body {
+  grid-template-columns: repeat(2, 1fr); }
+
+main {
+  grid-column: 1/3;
+  grid-template-columns: repeat(2, 1fr); }
+
+header {
+  grid-column: 1/3;
+  grid-template-columns: 25% 50% 25%;
+  justify-items: center;
+  margin-bottom: 30px; }
+
+nav ul {
+  display: block;
+  font-size: 20px;
+  text-align: center; }
+  nav ul li {
+    margin: 0px 0px 10px 0px; }
+
+.logo img {
+  width: 80%; }
+
+.buscar {
+  display: none; }
+
+.donar {
+  width: 80%; }
+
+.presentacion {
+  grid-column: 1/3;
+  grid-template-rows: repeat(2, auto); }
+  .presentacion section {
+    margin: 0px 30px 30px 30px; }
+    .presentacion section h2 {
+      font-size: 50px; }
+
+.social section {
+  margin: 0px; }
+
+.public-prin, .public-second, .second-public {
+  display: none; }
+
+.content-develop {
+  grid-column: 1/3; }
+
+.grilla-develop {
+  grid-template-columns: repeat(2, 1fr);
+  margin: 20px; }
+
+.content-motiv {
+  grid-column: 1/3;
+  margin: 0px 20px; }
+
+.grilla-motiv {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin: 0px 20px 20px 20px; }
+
+.inversion {
+  margin-top: 25px; }
+
+.separador {
+  grid-column: 1/3;
+  margin: 0px 0px 40px 0px; }
+
+footer {
+  grid-column: 1/3; }
+  footer span {
+    margin-bottom: 5px; }
+
+.telemetria {
+  margin-bottom: 20px; }
+
+.encabezado {
+  grid-column: 1/3;
+  text-align: center;
+  margin: 0px 20px; }
+
+.sec-categorie {
+  grid-column: 1/3; }
+  .sec-categorie article img {
+    width: 100%; }
+
+.separador-interno {
+  grid-column: 1/3; }
+
+.init-post {
+  grid-column: 1/3;
+  grid-template-columns: 1fr; }
+
+.read {
+  grid-column: 1/3;
+  grid-template-columns: 15% 85%; }
+
+.sticky-top h3 {
+  display: none; }
+
+.post-sugeri {
+  grid-column: 1/3;
+  margin: 20px; }
+
+.up {
+  position: fixed;
+  bottom: 25px;
+  right: 42px; }
+
+.contacto {
+  grid-column: 1/3;
+  margin: 0px 20px 20px 20px; }
+
+/*# sourceMappingURL=480.css.map */

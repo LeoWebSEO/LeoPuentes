@@ -1,0 +1,34 @@
+---
+layout: default
+title: Invesión
+permalink: /inversion
+---
+
+<section class="encabezado">
+    <h1>EDUCACIÓN FINANCIERA e INVERSIÓN</h1>
+    <p>Comprender los principios del dinero es fundamental. Adquirir el conocimiento adecuado para generar buenos hábitos en torno al dinero, significa trabajar en nuestras creencias.</p>
+</section>
+<section class="separador-interno">
+    <h2>Aprende a tomar consciencia de las posibilidades que te puede ofrecer el dinero, como también las trampas.</h2>
+</section>
+<section class="content-develop">
+    <section class="grilla-motiv">
+        {% for post in site.categories.Inversion %}
+            <article>
+                <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                <div class="categorie-date">
+                    <h4>
+                        {% for category in post.categories %}
+                            {% assign seconcatego = post.categories[1] %}
+                        {% endfor %}
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ seconcatego }}</a>
+                    </h4>
+                    <small>{{ post.date | date: '%b %d, %Y' }}</small>
+                </div>
+                <h3><a href="{{post.url | relative_url }}">{{post.title}}</a></h3>
+                <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
+                <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
+            </article>
+        {% endfor %}
+    </section>
+</section>

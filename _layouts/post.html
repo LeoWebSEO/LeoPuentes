@@ -1,0 +1,76 @@
+---
+layout: default
+---
+
+<section class="init-post">
+	<div class="init-post-title">
+		<span>
+			{% for category in page.categories %}
+			<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
+			{% endfor %}
+			<h3>Autor: {{ page.author }}</h3>
+		</span>
+		<h1>{{ page.title }}</h1>
+		<span>{{ page.date | date: '%b %d, %Y' }} · {% include meta-read-time.html %}</span>
+	</div>
+	<div>
+		{% if page.image %}
+			<img src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | relative_url }}{% endif %}" alt="{{ page.title }}">
+		{% endif %}	
+	</div>
+</section>
+
+<section class="read">
+	<aside>
+		<section class="sticky-top">
+			<h3>Comparte con ❤</h3>
+				<div class="a2a_kit a2a_kit_size_40 a2a_vertical_style">
+					<a class="a2a_button_whatsapp"></a>
+					<a class="a2a_button_facebook" href="{{ post.url | relative_url }}"></a>
+					<a class="a2a_button_twitter"></a>
+					<a class="a2a_button_telegram"></a>
+					<a class="a2a_button_google_gmail"></a>
+					<a class="a2a_button_facebook_messenger"></a>
+					<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+				</div>
+			<script async src="https://static.addtoany.com/menu/page.js"></script>
+		</section>		
+	</aside>
+	
+	<section>
+		<article>
+			{{ content }}
+		</article>
+	</section>
+</section>
+
+<section class="post-sugeri">
+	{% if page.previous.url %}
+	<div class="pre-post">
+		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}"><img src="{{page.previous.image | relative_url }}"></a> {% endif %}
+		<p>
+			<a href="{{ page.previous.url | relative_url }}"> {{page.previous.title}}</a><br/><br/>
+			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
+			<span>
+				{% for category in page.categories %}
+				<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
+				{% endfor %}
+			</span>
+		</p>
+	</div>
+	{% endif %}
+	{% if page.next.url %}
+	<div class="next-post">
+		<p>
+			<a href="{{ page.next.url | relative_url }}"> {{page.next.title}}</a><br/><br/>
+			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
+			<span>
+				{% for category in page.categories %}
+				<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
+				{% endfor %}
+			</span>
+		</p>
+		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}"><img src="{{page.next.image | relative_url }}"></a> {% endif %}
+	</div>
+	{% endif %}
+</section>

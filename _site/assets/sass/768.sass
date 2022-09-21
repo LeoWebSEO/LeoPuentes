@@ -1,0 +1,109 @@
+body
+    grid-template-columns: repeat(4, 1fr)
+
+main
+    grid-column: 1/5
+
+header
+    grid-column: 1/5
+    grid-template-columns: 20% 60% 20%
+    justify-items: center
+    margin-bottom: 30px
+
+.logo   img
+        width: 38%
+
+.buscar
+    display: none
+
+.donar
+    img
+    width: 35%
+
+// Presentacion encabezado
+
+.presentacion
+    grid-column: 1/5
+    grid-template-rows: repeat(2, auto)
+    section
+        margin: 0px 30px 30px 30px
+
+.social
+    section
+        margin: 0px
+
+//Estilos ultimas publicaciones
+
+.public-prin, .public-second, .second-public
+    display: none
+
+
+//Estilos bloques contenido programacion y motivacion
+//******* Estilos mostrar modulo contenido programacion
+
+.content-develop
+    grid-column: 1/5
+
+.grilla-develop
+    grid-template-columns: repeat(3, 1fr)
+    margin: 20px
+
+//***** Estilos mostrar modulo contenido motivacion
+
+.content-motiv
+    grid-column: 1/5
+    margin: 0px 20px
+
+.grilla-motiv
+    grid-template-columns: repeat(3, 1fr)
+    gap: 20px
+    margin: 0px 20px 20px 20px
+
+.inversion
+    margin-top: 25px
+
+.separador
+    grid-column: 1/5
+    margin: 0px 0px 40px 0px
+
+//diseño del footer
+footer
+    grid-column: 1/5
+    span
+        margin-bottom: 5px
+
+.telemetria
+    margin-bottom: 20px
+
+// Estilos para paginas internas
+.encabezado
+    grid-column: 1/5
+    text-align: center
+    margin: 0px 20px
+
+.sec-categorie
+    grid-column: 1/5
+
+.separador-interno
+    grid-column: 1/5
+
+//Estilos lectura de post
+// Encabezado
+
+.init-post
+    grid-column: 1/5
+    grid-template-columns: 1fr
+
+.read
+    grid-column: 1/5
+    grid-template-columns: 10% 90%
+
+.sticky-top
+    h3
+        display: none
+
+// Post relacionados y recomendados
+
+.post-sugeri
+    grid-column: 1/5
+    margin: 20px

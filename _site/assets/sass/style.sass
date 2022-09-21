@@ -1,0 +1,425 @@
+@import "variables"
+
+*
+    padding: 0px
+    margin: 0px
+
+body
+    display: grid
+    background-color: $fondo
+    color: $color-texto
+    font-family: "Segoe UI", "Helvetica Neue", "Arial"
+    margin: 1.6em auto
+    margin-bottom: 0px
+
+main
+    display: grid
+    p
+        text-align: justify
+        margin-bottom: 15px
+    a
+        text-decoration: none
+        color: $color-link
+        &:hover
+            color: $link-hover
+
+//Logo, menu, busqueda y donar
+header
+    display: grid
+    align-items: center
+    font-size: 18px
+
+nav ul
+    display: flex
+    list-style: none
+    li
+        margin: 0 18px
+        a
+            text-decoration: none
+            color: $color-texto
+            &:hover
+                color: $link-hover
+                text-decoration: none
+                border: 1px solid $color-texto
+                padding: 10px
+                border-radius: 5px
+                transition: 150ms
+
+.active
+    text-decoration: none
+    border: 1px solid $link-hover-menu
+    padding: 10px
+    border-radius: 5px
+
+input
+    height: 40px
+    width: 200px
+    border-radius: 5px
+    background: none
+    border: 1px solid #bcc3cd
+    padding-left: 8px
+    color: #bcc3cd
+    font-size: 16px
+
+.donar
+    justify-self: center
+    
+.lema
+    clip: rect(0, 0, 0, 0)
+    position: absolute
+
+.logo
+    display: grid
+    justify-items: center
+
+// Presentacion encabezado
+.texto
+    -webkit-text-stroke: 1px #841cb9
+    color: transparent
+    letter-spacing: 5px
+    position: relative
+    
+.texto::before
+    content: attr(data-text)
+    position: absolute
+    background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+    width: 0
+    white-space: nowrap
+    overflow: hidden
+    border-right: 3px solid #e73493
+    animation: text-fill 3.5s ease-in-out alternate infinite
+
+@keyframes text-fill  
+    100%
+        width: 100%
+        
+.presentacion
+    display: grid
+    justify-items: center
+    h2
+        font-size: 60px
+        margin-bottom: 20px
+    section
+        display: grid
+        justify-items: center
+    p
+        font-size: 20px
+        line-height: 25px
+    img
+        width: 80%
+
+
+.imgsocial
+    display: grid
+    grid-template-columns: repeat(5, 1fr)
+    
+.social
+    section
+        margin: 0px
+    p
+        text-align: center
+
+span
+    color: #6c757d
+    font-size: 13px
+    a
+        text-decoration: none
+        color: $color-link
+
+//Estilos ultimas publicaciones
+.public-prin
+    article
+        h2, p, small
+            margin: 10px
+            text-align: justify
+            a
+                color: #fff
+
+.public-second
+    h2
+        a
+            color: #fff
+
+.second-public
+    align-items: center
+    img
+        width: 97%
+    article
+        display: grid
+        grid-column: 1/2
+    small
+        display: grid
+        grid-column: 2/4
+    
+.ocultar
+    visibility: hidden
+
+//Estilos bloques contenido programacion y motivacion
+//******* Estilos mostrar modulo contenido programacion
+.content-develop
+    display: grid
+    h3
+        text-align: center
+        margin: 10px 5px
+    p
+        margin: 10px 7px
+    span
+        a
+            padding: 2px 10px
+            border-radius: 5px
+            background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+
+.grilla-develop
+    display: grid
+    gap: 25px
+    article
+        border: 1px solid $recuadro
+        display: grid
+    article:hover   
+        transform: scale(1.05)
+        transition: all 0.3s ease
+    img
+        width: 100%
+
+.categorie-date
+    display: grid
+    align-items: center
+    padding: 7px
+    h4
+        text-align: center
+        background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+        border-radius: 5px
+        padding: 3px 0px
+    h3
+        margin: 10px 5px
+        font-size: 16px
+    small
+        text-align: right
+
+//***** Estilos mostrar modulo contenido motivacion
+.content-motiv
+    display: grid
+    h3
+        text-align: center
+        margin-bottom: 20px
+    p
+        margin: 10px 0px 20px 0px
+    a
+        color: #fff
+    span
+        a
+            padding: 2px 10px
+            border-radius: 5px
+            background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+
+.grilla-motiv
+    display: grid
+    article
+        border: 1px solid $recuadro
+        padding: 14px
+    article:hover   
+        transform: scale(1.05)
+        transition: all 0.3s ease
+    img
+        width: 100%
+
+.separador
+    text-align: center
+    justify-content: center
+    border-bottom: 2px dotted #841cb9
+    padding: 20px
+    font-size: 22px
+    h2
+        background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        font-size: 30px
+        margin-bottom: 20px
+
+.boton
+    padding: 10px
+    background-color: $color-boton
+    color: $color-texto
+    text-align: center
+
+//diseño del footer
+footer
+    display: grid
+    justify-items: center
+    align-items: center
+    background-color: #000
+    padding: 30px
+    p
+        text-align: justify
+        font-size: 14px
+    span
+        text-align: center
+
+.telemetria
+    display: grid
+    a
+        color: $color-link
+
+//Estilos lectura de post
+// Encabezado
+
+.init-post
+    display: grid
+    justify-items: center
+    align-items: center
+    a
+        text-transform: uppercase
+        font-size: 18px
+        padding: 5px
+        color: #841cb9
+    a:hover
+            color: #fff
+    h1
+        text-align: center
+        font-size: 40px
+        margin: 30px
+        text-transform: uppercase
+
+.init-post-title
+    display: grid
+    justify-items: center
+    align-items: center
+
+// Cuerpo de lectura
+.read
+    display: grid
+    h2
+        margin: 20px 0px 20px 0px
+    aside
+        justify-self: center
+    article
+        margin: 50px 50px 50px 0px
+        font-size: 20px
+        text-align: justify
+    h3
+        margin: 20px 0px
+    ul
+        margin-bottom: 20px
+
+blockquote
+    border-left: 3px solid
+    padding: 10px 0px 10px 27px
+    margin-bottom: 15px
+
+// Barra aside botones de compartir
+.sticky-top
+    position: sticky
+    top: 40px
+    display: grid
+    justify-items: center
+    margin-top: 50px
+    h3
+        margin-bottom: 10px
+
+// Post relacionados y recomendados
+
+.post-sugeri
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    gap: 1.6em
+    margin-top: 50px
+    img
+        width: 100%
+    div:hover   
+        transform: scale(1.05)
+        transition: all 0.3s ease
+
+.pre-post
+    display: grid
+    grid-column: 1/2
+    grid-template-columns: 35% 65%
+    border: 1px solid #343536
+    align-items: center
+    p
+        text-align: left
+        margin: 20px
+
+.next-post
+    display: grid
+    grid-column: 2/3
+    grid-template-columns: 65% 35%
+    border: 1px solid #343536
+    align-items: center
+    p
+        text-align: right
+        margin: 20px
+
+// pagina de contacto
+.contacto
+    display: grid
+    grid-column: 1/7
+    margin: 50px 100px
+    text-align: center
+    p
+        font-size: 20px
+        line-height: 25px
+        text-align: center
+    h3
+        font-size: 30px
+   
+.encabe-contact
+    margin: 40px
+    border-bottom: 2px dotted #841cb9
+    padding: 20px
+    h2
+        background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        font-size: 30px
+
+//boton de subir
+.up
+    position: fixed
+    bottom: 25px
+    right: 10px
+    img
+        border-radius: 25px
+        border: 2px solid
+        padding: 7px
+
+
+// Estilos para paginas internas
+.encabezado
+    display: grid
+    h1
+        font-size: 45px
+        margin: 30px 0
+    h3
+        font-size: 30px
+    p
+        font-size: 25px
+        text-align: center
+
+.sec-categorie
+    display: grid
+    article
+        margin: 20px
+        border: 1px solid
+        padding: 10px 20px 20px 0px
+
+.separador-interno
+    display: grid
+    margin: 40px
+    border-bottom: 2px dotted #841cb9
+    h2
+        background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        font-size: 30px
+        text-align: center
+    em
+        font-size: 17px
+
+//Estilos para pagina de filtrado de categorias
+
+.div-categoria
+    display: grid
+    grid-column: 1/7
+    grid-template-columns: 80% 20%

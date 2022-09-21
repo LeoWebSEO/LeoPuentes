@@ -1,0 +1,29 @@
+I"3<section class="encabezado">
+    <h1>Fundamentos de Programación para el Desarrollo Web</h1>
+    <h3>{ Optimización simple y funcional para el SEO }</h3>
+    <p>Impulsa tus proyectos mejorando la estructura del código web. Velocidad, rendimiento y posicionamiento.</p>
+</section>
+<section class="separador-interno">
+    <h2>CURSO: No programes solo para el usuario, programa para los buscadores</h2>
+    <em>Implementar correctamente el maquetado de html5, permite una mejor comunicación entre motores de búsqueda y usuario. En el siguiente curso aprenderás a crear Sitios Webs que no solamente se centran en lo visual, sino también en el desarrollo web optimizado para el SEO.</em>
+</section>
+<section class="content-develop">
+    <section class="grilla-develop">
+        
+            <article>
+                <img src="/assets/images/principios-del-dinero.webp" alt="7 Principios de Programacion" />
+                <div class="categorie-date">
+                    <h4>
+                        
+                        <a href="/categories.html#">Html5</a>
+                    </h4>
+                    <small>Jun 16, 2022</small>
+                </div>
+                <h3><a href="/principios-dinero-hombre">7 Principios de Programacion</a></h3>
+                <p>El dinero se ha convertido en muchas comunidades en un tabú, ya sean comunidades religiosas, políticas, económicas, sociales o culturales. Y como es lógico, ...</p>
+                <a class="boton" href="/principios-dinero-hombre">Leer más...</a>
+            </article>
+        
+    </section>
+</section>
+:ET
