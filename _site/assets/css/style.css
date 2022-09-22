@@ -393,4 +393,9 @@ blockquote {
   grid-column: 1/7;
   grid-template-columns: 80% 20%; }
 
+.language-plaintext {
+  margin-bottom: 20px;
+  background: #f2f2;
+  padding: 20px; }
+
 /*# sourceMappingURL=style.css.map */

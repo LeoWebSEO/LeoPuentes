@@ -1,6 +1,6 @@
 ---
 layout: post
-categories: [Inversion, Dinero]
+categories: [Motivacion, Exito]
 title: Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!
 author: Leonardo Puentes
 image: "/assets/images/consecuencia-llamda-exito.webp"
