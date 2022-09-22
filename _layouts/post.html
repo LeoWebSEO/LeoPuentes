@@ -51,11 +51,6 @@ layout: default
 		<p>
 			<a href="{{ page.previous.url | relative_url }}"> {{page.previous.title}}</a><br/><br/>
 			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
-			<span>
-				{% for category in page.categories %}
-				<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
-				{% endfor %}
-			</span>
 		</p>
 	</div>
 	{% endif %}
@@ -64,13 +59,8 @@ layout: default
 		<p>
 			<a href="{{ page.next.url | relative_url }}"> {{page.next.title}}</a><br/><br/>
 			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
-			<span>
-				{% for category in page.categories %}
-				<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
-				{% endfor %}
-			</span>
 		</p>
-		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}"><img src="{{page.next.image | relative_url }}"></a> {% endif %}
+		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}"><img src="{{page.next.image | relative_url }}"></a> {% endif %}
 	</div>
 	{% endif %}
 </section>
