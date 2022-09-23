@@ -6,7 +6,7 @@ description: Te explicare la estructura base de un documento html5 generado por 
 author: Leonardo Puentes
 image: "/assets/images/estructura-documento-html5.webp"
 slug: estructura-basica-html5
-permalink: "/semantica-seo-html5/estructura-basica-html5"
+permalink: "/semantica-seo-html5/estructura-basica-html5.html"
 categories:
 - Programacion
 - Html5
