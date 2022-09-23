@@ -5,7 +5,9 @@
   link: /motivacion
   
 - title: Inversión
-  link: /inversion
+  link: /inversion.html
+  permalink: /inversion
 
 - title: Contacto
-  link: /contacto
+  link: /contacto.html
+  permalink: /contacto

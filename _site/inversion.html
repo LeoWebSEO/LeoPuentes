@@ -57,9 +57,9 @@
         
         <li><a class="" href="/motivacion">Motivación</a></li>
         
-        <li><a class="active" href="/inversion">Inversión</a></li>
+        <li><a class="" href="/inversion.html">Inversión</a></li>
         
-        <li><a class="" href="/contacto">Contacto</a></li>
+        <li><a class="" href="/contacto.html">Contacto</a></li>
         
     </ul>
 </nav>
@@ -95,12 +95,12 @@ var documents = [{
     "body": "  EDUCACIÓN FINANCIERA e INVERSIÓN  Comprender los principios del dinero es fundamental. Adquirir el conocimiento adecuado para generar buenos hábitos en torno al dinero, significa trabajar en nuestras creencias.   Aprende a tomar consciencia de las posibilidades que te puede ofrecer el dinero, como también las trampas. :                                                               Educación financiera          :           Jun 16, 2022                7 PRINCIPIOS DEL DINERO – EL HOMBRE MÁS RICO DE BABILONIA:         El dinero se ha convertido en muchas comunidades en un tabú, ya sean comunidades religiosas, políticas, económicas, sociales o culturales. Y como es lógico, . . .         Leer más. . .             "
     }, {
     "id": 5,
-    "url": "http://localhost:4000/motivacion",
+    "url": "http://localhost:4000/motivacion/",
     "title": "Motivación",
     "body": "  CRECIMIENTO Y DESARROLLO PERSONAL  Todo lo compartido aquí, está basado en experiencias personales que junto a mi esposa un día decidimos cambiar para el bien de nuestras vidas. ¡Y seguimos trabajando en ello!   Espero que el contenido sea de tu agrado y por supuesto de ayuda tanto para ti como para tu entorno. :       {% for post in site. categories. Motivacion %}                                            {% for category in post. categories %}              {% assign seconcatego = post. categories[1] %}            {% endfor %}            {{ seconcatego }}          :           {{ post. date | date: '%b %d, %Y' }}                {{post. title}}:         {{ post. excerpt | strip_html | strip_newlines | truncate: 160 }}         Leer más. . .           {% endfor %}  "
     }, {
     "id": 6,
-    "url": "http://localhost:4000/programacion",
+    "url": "http://localhost:4000/programacion.html",
     "title": "Programación",
     "body": "  Fundamentos de Programación para el Desarrollo Web  { Optimización simple y funcional para el SEO }:   Impulsa tus proyectos mejorando la estructura del código web. Velocidad, rendimiento y posicionamiento.   CURSO: No programes solo para el usuario, programa para los buscadores:   Implementar correctamente el maquetado de html5, permite una mejor comunicación entre motores de búsqueda y usuario. En el siguiente curso aprenderás a crear Sitios Webs que no solamente se centran en lo visual, sino también en el desarrollo web optimizado para el SEO.       {% for post in site. categories. Programacion %}                                            {% for category in post. categories %}              {% assign seconcatego = post. categories[1] %}            {% endfor %}            {{ seconcatego }}          :           {{ post. date | date: '%b %d, %Y' }}                {{post. title}}:         {{ post. excerpt | strip_html | strip_newlines | truncate: 160 }}         Leer más. . .           {% endfor %}  "
     }, {
