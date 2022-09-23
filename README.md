@@ -52,4 +52,4 @@ bundle exec jekyll serve --livereload
 
 ## LICENCIA
 
-[GPL](LICENSE)
+[MIT](LICENSE)
