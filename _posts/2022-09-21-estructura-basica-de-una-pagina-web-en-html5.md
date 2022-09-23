@@ -4,7 +4,7 @@ title: Estructura básica de una pagina web en HTML5
 description: Te explicare la estructura base de un documento html5 generado por visual
   studio code
 author: Leonardo Puentes
-image: "/uploads/estructura-documento-html5.webp"
+image: "/assets/images/estructura-documento-html5.webp"
 slug: estructura-basica-html5
 permalink: "/semantica-seo-html5/estructura-basica-html5"
 categories:
