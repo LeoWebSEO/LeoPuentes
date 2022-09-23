@@ -1,5 +1,7 @@
 ---
 layout: default
+title: Contacto
+link: /contacto.html
 permalink: /contacto
 ---
 
