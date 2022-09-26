@@ -2,6 +2,9 @@
 _site
 .sass-cache
 .jekyll-cache
+_post
+feed.xml
+sitemap.xml
 
 # Bundler
 vendor/bundle
