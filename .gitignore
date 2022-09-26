@@ -1,8 +1,8 @@
 # Jekyll
-_site
-.sass-cache
-.jekyll-cache
-_post
+_site/
+.sass-cache/
+.jekyll-cache/
+_post/
 feed.xml
 sitemap.xml
 
