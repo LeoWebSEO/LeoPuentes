@@ -116,7 +116,7 @@ input {
 
 span {
   color: #6c757d;
-  font-size: 13px; }
+  font-size: 12px; }
   span a {
     text-decoration: none;
     color: #a3dffd; }
@@ -260,11 +260,14 @@ footer {
     font-size: 40px;
     margin: 30px;
     text-transform: uppercase; }
+  .init-post img {
+    width: 100%; }
 
 .init-post-title {
   display: grid;
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
 
 .read {
   display: grid; }
@@ -396,6 +399,6 @@ blockquote {
 .language-plaintext {
   margin-bottom: 20px;
   background: #f2f2;
-  padding: 20px; }
+  padding: 10px; }
 
 /*# sourceMappingURL=style.css.map */
