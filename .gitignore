@@ -1,8 +1,10 @@
 # Jekyll
 _site/
-.sass-cache
-.jekyll-cache
-_posts
+.sass-cache/
+.jekyll-cache/
+_post/
+feed.xml
+sitemap.xml
 
 # Bundler
 vendor/bundle
