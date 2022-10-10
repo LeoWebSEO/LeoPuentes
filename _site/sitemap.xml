@@ -11,7 +11,7 @@
   
   
       <url>
-        <loc>http://localhost:4000/categorias</loc>
+        <loc>http://localhost:4000/categorias/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -20,6 +20,17 @@
   
       <url>
         <loc>http://localhost:4000/contacto/</loc>
+<<<<<<< HEAD
+=======
+        <changefreq>monthly</changefreq>
+        <priority>1.0</priority>
+       </url>
+  
+  
+  
+      <url>
+        <loc>http://localhost:4000/donacion/</loc>
+>>>>>>> leo
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>

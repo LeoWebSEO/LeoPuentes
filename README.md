@@ -1,4 +1,4 @@
-# Jekyll Plantilla Hooka v1.0.0 Alpha
+# Jekyll Plantilla Hooka v1.0.4 Alpha
 
 Tema diseñado y desarrollado por [LeoWebSEO](https://leopuentes.me),
 
@@ -33,10 +33,10 @@ bundle
 bundle exec jekyll serve --livereload
 ```
 
-## Descripción Hooka v1.0.0 Alpha
+## Desarrollado y Creado con Jekyl + Forestry
+## Características & Descripción
 
-### Desarrollado y Creado con Jekyl + Forestry
-### Características
+### Hooka v1.0.0 Alpha
 - Mobile Responsive (Smartphone 480px/767px | Tablet: 768px/1023px | PC & Laptop: > 1024px)
 - Sitemap y feed automático
 - Atributos SEO para el index.html y entradas de blog
@@ -46,6 +46,15 @@ bundle exec jekyll serve --livereload
 - Sistema de compartido Open Graph data Facebook y Twitter Cards
 - Input de búsqueda no funcional (fallo en el plugin)
 - Cache con expiración de 90 días
+
+### Hooka v1.0.4 Alpha
+- Url's configuradas para funcionar en IPFS
+- Mejoras Visuales para dispositivos mobiles
+    * Vista de post en una sola grilla
+    * Tamaños de fuentes reducidas
+    * Alineacion de titulos desfasados
+- Post recomendados al final de cada post ajustados a una sola grilla
+- Ajuste tamaño a imagenes de post 512 x 431 px
 
 
 

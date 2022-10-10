@@ -44,7 +44,12 @@ layout: default
 	</section>
 </section>
 
+<section class="separador-interno">
+	<h2>POST RECOMENDADOS</h2>
+</section>
+
 <section class="post-sugeri">
+	<section>
 	{% if page.previous.url %}
 	<div class="pre-post">
 		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}"><img src="{{page.previous.image | relative_url }}"></a> {% endif %}
@@ -54,6 +59,8 @@ layout: default
 		</p>
 	</div>
 	{% endif %}
+	</section>
+	<section>
 	{% if page.next.url %}
 	<div class="next-post">
 		<p>
@@ -63,4 +70,5 @@ layout: default
 		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}"><img src="{{page.next.image | relative_url }}"></a> {% endif %}
 	</div>
 	{% endif %}
+	</section>
 </section>
