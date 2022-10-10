@@ -1,6 +1,5 @@
 # Jekyll
-_site/
-_site/feed.xml
+_site/*
 .sass-cache/
 .jekyll-cache/
 _post/
