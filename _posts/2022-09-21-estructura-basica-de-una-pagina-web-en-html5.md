@@ -10,6 +10,7 @@ permalink: "/semantica-seo-html5/estructura-basica-html5"
 categories:
 - Programacion
 - Html5
+- semantica seo html5
 
 ---
 HTML5 es para algunos un lenguaje de programación como para otros es simplemente un documento de estructura o maquetado web. Para mí son los dos 😊.
