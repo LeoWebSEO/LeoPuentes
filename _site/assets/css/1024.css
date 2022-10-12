@@ -8,7 +8,7 @@ main {
 
 header {
   grid-column: 1/7;
-  grid-template-columns: 20% 50% 20% 10%;
+  grid-template-columns: 25% 50% 25%;
   justify-items: flex-end; }
 
 .logo img {
@@ -17,8 +17,11 @@ header {
 .buscar {
   display: grid; }
 
+.buscar2 {
+  display: none; }
+
 .donar img {
-  width: 132%; }
+  width: 66%; }
 
 .presentacion {
   grid-column: 1/7;
