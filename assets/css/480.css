@@ -140,5 +140,7 @@ footer {
   .grilla-develop, .grilla-motiv {
     grid-template-columns: 100%;
     margin: 0px 0px 20px 0px; } }
+pre {
+  font-size: 9px; }
 
 /*# sourceMappingURL=480.css.map */
