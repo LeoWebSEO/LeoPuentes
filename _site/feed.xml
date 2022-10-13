@@ -17,17 +17,17 @@
 
 &lt;p&gt;Iniciemos con la explicación de la estructura base de un documento html5.&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;1.  &amp;lt;!DOCTYPE html&amp;gt;
-2.  &amp;lt;html lang=&quot;es&quot;&amp;gt;
-3.    &amp;lt;head&amp;gt;
-4.      &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
-5.      &amp;lt;title&amp;gt;Document&amp;lt;/title&amp;gt;
-6.    &amp;lt;/head&amp;gt;
-7.    &amp;lt;body&amp;gt;
-8.      &amp;lt;&amp;lt;contenido visible&amp;gt;&amp;gt;
-9.    &amp;lt;/body&amp;gt;
-10.  &amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+  &amp;lt;html lang=&quot;es&quot;&amp;gt;
+    &amp;lt;head&amp;gt;
+      &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+      &amp;lt;title&amp;gt; Estructura básica Html5 &amp;lt;/title&amp;gt;
+    &amp;lt;/head&amp;gt;
+    &amp;lt;body&amp;gt;
+      &amp;lt;!-- contenido visible --&amp;gt;
+    &amp;lt;/body&amp;gt;
+  &amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;1-) &lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;:&lt;/strong&gt; Lo primero que nos encontramos es la declaración del tipo de documento. El DOCTYPE variará según el tipo de documento realizado, el doctype del HTML5 es maravillosamente sencillo.&lt;/p&gt;
 
@@ -39,7 +39,7 @@
 
 &lt;p&gt;&lt;strong&gt;5-) &lt;code&gt;title&lt;/code&gt;:&lt;/strong&gt; Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;7-) &lt;code&gt;body&lt;/code&gt;:&lt;/strong&gt; En su interior tendremos el contenido de la página y demás etiquetas de menor nivel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6-) &lt;code&gt;body&lt;/code&gt;:&lt;/strong&gt; En su interior tendremos el contenido de la página y demás etiquetas de menor nivel.&lt;/p&gt;
 
 &lt;p&gt;En esta serie de artículos vas a aprender programación web desde lo más básico hasta lo más avanzado, utilizando de forma correcta la web semántica que ofrece html5. Optimizando cada etiqueta para crear proyectos web con excelente posicionamiento SEO, sitios web optimizados para los buscadores y usuarios.&lt;/p&gt;
 
