@@ -91,7 +91,7 @@ title: Leo Web SEO
                             {% for category in list_post.categories %}
                                 {% assign seconcatego = post.categories[1] %}
                             {% endfor %}
-                            <a href="{{ '/programacion' | relative_url }}#{{ category | downcase }}">{{ seconcatego }}</a>
+                            <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego }}</a>
                         </span>
                         <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     </div>
@@ -103,7 +103,7 @@ title: Leo Web SEO
         </section>
     </section>
 
-    <!-- Prueba para identificar post de la categoria Motivacion -->
+    <!-- Para identificar post de la categoria Motivacion -->
     <section class="separador">
         <h2>Contenido: Crecimiento Personal y Educación Financiera</h2>
         <a class="boton" href="/motivacion/">Ir a contenido completo y Leer más...</a>
@@ -116,13 +116,12 @@ title: Leo Web SEO
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
-                    <p><span>En {% for category in post.categories %}<a href="{{ '/motivacion' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
+                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
                     <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
                 </article>
             {%endfor%}
         </section>
     </section>
-
     <section class="content-motiv inversion">
         <section class="grilla-motiv">
             {% for post in site.categories.Inversion limit:3 %}
@@ -131,7 +130,7 @@ title: Leo Web SEO
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
                     </small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
-                    <p><span>En {% for category in post.categories %}<a href="{{ '/inversion' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
+                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
                     <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
                 </article>
             {%endfor%}

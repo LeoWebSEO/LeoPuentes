@@ -7,8 +7,7 @@ main {
 header {
   grid-column: 1/5;
   grid-template-columns: 20% 60% 20%;
-  justify-items: center;
-  margin-bottom: 30px; }
+  justify-items: center; }
 
 .logo img {
   width: 38%; }

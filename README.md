@@ -56,8 +56,15 @@ bundle exec jekyll serve --livereload
 - Post recomendados al final de cada post ajustados a una sola grilla
 - Ajuste tamaño a imagenes de post 512 x 431 px
 
-
-
+### Hooka v1.0.9 Alpha
+- Creación de Breadcrumbs en entradas de post
+    * El codigo base es de https://jekyllcodex.org/without-plugin/breadcrumbs/#, las variaciones fueron pequeñas para adaptarlo en poder listar las categorías.
+    * Para evitar inconvenientes; si el permalink tiene más de 1 nivel de profundidad, se debe de crear como categoría sin los guiones(-)
+- Animación en icono de donación
+- Input de búsqueda funcional
+    * La búsqueda se realiza por medio de google pero sin salir del dominio configurado
+- Barra de progreso de lectura para las páginas de contenido post
+- Config. CDN Prism para dar Color a las etiquetas en el bloque de código (colores de consola)
 
 ## LICENCIA
 

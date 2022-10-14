@@ -8,17 +8,19 @@ main {
 
 header {
   grid-column: 1/7;
-  grid-template-columns: 20% 50% 20% 10%;
-  justify-items: flex-end; }
+  grid-template-columns: 20% 60% 20%; }
 
 .logo img {
-  width: 25%; }
+  width: 35%; }
 
 .buscar {
   display: grid; }
 
+.buscar2 {
+  display: none; }
+
 .donar img {
-  width: 132%; }
+  width: 92%; }
 
 .presentacion {
   grid-column: 1/7;
