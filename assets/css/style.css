@@ -272,7 +272,8 @@ footer {
 .init-post {
   display: grid;
   justify-items: center;
-  align-items: center; }
+  align-items: center;
+  text-align: center; }
   .init-post a {
     text-transform: uppercase;
     font-size: 18px;

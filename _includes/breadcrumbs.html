@@ -5,7 +5,7 @@
     {% if forloop.last %}
       / {{ page.title }}
     {% else %}
-      / <a href="{{"categorias.html" | relative_url }}#{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb |  replace:'without-plugin/','without-plugins/' | replace:'-',' ' }}{% endfor %}">
+      / <a href="{{"categorias.html" | relative_url }}#{{ category | downcase }}{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb |  replace:'without-plugin/','without-plugins/' | replace:'-',' ' }}{% endfor %}">
         {{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}
       </a>
     {% endif %}
