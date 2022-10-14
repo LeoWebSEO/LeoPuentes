@@ -1,4 +1,4 @@
-# Jekyll Plantilla Hooka v1.0.0 Alpha
+# Jekyll Plantilla Hooka v1.0.4 Alpha
 
 Tema diseñado y desarrollado por [LeoWebSEO](https://leopuentes.me),
 
@@ -33,10 +33,10 @@ bundle
 bundle exec jekyll serve --livereload
 ```
 
-## Descripción Hooka v1.0.0 Alpha
+## Desarrollado y Creado con Jekyl + Forestry
+## Características & Descripción
 
-### Desarrollado y Creado con Jekyl + Forestry
-### Características
+### Hooka v1.0.0 Alpha
 - Mobile Responsive (Smartphone 480px/767px | Tablet: 768px/1023px | PC & Laptop: > 1024px)
 - Sitemap y feed automático
 - Atributos SEO para el index.html y entradas de blog
@@ -47,8 +47,24 @@ bundle exec jekyll serve --livereload
 - Input de búsqueda no funcional (fallo en el plugin)
 - Cache con expiración de 90 días
 
+### Hooka v1.0.4 Alpha
+- Url's configuradas para funcionar en IPFS
+- Mejoras Visuales para dispositivos mobiles
+    * Vista de post en una sola grilla
+    * Tamaños de fuentes reducidas
+    * Alineacion de titulos desfasados
+- Post recomendados al final de cada post ajustados a una sola grilla
+- Ajuste tamaño a imagenes de post 512 x 431 px
 
-
+### Hooka v1.0.9 Alpha
+- Creación de Breadcrumbs en entradas de post
+    * El codigo base es de https://jekyllcodex.org/without-plugin/breadcrumbs/#, las variaciones fueron pequeñas para adaptarlo en poder listar las categorías.
+    * Para evitar inconvenientes; si el permalink tiene más de 1 nivel de profundidad, se debe de crear como categoría sin los guiones(-)
+- Animación en icono de donación
+- Input de búsqueda funcional
+    * La búsqueda se realiza por medio de google pero sin salir del dominio configurado
+- Barra de progreso de lectura para las páginas de contenido post
+- Config. CDN Prism para dar Color a las etiquetas en el bloque de código (colores de consola)
 
 ## LICENCIA
 

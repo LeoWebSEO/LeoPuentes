@@ -26,6 +26,15 @@ header {
   align-items: center;
   font-size: 18px; }
 
+@media (max-width: 767px) {
+  .buscar2 {
+    grid-column: 1/3;
+    padding: 0 40px;
+    margin-bottom: 20px; } }
+@media (min-width: 768px) {
+  .buscar2 {
+    grid-column: 2/4;
+    margin-bottom: 20px; } }
 nav ul {
   display: flex;
   list-style: none; }
@@ -50,17 +59,33 @@ nav ul {
 
 input {
   height: 40px;
-  width: 200px;
-  border-radius: 5px;
+  width: 100%;
   background: none;
-  border: 1px solid #bcc3cd;
   padding-left: 8px;
   color: #bcc3cd;
-  font-size: 16px; }
+  font-size: 16px;
+  border-width: 0;
+  border-bottom: 1px solid #bcc3cd;
+  margin-top: 10px; }
+  input:focus {
+    outline: none; }
 
 .donar {
-  justify-self: center; }
+  justify-self: center;
+  position: relative; }
+  .donar img {
+    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+    animation: tiembla 2s infinite; }
+  .donar span {
+    font-size: 17px; }
 
+@keyframes tiembla {
+  0% {
+    transform: rotateZ(-5deg); }
+  50% {
+    transform: rotateZ(0deg) scale(0.8); }
+  100% {
+    transform: rotateZ(5deg); } }
 .lema {
   clip: rect(0, 0, 0, 0);
   position: absolute; }
@@ -274,8 +299,7 @@ footer {
     justify-self: center; }
   .read article {
     margin: 50px 50px 50px 0px;
-    font-size: 20px;
-    text-align: justify; }
+    font-size: 17px; }
   .read h3 {
     margin: 20px 0px; }
   .read ul {
@@ -393,9 +417,31 @@ blockquote {
   grid-column: 1/7;
   grid-template-columns: 80% 20%; }
 
-.language-plaintext {
-  margin-bottom: 20px;
-  background: #f2f2;
-  padding: 20px; }
+.breadcrumbs {
+  display: grid;
+  grid-column: 1/7;
+  text-transform: lowercase;
+  margin: 0 0 20px 20px; }
+  .breadcrumbs a {
+    color: #841cb9; }
+  .breadcrumbs a:hover {
+    color: #bcc3cd; }
+
+.blink_me {
+  animation: blinker 1.3s linear infinite; }
+
+@keyframes blinker {
+  50% {
+    opacity: 0; } }
+#progress-bar {
+  background-image: linear-gradient(45deg, #841cb9 0%, #e73493 100%);
+  width: var(--scrollAmount);
+  height: 4px;
+  position: fixed;
+  top: 0;
+  left: 0; }
+
+pre[class*="language-"] {
+  background: #000 !important; }
 
 /*# sourceMappingURL=style.css.map */

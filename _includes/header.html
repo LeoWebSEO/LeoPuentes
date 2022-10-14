@@ -7,10 +7,10 @@
         <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
         {% endfor %}
     </ul>
+    <section class="buscar">
+        {% include search-google.html %}
+    </section>
 </nav>
-<section class="buscar">
-    {% include search-lunr.html %}
-</section>
 <section class="donar">
     <a href="https://www.paypal.com/donate/?hosted_button_id=UUNHTLSBB7SD6" target="_blank"><img src="{{ site.logo-donar }}" alt=""></a>
 </section>

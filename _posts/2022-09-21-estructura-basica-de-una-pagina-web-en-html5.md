@@ -10,6 +10,7 @@ permalink: "/semantica-seo-html5/estructura-basica-html5"
 categories:
 - Programacion
 - Html5
+- semantica seo html5
 
 ---
 HTML5 es para algunos un lenguaje de programación como para otros es simplemente un documento de estructura o maquetado web. Para mí son los dos 😊.
@@ -18,17 +19,17 @@ A lo largo del curso te enseñare cómo podemos influir en los buscadores gracia
 
 Iniciemos con la explicación de la estructura base de un documento html5.
 
-~~~
-1.  <!DOCTYPE html>
-2.  <html lang="es">
-3.    <head>
-4.      <meta charset="UTF-8">
-5.      <title>Document</title>
-6.    </head>
-7.    <body>
-8.      <<contenido visible>>
-9.    </body>
-10.  </html>
+~~~markup
+<!DOCTYPE html>
+  <html lang="es">
+    <head>
+      <meta charset="UTF-8">
+      <title> Estructura básica Html5 </title>
+    </head>
+    <body>
+      <!-- contenido visible -->
+    </body>
+  </html>
 ~~~
 
 **1-) <code><!DOCTYPE html></code>:** Lo primero que nos encontramos es la declaración del tipo de documento. El DOCTYPE variará según el tipo de documento realizado, el doctype del HTML5 es maravillosamente sencillo.
@@ -41,7 +42,7 @@ Iniciemos con la explicación de la estructura base de un documento html5.
 
 **5-) <code>title</code>:** Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.
 
-**7-) <code>body</code>:** En su interior tendremos el contenido de la página y demás etiquetas de menor nivel.
+**6-) <code>body</code>:** En su interior tendremos el contenido de la página y demás etiquetas de menor nivel.
 
 En esta serie de artículos vas a aprender programación web desde lo más básico hasta lo más avanzado, utilizando de forma correcta la web semántica que ofrece html5. Optimizando cada etiqueta para crear proyectos web con excelente posicionamiento SEO, sitios web optimizados para los buscadores y usuarios.
 
