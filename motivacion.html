@@ -21,7 +21,7 @@ permalink: /motivacion/
                         {% for category in post.categories %}
                             {% assign seconcatego = post.categories[1] %}
                         {% endfor %}
-                        <a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ seconcatego }}</a>
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego }}</a>
                     </h4>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                 </div>
