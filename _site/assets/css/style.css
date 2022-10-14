@@ -430,6 +430,12 @@ blockquote {
   .breadcrumbs a:hover {
     color: #bcc3cd; }
 
+.blink_me {
+  animation: blinker 1.3s linear infinite; }
+
+@keyframes blinker {
+  50% {
+    opacity: 0; } }
 #progress-bar {
   background-image: linear-gradient(45deg, #841cb9 0%, #e73493 100%);
   width: var(--scrollAmount);

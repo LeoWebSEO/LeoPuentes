@@ -87,9 +87,14 @@ footer {
 .init-post {
   grid-column: 1/3;
   grid-template-columns: 1fr; }
+  .init-post a {
+    font-size: 15px; }
 
 .init-post-title {
   grid-column: 1/2; }
+  .init-post-title h1 {
+    font-size: 30px;
+    margin: 30px 15px; }
 
 .read {
   grid-column: 1/3;
@@ -97,6 +102,9 @@ footer {
 
 .sticky-top h3 {
   display: none; }
+.sticky-top a, .sticky-top span {
+  width: 32px !important;
+  height: 32px !important; }
 
 .read article {
   margin: 50px 10px 50px 0px; }
