@@ -8,7 +8,7 @@ Tema diseñado y desarrollado por [LeoWebSEO](https://leopuentes.me),
 
 ## Requerimientos
 
-- Ruby > 3.0
+- Ruby > 3.1.2
 - Jekyll ~> 4.2.2
 
 ## Gestor de contenido - CMS HEADLESS FORESTRY
