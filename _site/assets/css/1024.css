@@ -1,7 +1,10 @@
 body {
-  width: 1300px;
+  width: 100%;
   grid-template-columns: repeat(6, 1fr); }
 
+@media screen and (mim-width: 1065px) {
+  body {
+    width: 1300px; } }
 main {
   width: auto;
   margin: 20px 20px 80px 20px;

@@ -15,6 +15,8 @@
 
 <link rel="stylesheet" media="(max-width: 767px)" href="/assets/css/480.css" async>
 
+<!-- Para activar cache modificar "no-cache" por "cache" -->
+<!-- Valores de cache: 30 días = 259200 seg / 60 días = 5184000 seg / 90 días = 7776000 seg / 120 días = 10368000 seg -->
 <meta http-equiv="control-cache" content="no-cache" >
 <meta http-equiv="expires" content="0" >
 
@@ -35,7 +37,10 @@
 <meta name="twitter:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}" />
 
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="alternate" href="{{ page.url2 | replace:'index.html','' | prepend: site.baseurl | prepend: site.url2 }}">
+<link rel="alternate" href="{{ page.url3 | replace:'index.html','' | prepend: site.baseurl | prepend: site.url3 }}">
+<link rel="alternate" href="{{ page.url4 | replace:'index.html','' | prepend: site.baseurl | prepend: site.url4 }}">
+
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ "/sitemap.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
