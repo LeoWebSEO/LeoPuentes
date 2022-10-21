@@ -1,10 +1,10 @@
 body {
-  width: 100%;
+  width: 1300px;
   grid-template-columns: repeat(6, 1fr); }
 
-@media screen and (mim-width: 1065px) {
+@media screen and (max-width: 1299px) {
   body {
-    width: 1300px; } }
+    width: 100%; } }
 main {
   width: auto;
   margin: 20px 20px 80px 20px;
