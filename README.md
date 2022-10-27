@@ -1,4 +1,4 @@
-# Jekyll Plantilla Hooka v1.0.10 Alpha
+# Jekyll Plantilla Hooka v2.0.0 Alpha
 
 Tema diseñado y desarrollado por [LeoWebSEO](https://leopuentes.me),
 
@@ -38,27 +38,12 @@ sass --wacth asset/sass/nom_style.sass:assets/css/nom_style.css
 ## Desarrollado y Creado con Jekyl + Forestry
 ## Características & Descripción
 
-### Hooka v1.0.0 Alpha
-- Mobile Responsive (Smartphone 480px/767px | Tablet: 768px/1023px | PC & Laptop: > 1024px)
-- Sitemap y feed automático
-- Atributos SEO para el index.html y entradas de blog
-- Optimizado para motores de búsqueda
-- Tema oscuro, no contiene tema claro
-- Panel de Últimas entradas
-- Sistema de compartido Open Graph data Facebook y Twitter Cards
-- Input de búsqueda no funcional (fallo en el plugin)
-- Cache con expiración de 90 días
+### Hooka V2.0.0 Alpha
+- Aumento de la seguridad: Implemento [Secure Headers 6.5](https://github.com/github/secure_headers).
+- Se ha especificado la url canonical y las url's alternativas, mejorando el SEO.
+- Limitar resolucion en pantallas grandes a 1300px. Mejora visual en pantallas grandes.
 
-### Hooka v1.0.4 Alpha
-- Url's configuradas para funcionar en IPFS
-- Mejoras Visuales para dispositivos mobiles
-    * Vista de post en una sola grilla
-    * Tamaños de fuentes reducidas
-    * Alineacion de titulos desfasados
-- Post recomendados al final de cada post ajustados a una sola grilla
-- Ajuste tamaño a imagenes de post 512 x 431 px
-
-### Hooka v1.0.10 Alpha
+### Hooka V1.0.10 Alpha
 - Creación de Breadcrumbs en entradas de post
     * El codigo base es de https://jekyllcodex.org/without-plugin/breadcrumbs/#, las variaciones fueron pequeñas para adaptarlo en poder listar las categorías.
     * Para evitar inconvenientes; si el permalink tiene más de 1 nivel de profundidad, se debe de crear como categoría sin los guiones(-)
@@ -68,6 +53,26 @@ sass --wacth asset/sass/nom_style.sass:assets/css/nom_style.css
 - Barra de progreso de lectura para las páginas de contenido post
 - Config. CDN Prism para dar Color a las etiquetas en el bloque de código (colores de consola)
 - Configuracion de URL's canonical y alternativas
+
+### Hooka V1.0.4 Alpha
+- Url's configuradas para funcionar en IPFS
+- Mejoras Visuales para dispositivos mobiles
+    * Vista de post en una sola grilla
+    * Tamaños de fuentes reducidas
+    * Alineacion de titulos desfasados
+- Post recomendados al final de cada post ajustados a una sola grilla
+- Ajuste tamaño a imagenes de post 512 x 431 px
+
+### Hooka V1.0.0 Alpha
+- Mobile Responsive (Smartphone 480px/767px | Tablet: 768px/1023px | PC & Laptop: > 1024px)
+- Sitemap y feed automático
+- Atributos SEO para el index.html y entradas de blog
+- Optimizado para motores de búsqueda
+- Tema oscuro, no contiene tema claro
+- Panel de Últimas entradas
+- Sistema de compartido Open Graph data Facebook y Twitter Cards
+- Input de búsqueda no funcional (fallo en el plugin)
+- Cache con expiración de 90 días
 
 ## LICENCIA
 
