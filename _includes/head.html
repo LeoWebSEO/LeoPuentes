@@ -1,6 +1,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="canonical" href="{{ site.url }}" hreflang="es-CO">
 
 <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
 {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 65 %}
@@ -14,6 +15,8 @@
 <link rel="stylesheet" media="screen and (min-width: 1024px)" href="/assets/css/1024.css" async>
 
 <link rel="stylesheet" media="(max-width: 767px)" href="/assets/css/480.css" async>
+
+
 
 <!-- Para activar cache modificar "no-cache" por "cache" -->
 <!-- Valores de cache: 30 días = 259200 seg / 60 días = 5184000 seg / 90 días = 7776000 seg / 120 días = 10368000 seg -->
