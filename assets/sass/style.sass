@@ -5,6 +5,7 @@
     margin: 0px
 
 body
+    height: 100%
     display: grid
     background-color: $fondo
     color: $color-texto
@@ -471,7 +472,8 @@ blockquote
 
     // barra de progreso
 #progress-bar
-    background-image: linear-gradient(45deg, #841cb9 0%, #e73493 100%)
+    --scrollAmount: 0%
+    background-image: linear-gradient(45deg, #841cb9 var(--scrollAmount), #e73493 100%)
     width: var(--scrollAmount)
     height: 4px
     position: fixed
