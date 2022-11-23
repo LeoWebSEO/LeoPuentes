@@ -7,6 +7,3 @@ email: leopolseo@gmail.com
 author: Leonardo Puentes
 include:
 - _pages
-defaults:
-- scope:
-    path: _pages
