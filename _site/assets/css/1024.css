@@ -14,9 +14,6 @@ header {
   grid-column: 1/7;
   grid-template-columns: 20% 60% 20%; }
 
-.logo img {
-  width: 35%; }
-
 .buscar {
   display: grid; }
 

@@ -8,13 +8,13 @@
 <meta name="description" content="{% if page.description.size > 10 %}{{ page.description }}{% else %}{{ site.description }}{%endif%}">
 
 <link rel="shortcut icon" href="/assets/images/logo/favicon.ico" type="image/x-icon" any>
-<link rel="stylesheet" href="/assets/css/style.css" async>
+<link rel="stylesheet" href="/assets/css/style.css" >
 
-<link rel="stylesheet" media="screen and (min-width: 768px), screen and (max-width: 1023px)" href="/assets/css/768.css" async>
+<link rel="stylesheet" media="screen and (min-width: 768px), screen and (max-width: 1023px)" href="/assets/css/768.css">
 
-<link rel="stylesheet" media="screen and (min-width: 1024px)" href="/assets/css/1024.css" async>
+<link rel="stylesheet" media="screen and (min-width: 1024px)" href="/assets/css/1024.css">
 
-<link rel="stylesheet" media="(max-width: 767px)" href="/assets/css/480.css" async>
+<link rel="stylesheet" media="(max-width: 767px)" href="/assets/css/480.css">
 
 
 
@@ -39,7 +39,7 @@
 <meta name="twitter:url" content="{{ site.url }}{{ page.url }}" />
 <meta name="twitter:description" content="{% if pagecontent_description.size > 10 %}{{ pagecontent_description }}{% else %}{{ site.description }}{% endif %}" />
 
-<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" hreflang="es-CO">
 <link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url2 }}">
 <link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url3 }}">
 <link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url4 }}">
@@ -50,4 +50,4 @@
 <script src="/assets/js/scroll.js" async></script>
 
 <!-- Estilos para Prims -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-funky.min.css" integrity="sha512-KaCkQvJ0dQIhdJ0Am5LM3sgXA+Y0LWpbxkfKACZnlOqDvk54lZaWYk/sQiJGNRuSyFpe24jpjwJ4q+u3Rbez5g==" crossorigin="anonymous" referrerpolicy="no-referrer" async/>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/prism/9000.0.1/themes/prism-funky.min.css" integrity="sha512-KaCkQvJ0dQIhdJ0Am5LM3sgXA+Y0LWpbxkfKACZnlOqDvk54lZaWYk/sQiJGNRuSyFpe24jpjwJ4q+u3Rbez5g==" crossorigin="anonymous" referrerpolicy="no-referrer" as="style"/>
