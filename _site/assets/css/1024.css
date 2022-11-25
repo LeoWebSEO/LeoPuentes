@@ -40,7 +40,7 @@ header {
   display: grid;
   margin: 0px 15px 15px 15px;
   grid-template-columns: repeat(3, 1fr); }
-  .second-public small {
+  .second-public section {
     margin: 10px; }
 
 .content-develop {

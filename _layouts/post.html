@@ -10,7 +10,7 @@ layout: default
 	<div class="init-post-title">
 		<span>
 			{% for category in page.categories %}
-			<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}">{{ category | downcase }}</a>
+			<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}" title="{{page.title}}">{{ category | downcase }}</a>
 			{% endfor %}
 			<h3>Autor: {{ page.author }}</h3>
 		</span>
@@ -56,10 +56,10 @@ layout: default
 	<section>
 	{% if page.previous.url %}
 	<div class="pre-post">
-		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}"><img src="{{page.previous.image | relative_url }}"></a> {% endif %}
+		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}"><img src="{{page.previous.image | relative_url }}" alt="{{page.previous.title}}"></a> {% endif %}
 		<p>
-			<a href="{{ page.previous.url | relative_url }}"> {{page.previous.title}}</a><br/><br/>
-			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
+			<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}"> {{page.previous.title}}</a><br><br>
+			<span>{{ page.date | date: '%b %d, %Y' }}</span><br>
 		</p>
 	</div>
 	{% endif %}
@@ -68,10 +68,10 @@ layout: default
 	{% if page.next.url %}
 	<div class="next-post">
 		<p>
-			<a href="{{ page.next.url | relative_url }}"> {{page.next.title}}</a><br/><br/>
+			<a href="{{ page.next.url | relative_url }}" title="{{page.next.title}}"> {{page.next.title}}</a><br/><br/>
 			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
 		</p>
-		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}"><img src="{{page.next.image | relative_url }}"></a> {% endif %}
+		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}"><img src="{{page.next.image | relative_url }}" alt="{{page.next.title}}"></a> {% endif %}
 	</div>
 	{% endif %}
 	</section>

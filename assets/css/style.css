@@ -144,10 +144,10 @@ span {
     text-decoration: none;
     color: #a3dffd; }
 
-.public-prin article h2, .public-prin article p, .public-prin article small {
+.public-prin article h2, .public-prin article p, .public-prin article section {
   margin: 10px;
   text-align: justify; }
-  .public-prin article h2 a, .public-prin article p a, .public-prin article small a {
+  .public-prin article h2 a, .public-prin article p a, .public-prin article section a {
     color: #fff; }
 
 .public-second h2 a {
@@ -160,7 +160,7 @@ span {
   .second-public article {
     display: grid;
     grid-column: 1/2; }
-  .second-public small {
+  .second-public section {
     display: grid;
     grid-column: 2/4; }
 
