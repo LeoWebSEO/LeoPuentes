@@ -12,9 +12,6 @@ header {
 .buscar {
   display: none; }
 
-.donar {
-  width: 35%; }
-
 .presentacion {
   grid-column: 1/5;
   grid-template-rows: repeat(2, auto); }

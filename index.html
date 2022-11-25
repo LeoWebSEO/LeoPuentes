@@ -7,30 +7,30 @@ title: Leo Web SEO
 
 {% if page.url == "/" %}
     <!--Encabezado con presentacion-->
-    <section class="presentacion">
+    <section class=" presentacion ">
         <section class="social">
-            <section>
+            <div>
                 <p>Redes Sociales Programación
-                <br/>@LeoWebSEO</p>
-            </section> 
-            <section class="imgsocial">
-                <a href="https://odysee.com/@LeoWebSEO:f" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/odysse.png" alt=""></a>
-                <a href="https://www.youtube.com/channel/UCuZ9plmJNzY4-TbvrrX86vQ" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/youtube.png" alt=""></a>
-                <a href="https://www.tiktok.com/@leowebseo" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/tik-tok.png" alt=""></a>
-                <a href="https://www.facebook.com/LeoWebSEO" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/facebook.png" alt=""></a>
-                <a href="https://github.com/LeoWebSEO" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/github.png" alt=""></a>
-            </section>  
-            <section>
+                <br>@LeoWebSEO</p>
+            </div> 
+            <div class="imgsocial">
+                <a href="https://odysee.com/@LeoWebSEO:f" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/odysse.png" alt="odysee leo web seo"></a>
+                <a href="https://www.youtube.com/channel/UCuZ9plmJNzY4-TbvrrX86vQ" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/youtube.png" alt="youtube leo web seo"></a>
+                <a href="https://www.tiktok.com/@leowebseo" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/tik-tok.png" alt="tiktok leo web seo"></a>
+                <a href="https://www.facebook.com/LeoWebSEO" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/facebook.png" alt="facebook leo web seo"></a>
+                <a href="https://github.com/LeoWebSEO" target="_blank"><img style="margin-bottom: 50px;" src="/assets/images/social/github.png" alt="github leo web seo"></a>
+            </div>  
+            <div>
                 <p>Redes Sociales Motivación
                 <br>@ElSerMillonario</p>
-            </section> 
-            <section class="imgsocial">
-                <a href="https://odysee.com/@LeoPuentes:2" target="_blank"><img src="/assets/images/social/odysse.png" alt=""></a>
-                <a href="https://www.youtube.com/c/ElSerMillonario" target="_blank"><img src="/assets/images/social/youtube.png" alt=""></a>
-                <a href="https://www.tiktok.com/@elsermillonario" target="_blank"><img src="/assets/images/social/tik-tok.png" alt=""></a>
-                <a href="https://www.facebook.com/elsermillonarioo" target="_blank"><img src="/assets/images/social/facebook.png" alt=""></a>
-                <a href="https://www.publish0x.com/@El-Ser-Millonario" target="_blank"><img src="/assets/images/social/publish0x.png" alt=""></a>
-            </section>  
+            </div> 
+            <div class="imgsocial">
+                <a href="https://odysee.com/@LeoPuentes:2" target="_blank"><img src="/assets/images/social/odysse.png" alt="odysee el ser millonario"></a>
+                <a href="https://www.youtube.com/c/ElSerMillonario" target="_blank"><img src="/assets/images/social/youtube.png" alt="youtube el ser millonario"></a>
+                <a href="https://www.tiktok.com/@elsermillonario" target="_blank"><img src="/assets/images/social/tik-tok.png" alt="tiktok el ser millonario"></a>
+                <a href="https://www.facebook.com/elsermillonarioo" target="_blank"><img src="/assets/images/social/facebook.png" alt="facebook el ser millonario"></a>
+                <a href="https://www.publish0x.com/@El-Ser-Millonario" target="_blank"><img src="/assets/images/social/publish0x.png" alt="publish0x el ser millonario"></a>
+            </div>  
         </section>
 
         <section>
@@ -45,10 +45,10 @@ title: Leo Web SEO
     <section class="public-prin">
         {% assign latest_post = site.posts[0]    %}
         <article>
-            <a href="{{ latest_post.url | relative_url }}">
+            <a href="{{ latest_post.url | relative_url }}" title="{{latest_post.title}}">
                 <div style="background-image: url({{ latest_post.image }}); height: 65%; background-size: cover; background-repeat:no-repeat;"></div>
             </a>
-            <h2><a class="text-dark" href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h2>
+            <h2><a class="text-dark" href="{{ latest_post.url | relative_url }}" title="{{ latest_post.title }}">{{ latest_post.title }}</a></h2>
             <p>{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
             <small>
                 En <span>{% for category in latest_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a> , {% endfor %}</span>
@@ -65,12 +65,13 @@ title: Leo Web SEO
                 {%- assign list_post = site.posts[variable] -%}
                 <article>
                     {% if list_post.image %}
-                        <a href="{{ list_post.url | relative_url }}"><img src="{{list_post.image}}" alt="{{ list_post.title }}" loading="lazy"></a>
+                        <a href="{{ list_post.url | relative_url }}" title="{{ latest_post.title }}"><img src="{{list_post.image}}" alt="{{ list_post.title }}" loading="lazy"></a>
                     {% endif %} 
                 </article>
-                <small>
-                    <h2><a href="{{list_post.url | relative_url }}">{{ list_post.title }}</a></h2>
-                    <span>En {% for category in list_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a> , {% endfor %}</span>{{ list_post.date | date: '%b %d, %Y' }}</small>
+                <section>
+                    <h2><a href="{{list_post.url | relative_url }}" title="{{ list_post.title }}">{{ list_post.title }}</a></h2>
+                    <span>En {% for category in list_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a> , {% endfor %}</span>{{ list_post.date | date: '%b %d, %Y' }}
+                </section>
             </section>
         {%endfor%}
     </section>
@@ -95,7 +96,7 @@ title: Leo Web SEO
                         </span>
                         <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     </div>
-                    <h3><a href="{{post.url | relative_url }}">{{post.title}}</a></h3>
+                    <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
                     <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
                 </article>
@@ -112,7 +113,7 @@ title: Leo Web SEO
         <section class="grilla-motiv">
             {% for post in site.categories.Motivacion limit:6 %}
                 <article>
-                    <h3><a href="{{post.url | relative_url }}">{{post.title}}</a></h3>
+                    <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
@@ -126,9 +127,9 @@ title: Leo Web SEO
         <section class="grilla-motiv">
             {% for post in site.categories.Inversion limit:3 %}
                 <article>
-                    <h3><a href="{{post.url | relative_url }}">{{post.title}}</a></h3>
+                    <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
-                    </small>{{ post.date | date: '%b %d, %Y' }}</small>
+                    <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
                     <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
                     <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
