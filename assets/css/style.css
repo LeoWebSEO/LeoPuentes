@@ -71,14 +71,11 @@ input {
   input:focus {
     outline: none; }
 
-.donar {
-  justify-self: center;
-  position: relative; }
-  .donar img {
-    filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
-    animation: tiembla 2s infinite; }
-  .donar span {
-    font-size: 17px; }
+.donar img {
+  filter: invert(0.4) sepia(1) hue-rotate(20deg) saturate(1000%);
+  animation: tiembla 2s infinite; }
+.donar span {
+  font-size: 17px; }
 
 @keyframes tiembla {
   0% {
