@@ -129,7 +129,7 @@ title: Leo Web SEO
                 <article>
                     <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
-                    </small>{{ post.date | date: '%b %d, %Y' }}</small>
+                    <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
                     <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a>  {% endfor %}</span></p>
                     <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
