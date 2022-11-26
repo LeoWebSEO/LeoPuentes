@@ -2,7 +2,7 @@
 layout: post
 categories: [Motivacion, Crecimiento-personal]
 title: SUEÑOS GRANDES CON EL PODER DE TU MENTE
-description: La imaginación alimenta sueños, y se tiene que dejar que los llene hasta el infinito. Los sueños grandes traen recompensas grandes pero implican retos mayores
+description: La imaginación alimenta sueños, se tiene que dejar que los llene hasta el infinito. Los sueños grandes traen recompensas grandes e implican retos mayores
 author: Leonardo Puentes
 image: "/assets/images/poder-mente.webp"
 tags: [sticky]
