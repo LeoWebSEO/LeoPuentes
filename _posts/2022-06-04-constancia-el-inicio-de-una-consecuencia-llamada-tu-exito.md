@@ -2,8 +2,9 @@
 layout: post
 categories: [Motivacion, Exito]
 title: Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!
+description: Qué es el éxito? Lastimosamente se ha utilizado para vender más y lucrarsen del consumismo, desenfocando nuestros propósitos, sueños y pasiones. El éxito es uno
 author: Leonardo Puentes
-image: "/assets/images/consecuencia-llamda-exito.webp"
+image: "/assets/images/consecuencia-llamada-exito.webp"
 slug: contancia-inicio-consecuencia-exito
 permalink: /crecimiento-personal/constancia-inicio-exito.html
 ---
