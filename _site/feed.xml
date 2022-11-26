@@ -5,8 +5,8 @@
     <description>Desarrolla habilidades y conocimientos no solo en Programación. Crece como Persona y Edúcate Financieramente para una vida equilibrada.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>25 Nov 2022</pubDate>
-    <lastBuildDate>25 Nov 2022</lastBuildDate>
+    <pubDate>26 Nov 2022</pubDate>
+    <lastBuildDate>26 Nov 2022</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -64,7 +64,7 @@
         
         <category>Html5</category>
         
-        <category>semantica seo html5</category>
+        <category>Semantica-SEO-Html5</category>
         
       </item>
     
@@ -141,7 +141,7 @@
         
         <category>Motivacion</category>
         
-        <category>Crecimiento personal</category>
+        <category>Crecimiento-personal</category>
         
       </item>
     
@@ -389,7 +389,7 @@
         
         <category>Motivacion</category>
         
-        <category>Crecimiento personal</category>
+        <category>Crecimiento-personal</category>
         
       </item>
     
@@ -654,7 +654,7 @@
         
         <category>Inversion</category>
         
-        <category>Educación financiera</category>
+        <category>Educación-financiera</category>
         
       </item>
     
@@ -703,15 +703,20 @@
 &lt;p&gt;Comparte con amor!!&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jun 2022 00:00:00 -0500</pubDate>
+<<<<<<< HEAD
         <link>http://localhost:4000/crecimiento-personal/poder-mente-sueños-reales.html</link>
         <guid isPermaLink="true">http://localhost:4000/crecimiento-personal/poder-mente-sueños-reales.html</guid>
+=======
+        <link>http://localhost:4000/crecimiento-personal/poder-mente-suenos-reales.html</link>
+        <guid isPermaLink="true">http://localhost:4000/crecimiento-personal/poder-mente-suenos-reales.html</guid>
+>>>>>>> origin
         
         <category>sticky</category>
         
         
         <category>Motivacion</category>
         
-        <category>Crecimiento personal</category>
+        <category>Crecimiento-personal</category>
         
       </item>
     
@@ -774,7 +779,7 @@
         
         <category>Motivacion</category>
         
-        <category>Crecimiento personal</category>
+        <category>Crecimiento-personal</category>
         
       </item>
     
