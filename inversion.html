@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Inversión
+title: Programa, Invierte y Edúcate Financieramente
+description: Adquirir conocimiento para generar dinero, significa trabajar en las creencias. Comprende lo que el dinero te puede ofrecer, como también las trampas.
 permalink: /inversion/
 ---
 
@@ -21,7 +22,7 @@ permalink: /inversion/
                         {% for category in post.categories %}
                             {% assign seconcatego = post.categories[1] %}
                         {% endfor %}
-                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego }}</a>
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego | replace:'-',' ' }}</a>
                     </h4>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                 </div>

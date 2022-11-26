@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Motivación
+title: Motivación, Crecimiento, Desarrollo Personal
+description: La motivación activa la llama para actuar, pero sin propósitos definidos, falta de pasión, esa motivación sera solo momentánea. Actuar marca la diferencia
 permalink: /motivacion/
 ---
 
@@ -21,7 +22,7 @@ permalink: /motivacion/
                         {% for category in post.categories %}
                             {% assign seconcatego = post.categories[1] %}
                         {% endfor %}
-                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego }}</a>
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego | replace:'-',' ' }}</a>
                     </h4>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                 </div>

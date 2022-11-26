@@ -84,10 +84,6 @@ input {
     transform: rotateZ(0deg) scale(0.8); }
   100% {
     transform: rotateZ(5deg); } }
-.lema {
-  clip: rect(0, 0, 0, 0);
-  position: absolute; }
-
 .logo {
   display: grid;
   justify-items: center; }
