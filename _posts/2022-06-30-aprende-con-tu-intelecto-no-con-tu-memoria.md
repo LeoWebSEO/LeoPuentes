@@ -1,11 +1,12 @@
 ---
 layout: post
-categories: [Motivacion, Crecimiento personal]
+categories: [Motivacion, Crecimiento-personal]
 title: APRENDE CON TU INTELECTO, NO CON TU MEMORIA
+description: La dificultad del aprendizaje cada día es mas común, bueno eso dicen las instituciones educativas que aún siguen evaluando a todo estudiante por igual. Aprender
 author: Leonardo Puentes
 image: "/assets/images/conocimineto-intelecto-memoria.webp"
 slug: aprende-intelecto-no-memoria
-permalink: /crecimiento-personal/aprender-intelecto-memoria
+permalink: /crecimiento-personal/aprender-intelecto-memoria.html
 ---
 El aprendizaje del verdadero conocimiento es una parte fundamental de la vida. Me atrevo a decir que es la más importante; más aún cuando se está en el proceso de formación. Por tal razón, es importante aprender haciendo uso de las diferentes cualidades del intelecto, no solo haciendo uso de la memoria.
 

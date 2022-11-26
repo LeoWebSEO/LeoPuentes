@@ -10,7 +10,7 @@ layout: default
 	<div class="init-post-title">
 		<span>
 			{% for category in page.categories %}
-			<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}" title="{{page.title}}">{{ category | downcase }}</a>
+			<a href="{{ "categorias.html" | relative_url }}#{{ category | downcase }}" title="{{page.title}}">{{ category | downcase | replace:'-',' ' }}</a>
 			{% endfor %}
 			<h3>Autor: {{ page.author }}</h3>
 		</span>

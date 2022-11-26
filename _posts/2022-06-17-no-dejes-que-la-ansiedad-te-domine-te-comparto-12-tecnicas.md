@@ -1,11 +1,11 @@
 ---
 layout: post
-categories: [Motivacion, Crecimiento personal]
+categories: [Motivacion, Crecimiento-personal]
 title: No dejes que la Ansiedad te domine. Te comparto 12 técnicas
+description: La ansiedad, enfermedad de la nueva era. Te comparto 12 técnicas que han y me han ayudado a superarla. Rompe las barreras de ese estado mental que nos encierra
 author: Leonardo Puentes
 image: "/assets/images/superar-ansiedad.webp"
-description: La ansiedad es una enfermedad de la nueva era, te comparto 12 tecnicas que han y me han ayudado a superarla.
-permalink: /crecimiento-personal/dejar-superar-ansiedad
+permalink: /crecimiento-personal/dejar-superar-ansiedad.html
 ---
 Con mucha frecuencia me relaciono con personas que sufren de ansiedad; resultado de diferentes situaciones vividas. Razón por la cual, quiero compartirte esta lectura con 12 técnicas para combatir la ansiedad y no permitir que te domine.
 

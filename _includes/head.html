@@ -2,9 +2,17 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="content-language" content="es" >
-<meta name="keywords" content="programacion html, programacion web, optimizacion web seo, programar para el seo, optimizacion de sitio web" >
+<meta name="keywords" content="programacion html, programacion web, optimizacion web seo, programar para el seo, optimizacion de sitio web, leo web seo, leo puentes" >
 
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.name }}</title>
+
+<title>
+    {% if page.title.size >= 50 %}
+        {{ page.title }}
+            {% else %}
+                {{page.title}} | Leo Puentes
+    {% endif %}
+
+</title>
 {% assign pagecontent_description = page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | strip_html | strip_newlines | replace: '  ', ' ' | truncate: 65 %}
 <meta name="description" content="{% if page.description.size > 10 %}{{ page.description }}{% else %}{{ site.description }}{%endif%}">
 

@@ -1,12 +1,13 @@
 ---
 layout: post
-categories: [Inversion, Educación financiera]
+categories: [Inversion, Educación-financiera]
 title: 7 PRINCIPIOS DEL DINERO – EL HOMBRE MÁS RICO DE BABILONIA
+description: Todo funciona entorno a las creencias. Si se poseen creencias negativas se dificulta adquirir riqueza, si las creencias son positivas la riqueza llegara.
 author: Leonardo Puentes
 image: "/assets/images/principios-del-dinero.webp"
 slug: principios-dinero-hombre-rico-babilonia
 tags: [motivacion]
-permalink: /educacion-financiera/principios-dinero-hombre-rico-babilonia
+permalink: /educacion-financiera/principios-dinero-hombre-rico-babilonia.html
 ---
 El dinero se ha convertido en muchas comunidades en un tabú, ya sean comunidades religiosas, políticas, económicas, sociales o culturales. Y como es lógico, las creencias negativas dificultan la riqueza y las creencias positivas facilitan la riqueza.
 
