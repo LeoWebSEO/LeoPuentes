@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Programación
+title: Programación web orientada al SEO y SERP
+description: Aprende programación web orientado al SEO. Programa para el usuario y para agradar a los buscadores. Ejecuta códigos optimizados para tus proyectos web.
 permalink: /programacion/
 ---
 
@@ -23,7 +24,7 @@ permalink: /programacion/
                         {% for category in post.categories %}
                             {% assign seconcatego = post.categories[1] %}
                         {% endfor %}
-                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego }}</a>
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego | replace:'-',' ' }}</a>
                     </h4>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                 </div>
