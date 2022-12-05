@@ -10,9 +10,15 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    min: 45
+    max: 65
 - type: text
   name: description
   label: description
+  config:
+    min: 120
+    max: 155
 - type: text
   name: keywords
   label: keywords
