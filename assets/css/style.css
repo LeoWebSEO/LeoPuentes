@@ -289,7 +289,10 @@ footer {
 .read {
   display: grid; }
   .read h2 {
-    margin: 20px 0px 20px 0px; }
+    margin: 20px 0px 20px 0px;
+    border-bottom: 1px #fff dotted;
+    text-align: center;
+    margin-top: 35px; }
   .read aside {
     justify-self: center; }
   .read article {
@@ -299,6 +302,13 @@ footer {
     margin: 20px 0px; }
   .read ul {
     margin-bottom: 20px; }
+  .read img {
+    display: block;
+    margin: auto;
+    width: auto;
+    height: auto; }
+  .read pre {
+    margin-bottom: 15px; }
 
 blockquote {
   border-left: 3px solid;

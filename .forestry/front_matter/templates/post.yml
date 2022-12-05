@@ -14,6 +14,9 @@ fields:
   name: description
   label: description
 - type: text
+  name: keywords
+  label: keywords
+- type: text
   name: author
   label: author
 - type: file
