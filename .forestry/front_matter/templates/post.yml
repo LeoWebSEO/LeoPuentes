@@ -29,7 +29,7 @@ fields:
   name: permalink
   label: permalink
   default: no-olvidar-poner-el-punto-html
-- type: text
+- type: textarea
   name: categories
   label: categories
   default:
