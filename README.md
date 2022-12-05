@@ -1,4 +1,4 @@
-# Jekyll Plantilla Hooka v2.0.0 Alpha
+# Jekyll Plantilla Hooka v2.5.8 Alpha
 
 Tema diseñado y desarrollado por [LeoWebSEO](https://leopuentes.me),
 
@@ -37,6 +37,21 @@ sass --wacth asset/sass/nom_style.sass:assets/css/nom_style.css
 
 ## Desarrollado y Creado con Jekyl + Forestry
 ## Características & Descripción
+
+### Hooka V2.5.8 Alpha
+- Optimizaciones seo:
+    * Corrección redireccionamiento de categorías
+    * Agregar ALT a imagenes y TITLE a enlaces
+    * Anexo de descripción (120 a 155 caracteres), categoría y keywords en post
+    * Acortador de títulos de post, se ajustó entre 45 a 65 caracteres
+    * A categoría con más de dos palabras agregar guión (-) para unirlas
+- Se eliminó etiquetas obsoletas o sin utilidad
+    * Atributo ANY no válido el favicon
+    * Barra inclinada "/" eliminada en etiquetas vacías
+    * Etiquetas de caché obsoletas
+- Optimizaciones de cargar
+    * Se eliminó CSS innecesario
+    * Ajuste de logos en dispositivos móviles
 
 ### Hooka V2.0.0 Alpha
 - Aumento de la seguridad: Implemento [Secure Headers 6.5](https://github.com/github/secure_headers).
