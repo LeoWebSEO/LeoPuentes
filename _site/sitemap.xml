@@ -19,7 +19,7 @@
   
   
       <url>
-        <loc>http://localhost:4000/contacto/</loc>
+        <loc>http://localhost:4000/categorias/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -27,7 +27,7 @@
   
   
       <url>
-        <loc>http://localhost:4000/contacto.html</loc>
+        <loc>http://localhost:4000/contacto/</loc>
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>
@@ -95,11 +95,7 @@
        </url>
   
       <url>
-<<<<<<< HEAD
-        <loc>http://localhost:4000/crecimiento-personal/poder-mente-sueños-reales.html</loc>
-=======
         <loc>http://localhost:4000/crecimiento-personal/poder-mente-suenos-reales.html</loc>
->>>>>>> origin
         <changefreq>monthly</changefreq>
         <priority>1.0</priority>
        </url>

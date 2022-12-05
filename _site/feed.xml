@@ -5,17 +5,17 @@
     <description>Desarrolla habilidades y conocimientos no solo en Programación. Crece como Persona y Edúcate Financieramente para una vida equilibrada.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>26 Nov 2022</pubDate>
-    <lastBuildDate>26 Nov 2022</lastBuildDate>
+    <pubDate>05 Dec 2022</pubDate>
+    <lastBuildDate>05 Dec 2022</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
         <title>Estructura básica de una pagina web en HTML5</title>
-        <description>&lt;p&gt;HTML5 es para algunos un lenguaje de programación como para otros es simplemente un documento de estructura o maquetado web. Para mí son los dos 😊.&lt;/p&gt;
+        <description>&lt;p&gt;&lt;strong&gt;HTML5&lt;/strong&gt; es para algunos un lenguaje de programación como para otros es simplemente un documento de estructura o maquetado web. Para mí son los dos 😊.&lt;/p&gt;
 
-&lt;p&gt;A lo largo del curso te enseñare cómo podemos influir en los buscadores gracias a este lenguaje y cómo han aumentado las posibilidades SEO.&lt;/p&gt;
+&lt;p&gt;A lo largo del contenido te enseñaré cómo podemos influir en los buscadores gracias a este lenguaje y cómo han aumentado las posibilidades &lt;strong&gt;SEO&lt;/strong&gt;.&lt;/p&gt;
 
-&lt;p&gt;Iniciemos con la explicación de la estructura base de un documento html5.&lt;/p&gt;
+&lt;p&gt;Iniciemos con la estructura base de un documento HTML5, código que puedes observar a continuación.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
   &amp;lt;html lang=&quot;es&quot;&amp;gt;
@@ -29,31 +29,55 @@
   &amp;lt;/html&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
+&lt;p&gt;Esta estructura es arrojada por cualquier &lt;strong&gt;&lt;em&gt;IDE (Entorno de Desarrollo Integrado)&lt;/em&gt;&lt;/strong&gt; de programación al identificar el archivo con extensión “.html”. El IDE que manejo es Visual Studio Code, aunque todo es del gusto del programador; existen muchas opciones.&lt;/p&gt;
+
 &lt;p&gt;&lt;strong&gt;1-) &lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/code&gt;:&lt;/strong&gt; Lo primero que nos encontramos es la declaración del tipo de documento. El DOCTYPE variará según el tipo de documento realizado, el doctype del HTML5 es maravillosamente sencillo.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;2-) &lt;code&gt;html&lt;/code&gt;:&lt;/strong&gt; Tras declarar el tipo de documento, indicamos que inicia nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Lleva un atributo lang, esto sirve para indicar el idioma del documento (en nuestro caso español)&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;2-) &lt;code&gt;html&lt;/code&gt;:&lt;/strong&gt; Tras declarar el tipo de documento, indicamos que inicia nuestro documento HTML. Esta etiqueta se cierra cuando finalizamos el documento. Lleva un atributo &lt;strong&gt;lang&lt;/strong&gt;, esto sirve para indicar el idioma del documento (en nuestro caso español)&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;3-) &lt;code&gt;head&lt;/code&gt;:&lt;/strong&gt; En un documento HTML tenemos una cabecera dónde colocaremos los metadatos de la página para el SEO, el código JavaScript y el CSS que se utilizará.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;3-) &lt;code&gt;head&lt;/code&gt;:&lt;/strong&gt; En un documento HTML tenemos una cabecera dónde colocaremos los metadatos de la página para el SEO, el código JavaScript y el CSS que se utilizará. Es el encabezado más importante, es donde se utiliza la mayor cantidad de etiquetas de optimización web para el beneficio del SEO.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;4-) &lt;code&gt;meta charset&lt;/code&gt;:&lt;/strong&gt; Etiqueta obligatorio en HTML5, atributo que informa el juego de caracteres del documento, debería ser siempre utf-8. Como todo metadato debe ir dentro del head&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;4-) &lt;code&gt;meta charset&lt;/code&gt;:&lt;/strong&gt; Etiqueta obligatorio en HTML5, atributo que informa el juego de caracteres del documento, debería ser siempre utf-8. Como todo metadato debe ir dentro del head y nos ayuda a que el navegador represente bien los caracteres como ñ, ´, ü, etc.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;5-) &lt;code&gt;title&lt;/code&gt;:&lt;/strong&gt; Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta title sea parecido al H1 del documento y a la URL de la página.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;5-) &lt;code&gt;title&lt;/code&gt;:&lt;/strong&gt; Es un tipo de metadato especial que nos proporciona el título de la página. Por motivos de posicionamiento (SEO) se recomienda que el meta-title sea parecido pero no igual al H1 del documento y a la URL de la página.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;6-) &lt;code&gt;body&lt;/code&gt;:&lt;/strong&gt; En su interior tendremos el contenido de la página y demás etiquetas de menor nivel.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;6-) &lt;code&gt;body&lt;/code&gt;:&lt;/strong&gt; En su interior tendremos el contenido de la página y demás etiquetas de menor nivel. Es donde ocurre la magia visual, llamada también &lt;strong&gt;&lt;em&gt;front-end&lt;/em&gt;&lt;/strong&gt;. En él también se debe de realizar buenas prácticas de programación para beneficiar al SEO.&lt;/p&gt;
 
-&lt;p&gt;En esta serie de artículos vas a aprender programación web desde lo más básico hasta lo más avanzado, utilizando de forma correcta la web semántica que ofrece html5. Optimizando cada etiqueta para crear proyectos web con excelente posicionamiento SEO, sitios web optimizados para los buscadores y usuarios.&lt;/p&gt;
+&lt;p&gt;La programación debe de estar siempre centrada en dos personajes: El primero es &lt;strong&gt;el usuario&lt;/strong&gt; y el segundo &lt;strong&gt;el buscador&lt;/strong&gt;. Así que se debe de pensar siempre en optimizar el código de la mejor manera posible para agradarles.&lt;/p&gt;
 
-&lt;p&gt;Aprenderás Etiquetado html5, css3, sass, liquid, javascript y muchos más.&lt;/p&gt;
+&lt;p&gt;No te preocupes si no logras comprender aún lo que trato de decirte, solo ten claro que programas para estos dos actores.&lt;/p&gt;
 
-&lt;p&gt;Como también diferentes CMS.&lt;/p&gt;
+&lt;h2 id=&quot;estructura-semántica-html5&quot;&gt;&lt;strong&gt;ESTRUCTURA SEMÁNTICA HTML5&lt;/strong&gt;&lt;/h2&gt;
 
-&lt;p&gt;Impulsa tus proyectos en Internet mejorando la velocidad, rendimiento y posicionamiento de tu web o tienda virtual.&lt;/p&gt;
+&lt;p&gt;Resumiendo lo de los videos anteriores, echémosle un último vistazo a la estructura básica de un documento HTML. Deseo que lo observes desde un punto más claro y evidente.&lt;/p&gt;
 
-&lt;p&gt;Herramientas que te ayudaran a crear contenido de calidad, contenido que seduzca a los buscadores y sobre todo a tu usuario final.&lt;/p&gt;
+&lt;p&gt;Toda etiqueta principal tiene una apertura y un cierre, existen algunas excepciones las cuales las vamos a estudiar más adelante. En este caso nos referimos a las etiquetas superiores &lt;strong&gt;HTML, HEAD y BODY.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Entonces vamos a aprender desde como programar un sitio web básico hasta como lanzar grandes campañas de Marketing Digital.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/assets/images/estructura-html.jpg&quot; alt=&quot;estructura de html5&quot; title=&quot;Partes de documento html&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;¡Sígueme para aprender juntos!&lt;/p&gt;
+&lt;p&gt;La estructura de un documento se empieza con la etiqueta html, tiene apertura y cierre &lt;strong&gt;&amp;lt;html&amp;gt;&amp;lt;/html&amp;gt;&lt;/strong&gt;. Todo lo que se escriba entre esta etiqueta, será la página web. Dentro de esta etiqueta se encuentran 2 partes especiales.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/informacion-head-html.jpg&quot; alt=&quot;datos tecnicos head html5&quot; title=&quot;informacion del head en html5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La primera, etiqueta head, tiene apertura y cierre &lt;strong&gt;&amp;lt;head&amp;gt;&amp;lt;/head&amp;gt;&lt;/strong&gt;, es la cabecera de la página. Aquí va cierta información, alguna solo va a ser visible para el buscador, otras solo para el usuario y otra para ambas. En el head se pone: el título de la página, los metadatos, estilos css, código javascript (todo esto se estudiará en cuanto avancemos). En el head va la información técnica para el usuario y buscador.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/descripcion-body-html.jpg&quot; alt=&quot;semantica basica de html5&quot; title=&quot;estructura base de semantica html5&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La segunda parte es la etiqueta body, tiene apertura y cierre &lt;strong&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/strong&gt;. Aquí va el contenido visual de la página, va todo aquello con lo que el usuario va a interactuar: Títulos, párrafos, imágenes, videos, formularios, enlaces, tablas, listas, bloques, secciones, etcétera.&lt;/p&gt;
+
+&lt;p&gt;Pero también va código solo visible para los buscadores como: seguir o no seguir enlaces, función lazyload, validaciones de uso en medios, etc.&lt;/p&gt;
+
+&lt;p&gt;En esta serie de artículos vas a aprender programación web orientada al SEO desde lo más básico hasta lo más avanzado, utilizando de forma correcta la web semántica que ofrece html5. Aprenderás a usar de forma óptima cada etiqueta para crear proyectos web con excelente posicionamiento SEO, sitios web optimizados para los buscadores y usuarios.&lt;/p&gt;
+
+&lt;p&gt;Aprenderás todo el etiquetado semántico de html5 para el posicionamiento web. Impulsa tus proyectos en Internet mejorando la velocidad, rendimiento y seguridad.&lt;/p&gt;
+
+&lt;p&gt;Te compartiré herramientas que te ayudarán a crear webs de calidad, sitios que seduzcan a los buscadores y sobre todo a tu usuario final.&lt;/p&gt;
+
+&lt;p&gt;Entonces vamos a aprender desde cómo optimizar y programar un sitio web básico hasta grandes proyectos digitales. No es marketing digital, es programación web optimizada para el marketing digital lo que vas a aprender.&lt;/p&gt;
+
+&lt;p&gt;¡Así que sígueme para aprender juntos!&lt;/p&gt;
+
+&lt;p&gt;No te olvides de compartir.&lt;/p&gt;
 </description>
         <pubDate>Wed, 21 Sep 2022 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/semantica-seo-html5/estructura-basica-html5.html</link>
@@ -703,13 +727,8 @@
 &lt;p&gt;Comparte con amor!!&lt;/p&gt;
 </description>
         <pubDate>Mon, 13 Jun 2022 00:00:00 -0500</pubDate>
-<<<<<<< HEAD
-        <link>http://localhost:4000/crecimiento-personal/poder-mente-sueños-reales.html</link>
-        <guid isPermaLink="true">http://localhost:4000/crecimiento-personal/poder-mente-sueños-reales.html</guid>
-=======
         <link>http://localhost:4000/crecimiento-personal/poder-mente-suenos-reales.html</link>
         <guid isPermaLink="true">http://localhost:4000/crecimiento-personal/poder-mente-suenos-reales.html</guid>
->>>>>>> origin
         
         <category>sticky</category>
         
