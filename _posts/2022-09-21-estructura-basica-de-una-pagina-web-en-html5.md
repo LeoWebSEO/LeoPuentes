@@ -4,10 +4,12 @@ categories: [Programacion, Html5, Semantica-SEO-Html5]
 title: Estructura básica de una pagina web en HTML5
 description: Explicare la estructura de un documento html5 generado por VSC. Es algo
   muy simple pero fundamental comprender desde el principio para el seo y el diseño
+keywords: estructura basica html5, estructura basica de una pagina web, estructura
+  de html5, estructura html5, html5 estructura, estructura basica de html5, estructura
 author: Leonardo Puentes
 image: "/assets/images/estructura-documento-html5.webp"
 slug: estructura-basica-html5
-permalink: "/semantica-seo-html5/estructura-basica-html5.html"
+permalink: /semantica-seo-html5/estructura-basica-html5.html
 
 ---
 **HTML5** es para algunos un lenguaje de programación como para otros es simplemente un documento de estructura o maquetado web. Para mí son los dos 😊.

@@ -2,7 +2,8 @@
 layout: post
 categories: [Motivacion, Crecimiento-personal]
 title: APRENDE CON TU INTELECTO, NO CON TU MEMORIA
-description: La dificultad del aprendizaje cada día es mas común, bueno eso dicen las instituciones educativas que aún siguen evaluando a todo estudiante por igual. Aprender
+description: La dificultad del aprendizaje cada día es mas común, bueno eso dicen las instituciones educativas que aún siguen evaluando a todo estudiante por igual.
+keywords: que es intelecto, que es el intelecto, aprender para avanzar, aprender a amarme, me siento curioso
 author: Leonardo Puentes
 image: "/assets/images/conocimineto-intelecto-memoria.webp"
 slug: aprende-intelecto-no-memoria
