@@ -112,7 +112,7 @@ input {
 .presentacion {
   display: grid;
   justify-items: center; }
-  .presentacion h2 {
+  .presentacion h1 {
     font-size: 60px;
     margin-bottom: 20px; }
   .presentacion section {
@@ -168,12 +168,17 @@ span {
   .content-develop h3 {
     text-align: center;
     margin: 10px 5px; }
+    .content-develop h3 a {
+      color: #fff; }
+    .content-develop h3 a:hover {
+      color: #00f4b9; }
   .content-develop p {
     margin: 10px 7px; }
   .content-develop span a {
     padding: 2px 10px;
     border-radius: 5px;
-    background: -webkit-linear-gradient(45deg, #841cb9, #e73493); }
+    background: -webkit-linear-gradient(45deg, #841cb9, #e73493);
+    color: #fff; }
 
 .grilla-develop {
   display: grid;
@@ -182,6 +187,7 @@ span {
     border: 1px solid #343536;
     display: grid; }
   .grilla-develop article:hover {
+    border: 1px solid #841cb9;
     transform: scale(1.05);
     transition: all 0.3s ease; }
   .grilla-develop img {
@@ -196,6 +202,8 @@ span {
     background: -webkit-linear-gradient(45deg, #841cb9, #e73493);
     border-radius: 5px;
     padding: 3px 0px; }
+    .categorie-date h4 a {
+      color: #fff; }
   .categorie-date h3 {
     margin: 10px 5px;
     font-size: 16px; }
@@ -222,6 +230,7 @@ span {
     border: 1px solid #343536;
     padding: 14px; }
   .grilla-motiv article:hover {
+    border: 1px solid #841cb9;
     transform: scale(1.05);
     transition: all 0.3s ease; }
   .grilla-motiv img {
@@ -366,6 +375,11 @@ blockquote {
     text-align: center; }
   .contacto h3 {
     font-size: 30px; }
+  .contacto h1 {
+    font-size: 60px;
+    background: -webkit-linear-gradient(45deg, #841cb9, #e73493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 .encabe-contact {
   margin: 40px;

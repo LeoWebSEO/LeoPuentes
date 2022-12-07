@@ -22,13 +22,13 @@ permalink: /inversion/
                         {% for category in post.categories %}
                             {% assign seconcatego = post.categories[1] %}
                         {% endfor %}
-                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego | replace:'-',' ' }}</a>
+                        <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}" title="saber más de {{ seconcatego }}">{{ seconcatego | replace:'-',' ' }}</a>
                     </h4>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                 </div>
-                <h3><a href="{{post.url | relative_url }}">{{post.title}}</a></h3>
+                <h3><a href="{{post.url | relative_url }}" title="{{ post.title }}">{{post.title}}</a></h3>
                 <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
-                <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
+                <a class="boton" href="{{post.url | relative_url }}" title="{{ post.title }}">Leer más...</a>
             </article>
         {% endfor %}
     </section>

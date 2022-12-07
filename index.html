@@ -2,7 +2,7 @@
 layout: default
 permalink: /
 description: Desarrolla habilidades y conocimientos no solo en Programación. Crece como Persona y Edúcate Financieramente para una vida equilibrada.
-title: Leo Web SEO
+title: Web Oficial de LeoWebSEO y ElSerMillonario
 keywords: programacion html, programacion web, optimizacion web seo, programar para el seo, optimizacion de sitio web, leo web seo, leo puentes
 ---
 
@@ -35,7 +35,7 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
         </section>
 
         <section>
-            <h2 class="texto" data-text="LEO PUENTES">LEO PUENTES</h2>
+            <h1 class="texto" data-text="LEO PUENTES">LEO PUENTES</h1>
             <p>Impulsar el potencial de Internet es mi pasión. He decidido crear este blog un poco híbrido, donde deseo y quiero compartir todo el conocimiento que he aprendido y el que voy aprendiendo.</p>
             <p>Disfruto enseñar y junto a ello, he desarrollado habilidades y conocimientos no solo para Programar. El Crecimiento Personal y La Educación Financiera también se ha convertido parte de mi vida como programador.</p>
             <p>Todo lo que soy está en este blog, espero sea de tu agrado y podamos aprender juntos.</p>
@@ -52,7 +52,7 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
             <h2><a class="text-dark" href="{{ latest_post.url | relative_url }}" title="{{ latest_post.title }}">{{ latest_post.title }}</a></h2>
             <p>{{ latest_post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
             <small>
-                En <span>{% for category in latest_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a> , {% endfor %}</span>
+                En <span>{% for category in latest_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase | replace:'-',' ' }}" title="{{ latest_post.title }}">{{ category | replace:'-',' '}}</a> , {% endfor %}</span>
             </small>
             <small>{{ latest_post.date | date: '%b %d %Y' }}</small>
         </article>
@@ -66,12 +66,12 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
                 {%- assign list_post = site.posts[variable] -%}
                 <article>
                     {% if list_post.image %}
-                        <a href="{{ list_post.url | relative_url }}" title="{{ latest_post.title }}"><img src="{{list_post.image}}" alt="{{ list_post.title }}" loading="lazy"></a>
+                        <a href="{{ list_post.url | relative_url }}" title="{{ list_post.title }}"><img src="{{list_post.image}}" alt="{{ list_post.title }}" loading="lazy"></a>
                     {% endif %} 
                 </article>
                 <section>
                     <h2><a href="{{list_post.url | relative_url }}" title="{{ list_post.title }}">{{ list_post.title }}</a></h2>
-                    <span>En {% for category in list_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category }}</a> , {% endfor %}</span>{{ list_post.date | date: '%b %d, %Y' }}
+                    <span>En {% for category in list_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase | replace:'-',' ' }}" title="{{ category }}">{{category | replace:'-',' ' }}</a> , {% endfor %}</span>{{ list_post.date | date: '%b %d, %Y' }}
                 </section>
             </section>
         {%endfor%}
@@ -93,13 +93,13 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
                             {% for category in list_post.categories %}
                                 {% assign seconcatego = post.categories[1] %}
                             {% endfor %}
-                            <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}">{{ seconcatego | replace:'-',' ' }}</a>
+                            <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}" title="{{ post.title }}">{{ seconcatego | replace:'-',' ' }}</a>
                         </span>
                         <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     </div>
                     <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 160 }}</p>
-                    <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
+                    <a class="boton" href="{{post.url | relative_url }}" title="{{ post.title }}">Leer más...</a>
                 </article>
             {% endfor %}
         </section>
@@ -118,8 +118,8 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
-                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
-                    <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
+                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}" title="{{ category }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
+                    <a class="boton" href="{{post.url | relative_url }}" title="{{ post.title }}">Leer más...</a>
                 </article>
             {%endfor%}
         </section>
@@ -132,8 +132,8 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
                     <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
-                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
-                    <a class="boton" href="{{post.url | relative_url }}">Leer más...</a>
+                    <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}" title="{{ category }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
+                    <a class="boton" href="{{post.url | relative_url }}" title="{{ post.title }}">Leer más...</a>
                 </article>
             {%endfor%}
         </section>

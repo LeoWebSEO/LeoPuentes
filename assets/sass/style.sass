@@ -116,11 +116,11 @@ input
 @keyframes text-fill  
     100%
         width: 100%
-        
+
 .presentacion
     display: grid
     justify-items: center
-    h2
+    h1
         font-size: 60px
         margin-bottom: 20px
     section
@@ -185,6 +185,10 @@ span
     h3
         text-align: center
         margin: 10px 5px
+        a
+            color: #fff
+        a:hover
+            color: $link-hover
     p
         margin: 10px 7px
     span
@@ -192,6 +196,7 @@ span
             padding: 2px 10px
             border-radius: 5px
             background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+            color: #fff
 
 .grilla-develop
     display: grid
@@ -199,7 +204,8 @@ span
     article
         border: 1px solid $recuadro
         display: grid
-    article:hover   
+    article:hover
+        border: 1px solid $link-hover-menu   
         transform: scale(1.05)
         transition: all 0.3s ease
     img
@@ -214,6 +220,8 @@ span
         background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
         border-radius: 5px
         padding: 3px 0px
+        a
+            color: #fff
     h3
         margin: 10px 5px
         font-size: 16px
@@ -241,7 +249,8 @@ span
     article
         border: 1px solid $recuadro
         padding: 14px
-    article:hover   
+    article:hover
+        border: 1px solid $link-hover-menu   
         transform: scale(1.05)
         transition: all 0.3s ease
     img
@@ -395,6 +404,12 @@ blockquote
         text-align: center
     h3
         font-size: 30px
+    h1
+        font-size: 60px
+        background: -webkit-linear-gradient(45deg, #841cb9, #e73493)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
    
 .encabe-contact
     margin: 40px
