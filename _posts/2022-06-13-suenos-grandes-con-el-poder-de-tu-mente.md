@@ -3,7 +3,7 @@ layout: post
 categories:
 - Motivacion
 - Crecimiento-personal
-title: Sueños grandes con el poder
+title: Sueños grandes con el poder de tu mente
 description: La imaginación alimenta sueños, se tiene que dejar que los llene hasta
   el infinito. Los sueños grandes traen recompensas grandes e implican retos mayores
 keywords: sueños grandes, no dejes que tu mente te domine, mente grande, no leo mentes,
