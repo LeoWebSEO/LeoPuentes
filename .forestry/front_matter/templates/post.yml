@@ -42,6 +42,5 @@ fields:
     use_select: false
     min: 2
     max: 4
-    
 pages:
 - _posts/2022-09-21-estructura-basica-de-una-pagina-web-en-html5.md
