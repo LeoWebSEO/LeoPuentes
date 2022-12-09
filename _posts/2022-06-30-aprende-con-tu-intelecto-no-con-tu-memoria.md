@@ -66,7 +66,7 @@ Al final, todo depende de qué y dónde obtengas conocimientos y habilidades. Po
 
 Y tú ¿Qué tipo de conocimiento posees? ¿Qué tipo de conocimiento deseas para tu vida? ¿Qué otros tipos de conocimiento conoces diferente a los nombrados en este post? ¿Refuerzas tus conocimientos? ¿Memorizas o Aprendes?
 
-Me gustaría saber tus respuestas. Si aún no logras comprender cómo alcanzar el éxito en cualquier área de tu vida, te invito a que le eches un vistazo al siguiente post: [**Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!**](https://www.leopuentes.me/constancia-el-inicio-de-una-consecuencia-llamada-tu-exito/ "Constancia, inicio del exito")
+Me gustaría saber tus respuestas. Si aún no logras comprender cómo alcanzar el éxito en cualquier área de tu vida, te invito a que le eches un vistazo al siguiente post: [**Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!**](crecimiento-personal/constancia-inicio-exito.html "Constancia, inicio del exito"){:target="_blank" rel="noopener noreferrer"}
 
 Te invito a que compartas y opines, para que cada día seamos más SERES MILLONARIOS.
 

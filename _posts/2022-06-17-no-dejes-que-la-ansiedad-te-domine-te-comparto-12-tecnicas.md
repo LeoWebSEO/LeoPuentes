@@ -223,7 +223,7 @@ Me gustaría saber que otras técnicas consideras importante o si estás de acue
 
 Estaré atento a tus comentarios.
 
-Si las anteriores técnicas te fueron útiles, estoy seguro que en el siguiente post llamado [**5 HÁBITOS PARA QUE TU ÉXITO SEA REAL**](https://www.leopuentes.me/5-habitos-para-que-tu-exito-sea-real/ "Hábitos para el éxito") va a ser útil para superar los obstáculos.
+Si las anteriores técnicas te fueron útiles, estoy seguro que en el siguiente post llamado [**5 HÁBITOS PARA QUE TU ÉXITO SEA REAL**](/crecimiento-personal/5-habitos-exito.html "Hábitos para el éxito"){:target="_blank" rel="noopener noreferrer"} va a ser útil para superar los obstáculos.
 
 Y por último te quiero pedir el favor de compartir el contenido, para poder ayudar a muchos más.
 

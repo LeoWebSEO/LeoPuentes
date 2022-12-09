@@ -18,7 +18,7 @@ permalink: "/educacion-financiera/principios-dinero-hombre-rico-babilonia.html"
 ---
 El dinero se ha convertido en muchas comunidades en un tabú, ya sean comunidades religiosas, políticas, económicas, sociales o culturales. Y como es lógico, las creencias negativas dificultan la riqueza y las creencias positivas facilitan la riqueza.
 
-En esta ocasión te hablaré sobre un libro que no sé por qué razón no estaba dentro de nuestro currículum de formación en las áreas de Economía o Contabilidad, este libro es sinceramente el principio, el manual de una verdadera educación financiera, [EL HOMBRE MÁS RICO DE BABILONIA por George S. Clason.](https://amzn.to/39y6B2E "Comprar libro el hombre mas rico de babilinia")
+En esta ocasión te hablaré sobre un libro que no sé por qué razón no estaba dentro de nuestro currículum de formación en las áreas de Economía o Contabilidad, este libro es sinceramente el principio, el manual de una verdadera educación financiera, [EL HOMBRE MÁS RICO DE BABILONIA por George S. Clason.](https://amzn.to/39y6B2E "Comprar libro el hombre mas rico de babilinia"){:target="_blank" rel="noopener noreferrer"}
 
 Este libro, o mejor dicho este manual de libertad financiera como lo llamamos en nuestra comunidad, nos presenta los principios más básicos y esenciales para adquirir un conocimiento mucho más amplio en el ámbito financiero y empezar realmente a formar bases sólidas hacia una libertad financiera exitosa. Como las bases son tan importantes, te voy a compartir los 7 principios fundamentales que nos comparte este libro milenario.
 

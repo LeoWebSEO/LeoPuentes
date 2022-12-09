@@ -20,11 +20,11 @@ Tus hábitos hacen que las intenciones de alcanzar el éxito se conviertan en re
 >
 > James Clear.
 
-Te recomiendo un libro fantástico de [James Clear](https://jamesclear.com/ "James Clear") y que me ha ayudado a encontrar y trabajar en hábitos efectivos. El libro esta en Idioma Inglés y Español, te dejo el link a continuación:
+Te recomiendo un libro fantástico de [James Clear](https://jamesclear.com/ "James Clear"){:target="_blank" rel="noopener noreferrer"} y que me ha ayudado a encontrar y trabajar en hábitos efectivos. El libro esta en Idioma Inglés y Español, te dejo el link a continuación:
 
-[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3Flwz4R "Atomic Habit")
+[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3Flwz4R "Atomic Habit"){:target="_blank" rel="noopener noreferrer"}
 
-[Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3LSXUhj "Habitos Atomicos")
+[Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3LSXUhj "Habitos Atomicos"){:target="_blank" rel="noopener noreferrer"}
 
 A menudo te encuentras con muchos propósitos para tu vida. Los cuales no tienes ni la menor idea de cómo llevarlos a cabo, ni mucho menos como iniciarlos. Entonces, empiezas a buscar información, empiezas a leer, investigar y nuevamente leer, investigar; sin lograr consolidar información precisa para emprender e iniciar las ideas.
 
@@ -32,7 +32,7 @@ Caes en la desesperación al no tener nada consolidado después de tantas horas 
 
 Creo fielmente que estos 5 hábitos, harán que tus ideas y lectura inicien en orden. Y lo más importante, estos hábitos te funcionarán en cualquier conocimiento que desees aprender: leer e investigar pero entrando a la acción.
 
-¡Recuerda!, la constancia y disciplina es el secreto para estos 5 hábitos. Te recomiendo una anterior entrada al respecto, espero te sea útil: [**CONSTANCIA, EL INICIO DE UNA CONSECUENCIA LLAMADA ¡TU ÉXITO!**](https://www.leopuentes.me/constancia-el-inicio-de-una-consecuencia-llamada-tu-exito/ "Lectura recomendada")
+¡Recuerda!, la constancia y disciplina es el secreto para estos 5 hábitos. Te recomiendo una anterior entrada al respecto, espero te sea útil: [**CONSTANCIA, EL INICIO DE UNA CONSECUENCIA LLAMADA ¡TU ÉXITO!**](/crecimiento-personal/constancia-inicio-exito.html "Lectura recomendada"){:target="_blank" rel="noopener noreferrer"}
 
 ## **1- Lee más de una vez el mismo libro:**
 
