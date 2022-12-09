@@ -1,14 +1,21 @@
 ---
 layout: post
-categories: [Motivacion, Crecimiento-personal]
-title: SUEÑOS GRANDES CON EL PODER DE TU MENTE
-description: La imaginación alimenta sueños, se tiene que dejar que los llene hasta el infinito. Los sueños grandes traen recompensas grandes e implican retos mayores
-keywords: sueños grandes, no dejes que tu mente te domine, mente grande, no leo mentes, relee un libro y veras que hasta lo mismo es diferente, psicologia oscura, mente brillante
+categories:
+- Motivacion
+- Crecimiento-personal
+title: Sueños grandes con el poder de tu mente
+description: La imaginación alimenta sueños, se tiene que dejar que los llene hasta
+  el infinito. Los sueños grandes traen recompensas grandes e implican retos mayores
+keywords: sueños grandes, no dejes que tu mente te domine, mente grande, no leo mentes,
+  relee un libro y veras que hasta lo mismo es diferente, psicologia oscura, mente
+  brillante
 author: Leonardo Puentes
 image: "/assets/images/poder-mente.webp"
-tags: [sticky]
+tags:
+- sticky
 slug: sueño-real-poder-mente
-permalink: /crecimiento-personal/poder-mente-suenos-reales.html
+permalink: "/crecimiento-personal/poder-mente-suenos-reales.html"
+
 ---
 Aprovechas a menudo el tiempo libre para liberar tu imaginación. La puedes dejar ir tan lejos como lo permitas, por lo tanto; si reprimes tu imaginación la puedes acondicionar para que se limite. En cambio, si decides aprovechar todo su potencial con el carácter apropiado y con el poder de tu mente verás que es ilimitada.
 

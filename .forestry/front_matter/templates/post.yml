@@ -42,7 +42,6 @@ fields:
     use_select: false
     min: 2
     max: 4
-    
 pages:
 - _posts/2022-06-04-constancia-el-inicio-de-una-consecuencia-llamada-tu-exito.md
 - _posts/2022-06-07-5-habitos-para-que-tu-exito-sea-real.md
