@@ -29,13 +29,13 @@ layout: default
 		<section class="sticky-top">
 			<h3>Comparte con ❤</h3>
 				<div class="a2a_kit a2a_kit_size_40 a2a_vertical_style">
-					<a class="a2a_button_whatsapp"></a>
-					<a class="a2a_button_facebook" href="{{ post.url | relative_url }}"></a>
-					<a class="a2a_button_twitter"></a>
-					<a class="a2a_button_telegram"></a>
-					<a class="a2a_button_google_gmail"></a>
-					<a class="a2a_button_facebook_messenger"></a>
-					<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+					<a class="a2a_button_whatsapp" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_button_facebook" href="{{ post.url | relative_url }}" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_button_twitter" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_button_telegram" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_button_google_gmail" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_button_facebook_messenger" rel="nofollow noopener noreferrer"></a>
+					<a class="a2a_dd" href="https://www.addtoany.com/share" rel="nofollow noopener noreferrer"></a>
 				</div>
 			<script async src="https://static.addtoany.com/menu/page.js"></script>
 		</section>		
@@ -56,9 +56,9 @@ layout: default
 	<section>
 	{% if page.previous.url %}
 	<div class="pre-post">
-		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}"><img src="{{page.previous.image | relative_url }}" alt="{{page.previous.title}}"></a> {% endif %}
+		{% if page.previous.image %}<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}" rel="noopener noreferrer"><img src="{{page.previous.image | relative_url }}" alt="{{page.previous.title}}"></a> {% endif %}
 		<p>
-			<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}"> {{page.previous.title}}</a><br><br>
+			<a href="{{ page.previous.url | relative_url }}" title="{{page.previous.title}}" rel="noopener noreferrer"> {{page.previous.title}}</a><br><br>
 			<span>{{ page.date | date: '%b %d, %Y' }}</span><br>
 		</p>
 	</div>
@@ -68,10 +68,10 @@ layout: default
 	{% if page.next.url %}
 	<div class="next-post">
 		<p>
-			<a href="{{ page.next.url | relative_url }}" title="{{page.next.title}}"> {{page.next.title}}</a><br/><br/>
+			<a href="{{ page.next.url | relative_url }}" title="{{page.next.title}}" rel="noopener noreferrer"> {{page.next.title}}</a><br/><br/>
 			<span>{{ page.date | date: '%b %d, %Y' }}</span><br/>
 		</p>
-		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}"><img src="{{page.next.image | relative_url }}" alt="{{page.next.title}}"></a> {% endif %}
+		{% if page.next.image %}<a href="{{ page.next.url | relative_url }}" title="{{page.next.title}}" rel="noopener noreferrer"><img src="{{page.next.image | relative_url }}" alt="{{page.next.title}}"></a> {% endif %}
 	</div>
 	{% endif %}
 	</section>
