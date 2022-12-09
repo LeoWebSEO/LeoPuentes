@@ -1,13 +1,18 @@
 ---
 layout: post
-categories: [Motivacion, Crecimiento-personal]
-title: 5 HÁBITOS PARA QUE TU ÉXITO SEA REAL
-description: En verdad existen las claves del éxito, son tan sencillas que se aplican constantemente en un éxito negativo o no prospero. Realiza acciones repetitivas
-keywords: habitos exitosos, habitos atomicos, leyes para el exito, que es el exito personal, indicadores del exito verdadero, verdadero exito
+categories:
+- Motivacion
+- Crecimiento-personal
+title: 5 Hábitos para que tu Éxito sea real
+description: En verdad existen las claves del éxito, son tan sencillas que se aplican
+  constantemente en un éxito negativo o no prospero. Realiza acciones repetitivas
+keywords: habitos exitosos, habitos atomicos, leyes para el exito, que es el exito
+  personal, indicadores del exito verdadero, verdadero exito
 author: Leonardo Puentes
 image: "/assets/images/habitos-exito-lectura.webp"
 slug: 5-habitos-exito-real
-permalink: /crecimiento-personal/5-habitos-exito.html
+permalink: "/crecimiento-personal/5-habitos-exito.html"
+
 ---
 Tus hábitos hacen que las intenciones de alcanzar el éxito se conviertan en realidad. Tus sueños no deben permanecer siempre en sueños de almohada. En este artículo te comparto 5 hábitos para que tu éxito sea real.
 
