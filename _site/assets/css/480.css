@@ -31,9 +31,10 @@ nav ul {
   grid-template-rows: repeat(2, auto); }
   .presentacion section {
     margin: 0px 30px 30px 30px; }
-    .presentacion section h2 {
-      font-size: 37px; }
 
+@media (max-width: 480px) {
+  .presentacion section h1 {
+    font-size: 34px; } }
 .social section {
   margin: 0px; }
 
