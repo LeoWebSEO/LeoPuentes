@@ -5,9 +5,70 @@
     <description>Desarrolla habilidades y conocimientos no solo en Programación. Crece como Persona y Edúcate Financieramente para una vida equilibrada.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>11 Jan 2023</pubDate>
-    <lastBuildDate>11 Jan 2023</lastBuildDate>
+    <pubDate>12 Jan 2023</pubDate>
+    <lastBuildDate>12 Jan 2023</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Optimización y Posicionamiento web con HTML5</title>
+        <description>&lt;p&gt;El espacio ganado por la tecnología móvil gana día a día más terrero. Y es que la tecnología móvil trae retos constantemente y más aún para las aplicaciones o sitios web.&lt;/p&gt;
+
+&lt;p&gt;Ya no basta con crear un sitio web funcional solamente para computadores de escritorio o laptop. Ahora, tenemos que programar y configurar los proyectos webs para diversas resoluciones de pantalla,  diferentes conexiones a Internet, distribución adecuada de la información, mejorar y optimizar la experiencia de usuario.&lt;/p&gt;
+
+&lt;p&gt;Todo lo anterior se hace para agradar a dos participantes importantes para la página web: el buscador y el usuario.&lt;/p&gt;
+
+&lt;h2 id=&quot;cómo-mejorar-el-seo-con-html5&quot;&gt;¿Cómo mejorar el seo con html5?&lt;/h2&gt;
+
+&lt;p&gt;A pesar de los avances tecnológicos, existe un lenguaje de maquetado que ha marchado a la par, resistiéndose a su olvido a tal punto de convertirse en un estándar para todo sitio web; estamos hablando del lenguaje de maquetado web HTML.&lt;/p&gt;
+
+&lt;p&gt;HTML ha implementado mejoras para lograr ajustarse de forma correcta a toda esta revolución de la Internet. Pero existe un pero, y es que las malas prácticas entre los desarrolladores o programadores han perdurado y siguen siendo usadas hasta en grandes proyectos.&lt;/p&gt;
+
+&lt;p&gt;Desaprovechando todo el potencial semántico con el cual está dotado esta última versión llamada HTML5.&lt;/p&gt;
+
+&lt;p&gt;Lo bueno de todo esto: se han creado nuevos puestos laborales y áreas a especializarse.&lt;/p&gt;
+
+&lt;p&gt;Lo malo: se ha inundado la web con miles de proyectos inservibles, creando temor en las personas que desean incursionar en su sitio web. Optando por prescindir de la creación de una página de aterrizaje para su idea o negocio.&lt;/p&gt;
+
+&lt;h2 id=&quot;qué-factores-html-claves-para-el-posicionamiento-online-seo-vas-a-encontrar&quot;&gt;¿Qué factores HTML claves para el posicionamiento online SEO vas a encontrar?&lt;/h2&gt;
+
+&lt;p&gt;Para romper estos mitos entre las personas del común y para mejorar el portafolio  de los programadores, se ha creado este contenido.&lt;/p&gt;
+
+&lt;p&gt;En este capítulo vamos a estudiar conceptos básicos para comprender el contenido y no perderse en el maravilloso mundo de la optimización web.&lt;/p&gt;
+
+&lt;p&gt;Temas como: Introducción a HTML5, etiquetas de primer nivel para HTML5 con su evolución y por supuesto las etiquetas de HTML5 creadas exclusivamente para mejorar el posicionamiento web. En resumen, como hacer SEO en html5.&lt;/p&gt;
+
+&lt;p&gt;Va ha ser un capítulo extenso pero muy completo, con la información necesaria para empezar todo el proceso desde lo más básico hasta lo más avanzado, así que empecemos.&lt;/p&gt;
+
+&lt;h3 id=&quot;tabla-de-contenido&quot;&gt;Tabla de contenido:&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Introducción HTML5&lt;/li&gt;
+  &lt;li&gt;Etiquetas de estructura o maquetado de html5&lt;/li&gt;
+  &lt;li&gt;Estructura y evolución de maquetado HTML4 a HTML5&lt;/li&gt;
+  &lt;li&gt;Estructura Básica de HTML5&lt;/li&gt;
+  &lt;li&gt;Etiquetas HTML5 para el SEO&lt;/li&gt;
+  &lt;li&gt;Herramientas webs para el análisis y mejoramiento SEO&lt;/li&gt;
+  &lt;li&gt;SEO en imágenes: Webp o jpg con formato progresivo&lt;/li&gt;
+  &lt;li&gt;Dejar de usar la DIVitis&lt;/li&gt;
+  &lt;li&gt;Carga de assets&lt;/li&gt;
+  &lt;li&gt;Marcado de datos estructurados Schema&lt;/li&gt;
+  &lt;li&gt;Archivos de optimización web&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;*&lt;em&gt;Los link del contenido se habilitaran progresivamente y están sujetos a cambios &lt;strong&gt;fecha de actualización 31/12/2022&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 31 Dec 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/semantica-seo-html5/optimizacion-web-posicionamiento-seo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/semantica-seo-html5/optimizacion-web-posicionamiento-seo.html</guid>
+        
+        
+        <category>Programacion</category>
+        
+        <category>html5</category>
+        
+        <category>semantica-seo-html5</category>
+        
+      </item>
     
       <item>
         <title>Estructura básica de una pagina web en HTML5</title>
