@@ -57,4 +57,4 @@ Va ha ser un capítulo extenso pero muy completo, con la información necesaria 
 10. Marcado de datos estructurados Schema
 11. Archivos de optimización web
 
-\*_Los link del contenido se habilitaran progresivamente y están sujetos a cambios **fecha de actualización 31/12/2022**_
+\*_Los link del contenido se habilitaran progresivamente y están sujetos a cambios **fecha de actualización 01/02/2023**_
