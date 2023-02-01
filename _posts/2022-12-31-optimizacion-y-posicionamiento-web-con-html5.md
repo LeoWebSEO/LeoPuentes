@@ -45,8 +45,8 @@ Va ha ser un capítulo extenso pero muy completo, con la información necesaria 
 
 ### Tabla de contenido:
 
- 1. Introducción HTML5
- 2. [Etiquetas de estructura o maquetado de html5](/semantica-seo-html5/estructura-basica-html5.html "Etiquetas para el maquetado en html5")
+ 1. [Introducción HTML5](/semantica-seo-html5/estructura-basica-html5.html "como iniciar en html5")
+ 2. Etiquetas de estructura o maquetado de html5
  3. Estructura y evolución de maquetado HTML4 a HTML5
  4. [Estructura Básica de HTML5](/semantica-seo-html5/estructura-basica-html5.html#estruc-semantic "estructura semantica de html5")
  5. Etiquetas HTML5 para el SEO
