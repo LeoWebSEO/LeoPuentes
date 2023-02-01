@@ -49,7 +49,7 @@ La programación debe de estar siempre centrada en dos personajes: El primero es
 
 No te preocupes si no logras comprender aún lo que trato de decirte, solo ten claro que programas para estos dos actores.
 
-## [**ESTRUCTURA SEMÁNTICA HTML5**]{#estruc-semantic}
+## [**ESTRUCTURA SEMÁNTICA HTML5**](){:id="estruc-semantic"}
 
 Resumiendo lo de los videos anteriores, echémosle un último vistazo a la estructura básica de un documento HTML. Deseo que lo observes desde un punto más claro y evidente.
 
