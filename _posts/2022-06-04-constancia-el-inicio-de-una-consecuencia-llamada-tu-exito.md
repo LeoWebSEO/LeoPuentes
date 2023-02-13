@@ -1,6 +1,8 @@
 ---
 layout: post
-categories: [Motivacion, Exito]
+categories:
+- Motivacion
+- Exito
 title: Constancia, el inicio de una consecuencia llamada ¡Tú Éxito!
 description: Qué es el éxito? Lastimosamente se ha utilizado para vender más y lucrarsen del consumismo, desenfocando nuestros propósitos, sueños y pasiones. El éxito
 keywords: la constancia hace el exito, que es la constancia, el exito es constancia, disciplina y constancia, despertar disciplina
