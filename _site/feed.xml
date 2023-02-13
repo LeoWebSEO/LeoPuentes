@@ -10,6 +10,162 @@
     <generator>Jekyll v4.2.2</generator>
     
       <item>
+        <title>ETIQUETAS DE ESTRUCTURA O MAQUETADO DE HTML5</title>
+        <description>&lt;p&gt;HTML5 ha agregado una serie de etiquetas destinadas a facilitar la estructura (maquetado) del documento. Se han incorporado elementos nuevos, ofreciendo una mejor dotación a la semántica (a la forma de escribir y leer el código) de los documentos html5.&lt;/p&gt;
+
+&lt;p&gt;Toda esta estructura implementa un orden más claro para posicionar la información o el contenido. En html4, la estructura de una web estaba gobernada por los bloques &lt;strong&gt;&amp;lt;div&amp;gt;&amp;lt;/div&amp;gt;&lt;/strong&gt;, donde toda la semántica se creaba a base de elementos o mejor dicho clases CSS. Todo ese proceso realizado por css, toda esa estructuración de la semántica era necesaria para poder tener elementos específicos dentro del &lt;strong&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;La semántica de HTML5 se refiere a la estructura y significado de los elementos que componen una página web. Es importante comprender y entender que HTML5 no solo se trata de agregar estilos y diseño a una página web, sino también de proporcionar información sobre su contenido y estructura.&lt;/p&gt;
+
+&lt;p&gt;Como lo dije anteriormente, en lugar de usar una etiqueta genérica como “div” para definir un encabezado, se puede usar la etiqueta “header” para indicar claramente que se trata de un encabezado. De esta manera, los navegadores, motores de búsqueda y otros sistemas pueden entender mejor la estructura de la página y presentarla de manera más accesible.&lt;/p&gt;
+
+&lt;p&gt;Además, HTML5 introduce nuevas etiquetas específicas para elementos comunes en una página web, como “nav” para un menú de navegación, “main” para el contenido principal de la página, “article” para una sección autónoma de contenido, entre otros. Estas etiquetas ayudan a los desarrolladores a describir con mayor claridad el contenido y estructura de una página web.&lt;/p&gt;
+
+&lt;p&gt;Así es como se da el paso a la mejor actualización que ha sufrido HTML. En esta quinta versión encontramos elementos como header, nav, section, article, footer, aside, main y muchas otras más.&lt;/p&gt;
+
+&lt;h2 id=&quot;etiquetas-de-estructura-semántica-html5-de-primer-nivel&quot;&gt;Etiquetas de estructura semántica html5 de primer nivel:&lt;/h2&gt;
+
+&lt;p&gt;En realidad no se si eso exista :), pero la he decidido llamar así: semántica de html5 de primer nivel.&lt;/p&gt;
+
+&lt;p&gt;El nombre se lo he dado para poder separar entre la semántica que nos ayuda a estructurar una página web y la semántica que solo brinda funcionalidad visual; Por así decirlo.&lt;/p&gt;
+
+&lt;p&gt;Este tipo de etiquetas no pueden faltar por ningún motivo. ¿pero por que?, porque es la semántica que los buscadores van a leer para poder entender el sitio web, para luego poderlo indexar en sus búsquedas. Así que no lo olvides, no puedes dejar estas etiquetas fuera de tu proyecto html5.&lt;/p&gt;
+
+&lt;p&gt;En total son 7 etiquetas de estructura de primer nivel, todas van dentro de la etiqueta &lt;strong&gt;&amp;lt;body&amp;gt;&amp;lt;/body&amp;gt;&lt;/strong&gt; porque son las que sirven para definir el esquema principal del documento.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;HEADER (Encabezado):&lt;/strong&gt; Creada para incluir información destinada a ayudar en la navegación. Se utiliza para el encabezado general del sitio y también tiene utilidad dentro de la etiqueta “section” para indicar su título. Suele incluir el logo del proyecto o una etiqueta de encabezado H1 hasta H6 para el título y la etiqueta nav en un nivel más superior para el menú de navegación.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/1.webp&quot; alt=&quot;el encabezado de un sitio web&quot; title=&quot;donde se programa un header&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;NAV:&lt;/strong&gt; Esta etiqueta la utilizaremos para incluir el menú de navegación. Normalmente va dentro de un header, pero también puede incluirse como menú lateral en una etiqueta section o como menú de pie de página en el footer.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/2.webp&quot; alt=&quot;donde programo la etiqueta nav&quot; title=&quot;como usar la etiqueta nav&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;MAIN:&lt;/strong&gt; Su funcionalidad es portar el contenido de la página, dentro de ella va el contenido del blog o sitio web. Mejor dicho, contiene etiquetas que están llenas de textos, videos e imágenes (etiquetas de segundo nivel), como también: section y article (etiquetas de primer nivel).&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/3.webp&quot; alt=&quot;que contiene la etiqueta main&quot; title=&quot;donde programo la etiqueta main&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;SECTION:&lt;/strong&gt; Esta etiqueta sirve para agrupar elementos relacionados entre sí de forma temática. Los section creados a nivel del body serán aquellos cuyo contenido den significado a la página, o sea, formen el contenido visto por el usuario.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/4.webp&quot; alt=&quot;que contiene la etiqueta section&quot; title=&quot;donde programo la etiqueta section&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ARTICLE:&lt;/strong&gt; Esta etiqueta es «la última etiqueta de primer nivel con significado estructural». Habitualmente se utiliza dentro de un section para separar las unidades de contenido. Al ser la última en jerarquía no puede contener ninguna de las etiquetas anteriormente listadas. Solo puede contener etiquetas de menor nivel, mas abajo te listo las más comunes.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/6.webp&quot; alt=&quot;como programo la etiqueta article&quot; title=&quot;como programar la etiqueta article&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;ASIDE:&lt;/strong&gt; Su uso idóneo es para agrupar el contenido a visualizar en la página, pero que no forma parte del contenido principal de la página. Osea no aporta valor ni al buscador y al usuario. Normalmente son utilizadas en las barras laterales del sitio web.&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/6-1.webp&quot; alt=&quot;que contiene la etiqueta html5 aside&quot; title=&quot;como programar la etiqueta aside&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;FOOTER (Pie de página):&lt;/strong&gt; Destinada a incluir la información sobre (autoría, propiedad, enlaces, términos y condiciones, redes sociales, etc…)&lt;/p&gt;
+
+    &lt;p&gt;&lt;img src=&quot;/assets/images/7.webp&quot; alt=&quot;que contiene la etiqueta footer&quot; title=&quot;como programar la etiqueta footer&quot; /&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Esta es la estructura base, por así decirlo. Lo importante aquí es que deseo que visualices la estructura interna de un sitio web y sobre todo las jerarquías de las etiquetas, ya que es erróneo hacer uso de una etiqueta &amp;lt;aside&amp;gt;&amp;lt;/aside&amp;gt; dentro de una etiqueta &amp;lt;article&amp;gt;&amp;lt;/article&amp;gt;.&lt;/p&gt;
+
+&lt;p&gt;Una herramienta muy buena que uso para detectar cualquier conflicto de etiquetas es el validador de W3: &lt;a href=&quot;detectac etiquetas con mal jerarquia&quot; title=&quot;el validador de errores web&quot;&gt;https://validator.w3.org/nu/&lt;/a&gt;. Esta herramienta es ideal tanto para verificar proyectos propios como de terceros y por supuesto te ayudará a mejorar la estructura semántica de la web, mejorando el posicionamiento en los buscadores.&lt;/p&gt;
+
+&lt;p&gt;La estructura final de forma gráfica con su respectiva semántica html5 seria así:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/8.webp&quot; alt=&quot;maqueta completa de web en html5&quot; title=&quot;cual es la estructura completa de un sitio web&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y en código seria lo siguiente:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
+&amp;lt;html lang=&quot;en&quot;&amp;gt;
+&amp;lt;head&amp;gt;
+  &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+  &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt;
+  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+  &amp;lt;title&amp;gt;Estructura Semantica HTML5&amp;lt;/title&amp;gt;
+&amp;lt;/head&amp;gt;
+&amp;lt;body&amp;gt;
+  &amp;lt;header&amp;gt;
+    &amp;lt;h1&amp;gt;Titulo del Proyecto&amp;lt;/h1&amp;gt;
+    &amp;lt;nav&amp;gt;&amp;lt;!-- menu de navegacion --&amp;gt;&amp;lt;/nav&amp;gt;
+  &amp;lt;/header&amp;gt;
+
+  &amp;lt;main&amp;gt;
+    &amp;lt;section&amp;gt;
+      &amp;lt;header&amp;gt;&amp;lt;!-- etiqueta de encabezado--&amp;gt;&amp;lt;/header&amp;gt;
+      &amp;lt;article&amp;gt;&amp;lt;!-- etiquetas como parrafo --&amp;gt;&amp;lt;/article&amp;gt;
+    &amp;lt;/section&amp;gt;
+  &amp;lt;/main&amp;gt;
+
+  &amp;lt;aside&amp;gt;
+    &amp;lt;header&amp;gt;&amp;lt;!-- Titulo de la barra lateral --&amp;gt;&amp;lt;/header&amp;gt;
+    &amp;lt;nav&amp;gt;&amp;lt;!-- si se implementa un menu lateral --&amp;gt;&amp;lt;/nav&amp;gt;
+  &amp;lt;/aside&amp;gt;
+  
+  &amp;lt;footer&amp;gt;&amp;lt;!-- Todo el contenido en pie de pagina --&amp;gt;&amp;lt;/footer&amp;gt;
+&amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;etiquetas-de-estructura-semántica-html5-de-segundo-nivel&quot;&gt;Etiquetas de estructura semántica html5 de Segundo Nivel:&lt;/h2&gt;
+
+&lt;p&gt;Como te comente, no sé si existe la clasificación por niveles de las etiquetas de html5. Lo he creado así para que sea más comprensible y fácil de implementar.&lt;/p&gt;
+
+&lt;p&gt;Estas etiquetas de segundo nivel se caracterizan por darle estructura visual al usuario o a la personas que consumen la información del sitio. Me explico, las personas al mirar un sitio web desde su navegador no van a poder mirar ningún tipo de código, pero sí podrán mirar los estilos, títulos, párrafos, textos en negrilla y cursiva, fuentes con tamaños grandes y pequeños, imágenes; en fin solo podrá ver información.&lt;/p&gt;
+
+&lt;p&gt;Esta información se logra mostrar, gracias a las etiquetas de menor nivel o de segundo nivel. Como la semántica de html5 se va actualizando, no existe un número fijo de estas etiquetas. En este sitio web: &lt;a href=&quot;w3 school con toda la semantica html5&quot; title=&quot;todas las etiquetas de html5&quot;&gt;https://www.w3schools.com/html/&lt;/a&gt; puedes leer e investigar todas las existentes y las que se van añadiendo.&lt;/p&gt;
+
+&lt;p&gt;Te voy a listar las más comunes, no es necesario conocerlas todas a la perfección. Ya sabes, siempre podrás ir al sitio web nombrado anteriormente y consultarlos. Empecemos!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;Las etiquetas de encabezado son las que nos permite dar un formato de título al texto, tiene 6 niveles y cada nivel tiene una etiqueta de apertura y una de cierre, así: &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;, &amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;, &amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;, &amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;, &amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;, &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;. “h1” siempre va a ser el contenedor del título principal de cualquier página web, “h2” tiene la función de darle formato a los subtítulos, “h3” se implementa más como un subtema del subtítulo y así sucesivamente.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;El párrafo es otra de las etiquetas más usadas, se identifica por las siguientes etiquetas &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; y también tiene apertura y cierre. En ella va todo el contenido explicativo e informativo, normalmente siempre dando respuesta a una etiqueta de encabezado.&lt;/li&gt;
+  &lt;li&gt;La etiqueta negrilla es muy usada también, pero tiene algo en particular. Su particular uso se da porque tiene dos variantes, las cuales son: &lt;b&gt;&lt;/b&gt; y &lt;strong&gt;&lt;/strong&gt;, ambas muestran el mismo resultado, pero la segunda va más centrada a resaltar el texto importante para los buscadores.&lt;/li&gt;
+  &lt;li&gt;Las imágenes por supuesto es otra de las etiquetas más usadas, pero esta es una etiqueta vacía, osea es una etiqueta que tiene apertura pero no tiene cierre, así: &amp;lt;img src=”url/img” alt=””&amp;gt;. De estas etiquetas hay muchas y es de vital importancia programarla de forma correcta para no afectar la estructura web.&lt;/li&gt;
+  &lt;li&gt;Los enlaces son fundamentales para la navegación de un sitio web y para crearlos se debe de usar la etiqueta &lt;a&gt;&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;En temas posteriores explicaré las etiquetas con mejor impacto SEO, donde explicaré cada una de ellas con su adecuado uso. Lo importante es que vayas aprendiendo etiquetas básicas e ir ascendiendo en el aprendizaje de más.&lt;/p&gt;
+
+&lt;p&gt;Dentro de ellas existe una jerarquía, me explico: no se puede agregar una etiqueta de encabezado dentro de un enlace, ejemplo:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=”#”&amp;gt;&amp;lt;h2&amp;gt; Mal implementado &amp;lt;/h2&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Aunque va a funcionar el link, está mal programado. La forma correcta es seria la siguiente:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;h2&amp;gt;&amp;lt;a href=”#”&amp;gt; Bien implementado &amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Esto lo explicaré más adelante, pero mientras puedes usar la herramienta de W3 para identificar este tipo de malas prácticas: &lt;a href=&quot;corregir errores en codigo web&quot; title=&quot;validaro de codigo html&quot;&gt;https://validator.w3.org/nu/.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;En resumen, la semántica de HTML5 es importante porque permite describir el contenido y estructura de una página web de manera clara y significativa, lo que mejora la accesibilidad, la eficiencia de los motores de búsqueda y la experiencia de usuario en general.&lt;/p&gt;
+
+&lt;p&gt;Nos vemos en la siguiente entrada, ¡Así que sígueme para aprender juntos!&lt;/p&gt;
+
+&lt;p&gt;No te olvides de compartir.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Feb 2023 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/semantica-seo-html5/estructura-basica-de-pagina-web-html5.html</link>
+        <guid isPermaLink="true">http://localhost:4000/semantica-seo-html5/estructura-basica-de-pagina-web-html5.html</guid>
+        
+        
+        <category>semantica-seo-html5</category>
+        
+        <category>html5</category>
+        
+        <category>Programacion</category>
+        
+      </item>
+    
+      <item>
         <title>Optimización y Posicionamiento web con HTML5</title>
         <description>&lt;p&gt;El espacio ganado por la tecnología móvil gana día a día más terrero. Y es que la tecnología móvil trae retos constantemente y más aún para las aplicaciones o sitios web.&lt;/p&gt;
 
@@ -42,10 +198,10 @@
 &lt;h3 id=&quot;tabla-de-contenido&quot;&gt;Tabla de contenido:&lt;/h3&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Introducción HTML5&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/semantica-seo-html5/estructura-basica-html5.html&quot; title=&quot;como iniciar en html5&quot;&gt;Introducción HTML5&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Etiquetas de estructura o maquetado de html5&lt;/li&gt;
   &lt;li&gt;Estructura y evolución de maquetado HTML4 a HTML5&lt;/li&gt;
-  &lt;li&gt;Estructura Básica de HTML5&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;/semantica-seo-html5/estructura-basica-html5.html#estruc-semantic&quot; title=&quot;estructura semantica de html5&quot;&gt;Estructura Básica de HTML5&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Etiquetas HTML5 para el SEO&lt;/li&gt;
   &lt;li&gt;Herramientas webs para el análisis y mejoramiento SEO&lt;/li&gt;
   &lt;li&gt;SEO en imágenes: Webp o jpg con formato progresivo&lt;/li&gt;
@@ -55,7 +211,7 @@
   &lt;li&gt;Archivos de optimización web&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;*&lt;em&gt;Los link del contenido se habilitaran progresivamente y están sujetos a cambios &lt;strong&gt;fecha de actualización 31/12/2022&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;*&lt;em&gt;Los link del contenido se habilitaran progresivamente y están sujetos a cambios &lt;strong&gt;fecha de actualización 01/02/2023&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Sat, 31 Dec 2022 00:00:00 -0500</pubDate>
         <link>http://localhost:4000/semantica-seo-html5/optimizacion-web-posicionamiento-seo.html</link>
@@ -108,9 +264,9 @@
 
 &lt;p&gt;No te preocupes si no logras comprender aún lo que trato de decirte, solo ten claro que programas para estos dos actores.&lt;/p&gt;
 
-&lt;h2 id=&quot;estructura-semántica-html5&quot;&gt;&lt;strong&gt;ESTRUCTURA SEMÁNTICA HTML5&lt;/strong&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;estructura-semántica-html5&quot;&gt;&lt;a href=&quot;&quot; id=&quot;estruc-semantic&quot;&gt;&lt;strong&gt;ESTRUCTURA SEMÁNTICA HTML5&lt;/strong&gt;&lt;/a&gt;&lt;/h2&gt;
 
-&lt;p&gt;Resumiendo lo de los videos anteriores, echémosle un último vistazo a la estructura básica de un documento HTML. Deseo que lo observes desde un punto más claro y evidente.&lt;/p&gt;
+&lt;p&gt;Resumiendo lo anterior, echémosle un último vistazo a la estructura básica de un documento HTML. Deseo que lo observes desde un punto más claro y evidente.&lt;/p&gt;
 
 &lt;p&gt;Toda etiqueta principal tiene una apertura y un cierre, existen algunas excepciones las cuales las vamos a estudiar más adelante. En este caso nos referimos a las etiquetas superiores &lt;strong&gt;HTML, HEAD y BODY.&lt;/strong&gt;&lt;/p&gt;
 
