@@ -81,36 +81,36 @@
 
 &lt;p&gt;Y en código seria lo siguiente:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!DOCTYPE html&amp;gt;
-&amp;lt;html lang=&quot;en&quot;&amp;gt;
-&amp;lt;head&amp;gt;
-  &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
-  &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt;
-  &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
-  &amp;lt;title&amp;gt;Estructura Semantica HTML5&amp;lt;/title&amp;gt;
-&amp;lt;/head&amp;gt;
-&amp;lt;body&amp;gt;
-  &amp;lt;header&amp;gt;
-    &amp;lt;h1&amp;gt;Titulo del Proyecto&amp;lt;/h1&amp;gt;
-    &amp;lt;nav&amp;gt;&amp;lt;!-- menu de navegacion --&amp;gt;&amp;lt;/nav&amp;gt;
-  &amp;lt;/header&amp;gt;
-
-  &amp;lt;main&amp;gt;
-    &amp;lt;section&amp;gt;
-      &amp;lt;header&amp;gt;&amp;lt;!-- etiqueta de encabezado--&amp;gt;&amp;lt;/header&amp;gt;
-      &amp;lt;article&amp;gt;&amp;lt;!-- etiquetas como parrafo --&amp;gt;&amp;lt;/article&amp;gt;
-    &amp;lt;/section&amp;gt;
-  &amp;lt;/main&amp;gt;
-
-  &amp;lt;aside&amp;gt;
-    &amp;lt;header&amp;gt;&amp;lt;!-- Titulo de la barra lateral --&amp;gt;&amp;lt;/header&amp;gt;
-    &amp;lt;nav&amp;gt;&amp;lt;!-- si se implementa un menu lateral --&amp;gt;&amp;lt;/nav&amp;gt;
-  &amp;lt;/aside&amp;gt;
-  
-  &amp;lt;footer&amp;gt;&amp;lt;!-- Todo el contenido en pie de pagina --&amp;gt;&amp;lt;/footer&amp;gt;
-&amp;lt;/body&amp;gt;
-&amp;lt;/html&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;
+  &amp;lt;html lang=&quot;en&quot;&amp;gt;
+  &amp;lt;head&amp;gt;
+    &amp;lt;meta charset=&quot;UTF-8&quot;&amp;gt;
+    &amp;lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&amp;gt;
+    &amp;lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&amp;gt;
+    &amp;lt;title&amp;gt;Estructura Semantica HTML5&amp;lt;/title&amp;gt;
+  &amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;header&amp;gt;
+      &amp;lt;h1&amp;gt;Titulo del Proyecto&amp;lt;/h1&amp;gt;
+      &amp;lt;nav&amp;gt;&amp;lt;!-- menu de navegacion --&amp;gt;&amp;lt;/nav&amp;gt;
+    &amp;lt;/header&amp;gt;
+    
+    &amp;lt;main&amp;gt;
+      &amp;lt;section&amp;gt;
+        &amp;lt;header&amp;gt;&amp;lt;!-- etiqueta de encabezado--&amp;gt;&amp;lt;/header&amp;gt;
+        &amp;lt;article&amp;gt;&amp;lt;!-- etiquetas como parrafo --&amp;gt;&amp;lt;/article&amp;gt;
+      &amp;lt;/section&amp;gt;
+    &amp;lt;/main&amp;gt;
+    
+    &amp;lt;aside&amp;gt;
+      &amp;lt;header&amp;gt;&amp;lt;!-- Titulo de la barra lateral --&amp;gt;&amp;lt;/header&amp;gt;
+      &amp;lt;nav&amp;gt;&amp;lt;!-- si se implementa un menu lateral --&amp;gt;&amp;lt;/nav&amp;gt;
+    &amp;lt;/aside&amp;gt;
+      
+    &amp;lt;footer&amp;gt;&amp;lt;!-- Todo el contenido en pie de pagina --&amp;gt;&amp;lt;/footer&amp;gt;
+  &amp;lt;/body&amp;gt;
+  &amp;lt;/html&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h2 id=&quot;etiquetas-de-estructura-semántica-html5-de-segundo-nivel&quot;&gt;Etiquetas de estructura semántica html5 de Segundo Nivel:&lt;/h2&gt;
 
@@ -123,9 +123,7 @@
 &lt;p&gt;Te voy a listar las más comunes, no es necesario conocerlas todas a la perfección. Ya sabes, siempre podrás ir al sitio web nombrado anteriormente y consultarlos. Empecemos!&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;Las etiquetas de encabezado son las que nos permite dar un formato de título al texto, tiene 6 niveles y cada nivel tiene una etiqueta de apertura y una de cierre, así: &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;, &amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;, &amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;, &amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;, &amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;, &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;. “h1” siempre va a ser el contenedor del título principal de cualquier página web, “h2” tiene la función de darle formato a los subtítulos, “h3” se implementa más como un subtema del subtítulo y así sucesivamente.&lt;/p&gt;
-  &lt;/li&gt;
+  &lt;li&gt;Las etiquetas de encabezado son las que nos permite dar un formato de título al texto, tiene 6 niveles y cada nivel tiene una etiqueta de apertura y una de cierre, así: &amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;, &amp;lt;h2&amp;gt;&amp;lt;/h2&amp;gt;, &amp;lt;h3&amp;gt;&amp;lt;/h3&amp;gt;, &amp;lt;h4&amp;gt;&amp;lt;/h4&amp;gt;, &amp;lt;h5&amp;gt;&amp;lt;/h5&amp;gt;, &amp;lt;h6&amp;gt;&amp;lt;/h6&amp;gt;. “h1” siempre va a ser el contenedor del título principal de cualquier página web, “h2” tiene la función de darle formato a los subtítulos, “h3” se implementa más como un subtema del subtítulo y así sucesivamente.&lt;/li&gt;
   &lt;li&gt;El párrafo es otra de las etiquetas más usadas, se identifica por las siguientes etiquetas &amp;lt;p&amp;gt;&amp;lt;/p&amp;gt; y también tiene apertura y cierre. En ella va todo el contenido explicativo e informativo, normalmente siempre dando respuesta a una etiqueta de encabezado.&lt;/li&gt;
   &lt;li&gt;La etiqueta negrilla es muy usada también, pero tiene algo en particular. Su particular uso se da porque tiene dos variantes, las cuales son: &lt;b&gt;&lt;/b&gt; y &lt;strong&gt;&lt;/strong&gt;, ambas muestran el mismo resultado, pero la segunda va más centrada a resaltar el texto importante para los buscadores.&lt;/li&gt;
   &lt;li&gt;Las imágenes por supuesto es otra de las etiquetas más usadas, pero esta es una etiqueta vacía, osea es una etiqueta que tiene apertura pero no tiene cierre, así: &amp;lt;img src=”url/img” alt=””&amp;gt;. De estas etiquetas hay muchas y es de vital importancia programarla de forma correcta para no afectar la estructura web.&lt;/li&gt;
@@ -136,13 +134,13 @@
 
 &lt;p&gt;Dentro de ellas existe una jerarquía, me explico: no se puede agregar una etiqueta de encabezado dentro de un enlace, ejemplo:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;a href=”#”&amp;gt;&amp;lt;h2&amp;gt; Mal implementado &amp;lt;/h2&amp;gt;&amp;lt;/a&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;  &amp;lt;a href=”#”&amp;gt;&amp;lt;h2&amp;gt; Mal implementado &amp;lt;/h2&amp;gt;&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Aunque va a funcionar el link, está mal programado. La forma correcta es seria la siguiente:&lt;/p&gt;
 
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;h2&amp;gt;&amp;lt;a href=”#”&amp;gt; Bien implementado &amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;pre&gt;&lt;code class=&quot;language-markup&quot;&gt;  &amp;lt;h2&amp;gt;&amp;lt;a href=”#”&amp;gt; Bien implementado &amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Esto lo explicaré más adelante, pero mientras puedes usar la herramienta de W3 para identificar este tipo de malas prácticas: &lt;a href=&quot;corregir errores en codigo web&quot; title=&quot;validaro de codigo html&quot;&gt;https://validator.w3.org/nu/.&lt;/a&gt;&lt;/p&gt;
 

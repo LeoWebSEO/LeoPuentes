@@ -5,7 +5,6 @@ _site/
 .jekyll-cache/
 feed.xml
 sitemap.xml
-_post
 
 # Bundler
 vendor/bundle

@@ -315,7 +315,7 @@ footer {
   .read img {
     display: block;
     margin: auto;
-    width: auto;
+    width: 100%;
     height: auto; }
   .read pre {
     margin-bottom: 15px; }

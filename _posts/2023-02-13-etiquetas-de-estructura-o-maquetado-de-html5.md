@@ -69,35 +69,37 @@ La estructura final de forma gráfica con su respectiva semántica html5 seria a
 
 Y en código seria lo siguiente:
 
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Estructura Semantica HTML5</title>
-    </head>
-    <body>
-      <header>
-        <h1>Titulo del Proyecto</h1>
-        <nav><!-- menu de navegacion --></nav>
-      </header>
+```markup
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura Semantica HTML5</title>
+  </head>
+  <body>
+    <header>
+      <h1>Titulo del Proyecto</h1>
+      <nav><!-- menu de navegacion --></nav>
+    </header>
     
-      <main>
-        <section>
-          <header><!-- etiqueta de encabezado--></header>
-          <article><!-- etiquetas como parrafo --></article>
-        </section>
-      </main>
+    <main>
+      <section>
+        <header><!-- etiqueta de encabezado--></header>
+        <article><!-- etiquetas como parrafo --></article>
+      </section>
+    </main>
     
-      <aside>
-        <header><!-- Titulo de la barra lateral --></header>
-        <nav><!-- si se implementa un menu lateral --></nav>
-      </aside>
+    <aside>
+      <header><!-- Titulo de la barra lateral --></header>
+      <nav><!-- si se implementa un menu lateral --></nav>
+    </aside>
       
-      <footer><!-- Todo el contenido en pie de pagina --></footer>
-    </body>
-    </html>
+    <footer><!-- Todo el contenido en pie de pagina --></footer>
+  </body>
+  </html>
+```
 
 ## Etiquetas de estructura semántica html5 de Segundo Nivel:
 
@@ -110,8 +112,6 @@ Esta información se logra mostrar, gracias a las etiquetas de menor nivel o de 
 Te voy a listar las más comunes, no es necesario conocerlas todas a la perfección. Ya sabes, siempre podrás ir al sitio web nombrado anteriormente y consultarlos. Empecemos!
 
 * Las etiquetas de encabezado son las que nos permite dar un formato de título al texto, tiene 6 niveles y cada nivel tiene una etiqueta de apertura y una de cierre, así: <h1></h1>, <h2></h2>, <h3></h3>, <h4></h4>, <h5></h5>, <h6></h6>. “h1” siempre va a ser el contenedor del título principal de cualquier página web, “h2” tiene la función de darle formato a los subtítulos, “h3” se implementa más como un subtema del subtítulo y así sucesivamente.
-
-
 * El párrafo es otra de las etiquetas más usadas, se identifica por las siguientes etiquetas <p></p> y también tiene apertura y cierre. En ella va todo el contenido explicativo e informativo, normalmente siempre dando respuesta a una etiqueta de encabezado.
 * La etiqueta negrilla es muy usada también, pero tiene algo en particular. Su particular uso se da porque tiene dos variantes, las cuales son: <b></b> y <strong></strong>, ambas muestran el mismo resultado, pero la segunda va más centrada a resaltar el texto importante para los buscadores.
 * Las imágenes por supuesto es otra de las etiquetas más usadas, pero esta es una etiqueta vacía, osea es una etiqueta que tiene apertura pero no tiene cierre, así: <img src=”url/img” alt=””>. De estas etiquetas hay muchas y es de vital importancia programarla de forma correcta para no afectar la estructura web.
@@ -121,11 +121,15 @@ En temas posteriores explicaré las etiquetas con mejor impacto SEO, donde expli
 
 Dentro de ellas existe una jerarquía, me explico: no se puede agregar una etiqueta de encabezado dentro de un enlace, ejemplo:
 
-    <a href=”#”><h2> Mal implementado </h2></a>
+```markup
+  <a href=”#”><h2> Mal implementado </h2></a>
+```
 
 Aunque va a funcionar el link, está mal programado. La forma correcta es seria la siguiente:
 
-    <h2><a href=”#”> Bien implementado </a></h2>
+```markup
+  <h2><a href=”#”> Bien implementado </a></h2>
+```
 
 Esto lo explicaré más adelante, pero mientras puedes usar la herramienta de W3 para identificar este tipo de malas prácticas: [https://validator.w3.org/nu/.](corregir errores en codigo web "validaro de codigo html")
 
