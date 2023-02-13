@@ -45,10 +45,10 @@ Va ha ser un capítulo extenso pero muy completo, con la información necesaria 
 
 ### Tabla de contenido:
 
- 1. Introducción HTML5
+ 1. [Introducción HTML5](/semantica-seo-html5/estructura-basica-html5.html "como iniciar en html5")
  2. Etiquetas de estructura o maquetado de html5
  3. Estructura y evolución de maquetado HTML4 a HTML5
- 4. Estructura Básica de HTML5
+ 4. [Estructura Básica de HTML5](/semantica-seo-html5/estructura-basica-html5.html#estruc-semantic "estructura semantica de html5")
  5. Etiquetas HTML5 para el SEO
  6. Herramientas webs para el análisis y mejoramiento SEO
  7. SEO en imágenes: Webp o jpg con formato progresivo
@@ -57,4 +57,4 @@ Va ha ser un capítulo extenso pero muy completo, con la información necesaria 
 10. Marcado de datos estructurados Schema
 11. Archivos de optimización web
 
-\*_Los link del contenido se habilitaran progresivamente y están sujetos a cambios **fecha de actualización 31/12/2022**_
+\*_Los link del contenido se habilitaran progresivamente y están sujetos a cambios **fecha de actualización 01/02/2023**_
