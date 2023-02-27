@@ -26,7 +26,7 @@ Esto no es culpa de la tecnología. Los avances tecnológicos están provocando 
 
 A mi me ocurre a diario, pero soy yo quien decide qué pensamientos siembro en mi mente, en mi estado de ánimo, en mis acciones.
 
-## _Invierte en tu mente, ella es la única que cambiará tu bolsillo. ANÓNIMO._
+> _Invierte en tu mente, ella es la única que cambiará tu bolsillo. ANÓNIMO._
 
 Se ha olvidado la importancia de los RETOS diarios y personales. ¡La sociedad ha olvidado retarse! Se debe de afrontar cada segundo, cada minuto, cada instante, nuevos desafíos. Asegúrate de tener siempre una mentalidad diferente a la que el sistema te ha acostumbrado.
 
@@ -38,7 +38,7 @@ Existen muchas formas de lograrlo, pero la más importante es preguntarse consta
 
 Te daré una lista de 18 preguntas distribuidas en dos fases. Estas preguntas fueron y aún son fundamentales para nuestro cambio de mentalidad y forma de actuar. Donde pasamos de un estado mental perezoso a una mentalidad más próspera y productiva.
 
-##### _Yo también estuve en modo zombie, modo manada._
+> Yo también estuve en modo zombie, modo manada.
 
 El ejercicio consiste en realizar un trabajo de reflexión sincero a las siguientes preguntas; auto-evaluación con la mayor sinceridad. Si no tienes una respuesta instantánea, sea por la circunstancia que sea, responde lo primero que se te venga a la cabeza.
 
@@ -74,7 +74,7 @@ El **NO SE QUE HACER CON MI VIDA, NO TENGO NADA,** no puede ser igualado a: falt
 
 La referencia irónica pero real en el cómo se ha estigmatizado la frase <<NO TENGO NADA>> con la riqueza; es que se ha olvidado lo más importante; Tú SER, propósitos, compromisos, disciplina, imaginación, pasiones, conexión con las acciones.
 
-##### _Si algo no te deja avanzar, suéltalo y avanza. ANÓNIMO._
+> _Si algo no te deja avanzar, suéltalo y avanza. ANÓNIMO._
 
 Todo aquello que te engancha y te mantiene en el mismo sitio sin dejarte avanzar o dejándote avanzar lenta y torpemente; ¡lo tienes que dejar! Situaciones donde solo existen rodeos, te van a llevar a una vida de zombi, en vez de dejarte avanzar. ¡Ve por tus sueños! eres la única persona que puede hacerlo por ti.
 
@@ -94,7 +94,7 @@ Ocupas espacio e incrementas el peso, cada día se hace imposible llegar al prop
 
 Más que desconectarte de la tecnología, deberías de desconectarte de la basura que abunda en el mundo: (chismes, novelas, consumismo, apariencias, televisión, relaciones tóxicas, etc.). Cada día es necesario que vuelvas a conectarte con tu SER. La conexión con tu SER, con TU GRAN YO es la conectividad esencial para tu vida próspera y abundante. No pierdas la contraseña del wi-fi de tu interior.
 
-##### _No te quedes donde te toca, quédate donde deseas estar. Y si te toca estar allí, asegúrate de agradecer y de no conformarte. LEONARDO PUENTES A._
+> _No te quedes donde te toca, quédate donde deseas estar. Y si te toca estar allí, asegúrate de agradecer y de no conformarte. LEONARDO PUENTES A._
 
 Dedica una parte de tu tiempo (de esas 24 horas que todos tenemos), a potenciar y entrenar tanto las nuevas como las antiguas habilidades. Aumenta tu productividad, olvida la idea de lo que venga. Agarra el timón y navega hacia el rumbo que deseas. No te conviertas en un espectador de tu vida, ni mucho menos en un administrador de la vida de otro.
 
