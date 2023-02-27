@@ -10,9 +10,8 @@ author: Leo Puentes
 image: "/assets/images/no-se-que-hacer-con-mi-vida.webp"
 slug: crecimiento-personal
 categories:
-- Educacion-Financiera
-- Crecimiento-personal
 - Motivacion
+- Crecimiento-personal
 
 ---
 **¡NO SE QUE HACER CON MI VIDA, NO TENGO NADA!** Me quedo en un silencioso Woooao… Cuando lo escucho de personas con toda la juventud para construir y realizar sus sueños, como en adultos que cuentan con la sabiduría pero la menosprecian, tirando toda la juventud en vano.
