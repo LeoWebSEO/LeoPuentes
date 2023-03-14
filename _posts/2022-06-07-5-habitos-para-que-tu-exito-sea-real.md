@@ -22,9 +22,9 @@ Los buenos hábitos son los que realmente hacen que las intenciones de alcanzar 
 
 Te recomiendo un libro fantástico de [James Clear](https://jamesclear.com/ "James Clear"){:target="_blank" rel="noopener noreferrer"} y que me ha ayudado a encontrar y trabajar en hábitos efectivos. El libro esta en Idioma Inglés y Español, te dejo el link a continuación:
 
-[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3Flwz4R "Atomic Habit"){:target="_blank" rel="noopener noreferrer"}
+[Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones](https://amzn.to/3mT8s8r "Atomic Habit"){:target="_blank" rel="noopener noreferrer"}
 
-[Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3LSXUhj "Habitos Atomicos"){:target="_blank" rel="noopener noreferrer"}
+[Hábitos atómicos: Cambios pequeños, resultados extraordinarios (Autoconocimiento)](https://amzn.to/3yGckMJ "Habitos Atomicos en Español"){:target="_blank" rel="noopener noreferrer"}
 
 Ahora si empecemos…
 
