@@ -10,7 +10,7 @@ keywords: habitos exitosos, habitos atomicos, leyes para el exito, que es el exi
   personal, indicadores del exito verdadero, verdadero exito
 author: Leonardo Puentes
 image: "/assets/images/habitos-exito-lectura.webp"
-slug: 5-habitos-
+slug: 5-habitos-lectura-realizar-exito
 permalink: "/crecimiento-personal/5-habitos-exito.html"
 
 ---
@@ -56,7 +56,7 @@ El cerebro gusta de lo físico, le gusta tener el control de lo que está leyend
 
 Este hábito hace que tu cerebro guarde más información si tomas notas a mano, no en dispositivos digitales. Entonces, lo que debes hacer es: si estás leyendo un libro físico o electrónico, subrayar de alguna forma lo importante, toma nota en libretas de bolsillo o donde te sea más cómodo para poder dar paso al siguiente hábito.
 
-Si decides definitivamente tomar notas en algún dispositivo, realizarlas tecleando todas las palabras, osea no copiar y pegar. Evita tomar notas con el autocompletado, no funcionará, no tendrá el mismo efecto que tomar nota a mano o tecleando. Este hábito hará una gran diferencia.
+Si decides definitivamente tomar notas en algún dispositivo, realizarlas tecleando todas las palabras, osea no copiar y pegar. Evita tomar notas con el auto-completado, no funcionará, no tendrá el mismo efecto que tomar nota a mano o tecleando. Este hábito hará una gran diferencia.
 
 ### **3- Relee las notas y lo subrayado:**
 
