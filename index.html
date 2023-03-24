@@ -23,13 +23,13 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
             </div>  
             <div>
                 <p>Redes Sociales Motivación
-                <br>@ElSerMillonario</p>
+                <br>@LeoPuentes.me</p>
             </div> 
             <div class="imgsocial">
                 <a href="https://odysee.com/@LeoPuentes:2" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/odysse.png" alt="odysee el ser millonario"></a>
-                <a href="https://www.youtube.com/c/ElSerMillonario" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/youtube.png" alt="youtube el ser millonario"></a>
-                <a href="https://www.tiktok.com/@elsermillonario" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/tik-tok.png" alt="tiktok el ser millonario"></a>
-                <a href="https://www.facebook.com/elsermillonarioo" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/facebook.png" alt="facebook el ser millonario"></a>
+                <a href="https://www.youtube.com/@Leo.Puentes" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/youtube.png" alt="youtube el ser millonario"></a>
+                <a href="https://www.tiktok.com/@leopuentes.me" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/tik-tok.png" alt="tiktok el ser millonario"></a>
+                <a href="https://www.facebook.com/leopuentes.me" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/facebook.png" alt="facebook el ser millonario"></a>
                 <a href="https://www.publish0x.com/@El-Ser-Millonario" target="_blank" rel="nofollow noopener noreferrer"><img src="/assets/images/social/publish0x.png" alt="publish0x el ser millonario"></a>
             </div>  
         </section>
@@ -87,7 +87,9 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
         <section class="grilla-develop">
             {% for post in site.categories.Programacion limit:10 %}
                 <article>
-                    <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    <a href="{{post.url | relative_url }}" title="{{ post.title }}">
+                        <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    </a>
                     <div class="categorie-date">
                         <span>
                             {% for category in list_post.categories %}
@@ -115,7 +117,9 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
             {% for post in site.categories.Motivacion limit:6 %}
                 <article>
                     <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
-                    <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    <a href="{{post.url | relative_url }}" title="{{ post.title }}">
+                        <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    </a>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
                     <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}" title="{{ category }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
@@ -129,7 +133,9 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
             {% for post in site.categories.Inversion limit:3 %}
                 <article>
                     <h3><a href="{{post.url | relative_url }}" title="{{post.title}}">{{post.title}}</a></h3>
-                    <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    <a href="{{post.url | relative_url }}" title="{{ post.title }}">
+                        <img src="{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    </a>
                     <small>{{ post.date | date: '%b %d, %Y' }}</small>
                     <p>{{ post.excerpt | strip_html | strip_newlines | truncate: 227 }}</p>
                     <p><span>En {% for category in post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase }}" title="{{ category }}">{{ category | replace:'-',' ' }}</a>  {% endfor %}</span></p>
