@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: "/crecimiento-personal/crear-realidad-soñada-poder-mente-subconsciente.html"
+permalink: "/crecimiento-personal/crear-realidad-deseada-poder-mente-subconsciente.html"
 title: Crea tu realidad soñada con el poder de tu mente subconsciente
 description: En ti habita el poder de co-crear, de desatar la energía creativa para
   convertir tu conversación interna en un proceso de creación.
