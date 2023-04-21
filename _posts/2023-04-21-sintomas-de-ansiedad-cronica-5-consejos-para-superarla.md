@@ -16,9 +16,7 @@ categories:
 - Mente
 
 ---
-¿Cómo se crea, cómo se trata?
-
-Tema interesante y muy preocupante a la vez. Anteriormente ya había creado un [podcast sobre 12 técnicas para ayudar a controlar la ansiedad](https://www.youtube.com/watch?v=8cN0XUWXs1U "12 tecnicas que me ayudan a superar la ansiedad"), pero en esta ocasión quiero hablarte de algo más destructivo, su evolución: la Ansiedad Crónica.
+¿Cómo se crea, cómo se trata? Tema interesante y muy preocupante a la vez. Anteriormente ya había creado un [podcast sobre 12 técnicas para ayudar a controlar la ansiedad](https://www.youtube.com/watch?v=8cN0XUWXs1U "12 tecnicas que me ayudan a superar la ansiedad"), pero en esta ocasión quiero hablarte de algo más destructivo, su evolución: la Ansiedad Crónica.
 
 Vamos a tratar dos términos, ansiedad y depresión. Que son:
 
