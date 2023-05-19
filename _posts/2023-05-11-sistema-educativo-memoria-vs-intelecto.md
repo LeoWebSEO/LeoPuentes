@@ -15,7 +15,7 @@ youtubeLink: "https://youtube.com/tu-video"
 facebookLink: "https://youtube.com/tu-video"
 odysseLink: "https://odysse.com/tu-audio"
 tiktokLink: "https://youtube.com/tu-video"
-googlePodcastLink: "https://googlepodcast.com/tu-audio"
+googlePodcastLink: "https://google.com/podcas"
 spotifyLink: "https://spotify.com/tu-audio"
 publish0xLink: "https://youtube.com/tu-video"
 ---
