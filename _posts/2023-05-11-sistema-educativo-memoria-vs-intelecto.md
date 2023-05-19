@@ -11,7 +11,13 @@ categories:
 - Motivacion
 - Crecimineto-Personal
 - Sistema-Educativo
-
+youtubeLink: "https://youtube.com/tu-video"
+facebookLink: "https://youtube.com/tu-video"
+odysseLink: "https://odysse.com/tu-audio"
+tiktokLink: "https://youtube.com/tu-video"
+googlePodcastLink: "https://googlepodcast.com/tu-audio"
+spotifyLink: "https://spotify.com/tu-audio"
+publish0xLink: "https://youtube.com/tu-video"
 ---
 Charlo a menudo con Maestros, Profesores, Docentes, Instructores; donde compartimos las falencias del sistema educativo moderno, las limitaciones que ellos mismos presentan al momento de enseñar y formar a sus alumnos. Como sus respectivas mejoras, no todo es malo.
 
@@ -21,7 +27,7 @@ Aquí nace mi disgusto por todo este proceso que prácticamente estamos obligado
 
 Se está desconociendo, o mejor dicho se está dejando a un lado las diferentes cualidades que posee el intelecto, usando solo la memoria. Comprender, analizar, entender, imaginar, la afectividad y por supuesto memorizar hacen parte de las cualidades del intelecto; por nombrar algunas.
 
-## Fallas en PROCESO de Enseñanza y Aprendizaje
+## Fallas en el PROCESO de Enseñanza y Aprendizaje
 
 En este cambio de vida que te comente al principio, he comprendido que el proceso de enseñanza y aprendizaje, tiene dificultad para ayudar a definir el objetivo, la utilidad y los resultados a obtener de lo aprendido. Falta enseñar a discernir la información.
 

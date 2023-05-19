@@ -485,4 +485,24 @@ blockquote {
 pre[class*="language-"] {
   background: #000 !important; }
 
+.section-share-img {
+  display: grid;
+  grid-column: 2/6;
+  margin: 30px 0px 0px 0px; }
+  .section-share-img h5 {
+    margin-bottom: 10px; }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 20px;
+  align-items: center; }
+
+.grid-item {
+  text-align: center; }
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; }
+
 /*# sourceMappingURL=style.css.map */
