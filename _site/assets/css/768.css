@@ -81,4 +81,12 @@ footer {
   grid-column: 1/5;
   margin: 20px; }
 
+.section-share-img {
+  grid-column: 1/6; }
+  .section-share-img h5 {
+    font-size: 18px; }
+
+.image-grid {
+  grid-gap: 0; }
+
 /*# sourceMappingURL=768.css.map */

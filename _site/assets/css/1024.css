@@ -105,4 +105,7 @@ footer {
 .separador-interno {
   grid-column: 1/7; }
 
+.section-share-img {
+  grid-column: 2/6; }
+
 /*# sourceMappingURL=1024.css.map */
