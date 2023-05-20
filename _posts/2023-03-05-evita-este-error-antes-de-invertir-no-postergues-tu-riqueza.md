@@ -12,7 +12,13 @@ slug: educacion-financiera
 categories:
 - Inversion
 - Educacion-Financiera
-
+youtubeLink: " "
+facebookLink: " "
+odysseLink: " "
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 Este contenido está orientado a toda inversión que desees hacer, pero no te quiero mentir, lo he orientado más a la inversión en bolsa de valores o también llamado trading. Pero que eso no te limite a leer y compartir este post, ya que siempre trato de dar el máximo valor al contenido para que sea de ayuda a las personas. Y espero sea de ayuda para ti independientemente del sector que desees invertir.
 

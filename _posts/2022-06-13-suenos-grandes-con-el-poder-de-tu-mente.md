@@ -15,7 +15,13 @@ tags:
 - sticky
 slug: sueño-real-poder-mente
 permalink: "/crecimiento-personal/poder-mente-suenos-reales.html"
-
+youtubeLink: "https://youtu.be/2FZLU5twk3Y"
+facebookLink: "https://fb.watch/kENYyvh4Lw/"
+odysseLink: " "
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 Aprovechas a menudo el tiempo libre para liberar tu imaginación. La puedes dejar ir tan lejos como lo permitas, por lo tanto; si reprimes tu imaginación la puedes acondicionar para que se limite. En cambio, si decides aprovechar todo su potencial con el carácter apropiado y con el poder de tu mente verás que es ilimitada.
 

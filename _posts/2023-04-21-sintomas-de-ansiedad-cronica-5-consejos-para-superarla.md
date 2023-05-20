@@ -13,8 +13,13 @@ slug: crecimiento-personal
 categories:
 - Motivacion
 - Crecimineto-Personal
-- Mente
-
+youtubeLink: "https://youtu.be/fyrbjaZsEgI"
+facebookLink: "https://fb.watch/kEW5Qoj2bK/"
+odysseLink: "https://odysee.com/@LeoPuentes:2/podcast-ansiedad-cronica-como-se-trata:f"
+tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7224700405622574341?is_from_webapp=1&sender_device=pc&web_id=7098506045194257926"
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 ¿Cómo se crea, cómo se trata? Tema interesante y muy preocupante a la vez. Anteriormente ya había creado un [podcast sobre 12 técnicas para ayudar a controlar la ansiedad](https://www.youtube.com/watch?v=8cN0XUWXs1U "12 tecnicas que me ayudan a superar la ansiedad"), pero en esta ocasión quiero hablarte de algo más destructivo, su evolución: la Ansiedad Crónica.
 

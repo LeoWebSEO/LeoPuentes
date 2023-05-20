@@ -10,14 +10,13 @@ slug: crecimiento-personal
 categories:
 - Motivacion
 - Crecimineto-Personal
-- Sistema-Educativo
-youtubeLink: "https://youtube.com/tu-video"
-facebookLink: "https://youtube.com/tu-video"
-odysseLink: "https://odysse.com/tu-audio"
-tiktokLink: "https://youtube.com/tu-video"
-googlePodcastLink: "https://google.com/podcas"
-spotifyLink: "https://spotify.com/tu-audio"
-publish0xLink: "https://youtube.com/tu-video"
+youtubeLink: "https://youtu.be/Lw2XFWv8CaI"
+facebookLink: "https://fb.watch/kEVelD7KQG/"
+odysseLink: " "
+tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7232483091476974854?is_from_webapp=1&sender_device=pc&web_id=7098506045194257926"
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 Charlo a menudo con Maestros, Profesores, Docentes, Instructores; donde compartimos las falencias del sistema educativo moderno, las limitaciones que ellos mismos presentan al momento de enseñar y formar a sus alumnos. Como sus respectivas mejoras, no todo es malo.
 

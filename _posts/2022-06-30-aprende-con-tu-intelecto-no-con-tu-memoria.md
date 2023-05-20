@@ -12,6 +12,13 @@ author: Leonardo Puentes
 image: "/assets/images/conocimineto-intelecto-memoria.webp"
 slug: aprende-intelecto-no-memoria
 permalink: "/crecimiento-personal/aprender-intelecto-memoria.html"
+youtubeLink: "https://youtu.be/QTZNp58ocPA"
+facebookLink: "https://fb.watch/kEVw7nuiJe/"
+odysseLink: "https://odysee.com/@LeoPuentes:2/5-Habitos-lectura-mejorar-comprension-lectora:8"
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 
 ---
 El aprendizaje del verdadero conocimiento es una parte fundamental de la vida. Me atrevo a decir que es la más importante; más aún cuando se está en el proceso de formación. Por tal razón, es importante aprender haciendo uso de las diferentes cualidades del intelecto, no solo haciendo uso de la memoria.

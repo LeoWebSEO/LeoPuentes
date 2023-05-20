@@ -14,8 +14,13 @@ slug: Crecimiento-Personal
 categories:
 - Motivacion
 - Crecimiento-Personal
-- Mente
-
+youtubeLink: "https://youtu.be/2FZLU5twk3Y"
+facebookLink: "https://fb.watch/kEVWF29BAW/"
+odysseLink: "https://odysee.com/@LeoPuentes:2/poder-mente-subconsciente-materializar-sue%C3%B1os:2"
+tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7208634152625704198?is_from_webapp=1&sender_device=pc&web_id=7098506045194257926"
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 Es un tema delicado, porque choca con la FE creada por la diversidad de religión. Esto hace que sea un tema muy interesante y te lo quiero presentar sin ninguna intención de quebrar tus creencias.
 

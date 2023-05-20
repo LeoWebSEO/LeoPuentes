@@ -10,6 +10,13 @@ author: Leonardo Puentes
 image: "/assets/images/consecuencia-llamada-exito.webp"
 slug: contancia-inicio-consecuencia-exito
 permalink: /crecimiento-personal/constancia-inicio-exito.html
+youtubeLink: "https://youtu.be/kwqhWdKXuRw"
+facebookLink: "https://fb.watch/kENYyvh4Lw/"
+odysseLink: " "
+tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/6969967325273509126?is_from_webapp=1&sender_device=pc&web_id=7098506045194257926"
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 Éxito, una de las palabras más nombradas en el mundo del desarrollo personal y del emprendimiento. Lo sueñas y anhelas; ¡Éxito! Sientes esa sonrisa con plenitud interna al escucharla y pronunciarla. La constancia es el inicio de una consecuencia llamada ¡TU ÉXITO!
 

@@ -12,6 +12,13 @@ author: Leonardo Puentes
 image: "/assets/images/habitos-exito-lectura.webp"
 slug: 5-habitos-lectura-realizar-exito
 permalink: "/crecimiento-personal/5-habitos-exito.html"
+youtubeLink: "https://youtu.be/46wnUNGFbUw"
+facebookLink: "https://fb.watch/kEO4FIeKGp/"
+odysseLink: "https://odysee.com/@LeoPuentes:2/5-Habitos-lectura-mejorar-comprension-lectora:8"
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 
 ---
 Los buenos hábitos son los que realmente hacen que las intenciones de alcanzar todo lo soñado, se conviertan en realidad. Tus sueños no deben permanecer siempre en sueños de almohada, y menos cuando has decidido trabajar en tu crecimiento personal. En este artículo, te comparto 5 hábitos de lectura que yo practico; hábitos que ayudan a mejorar la comprensión de lectura, para poder materializar ideas, alcanzando el éxito personal.

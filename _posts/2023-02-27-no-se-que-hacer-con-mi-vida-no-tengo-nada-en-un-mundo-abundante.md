@@ -12,7 +12,13 @@ slug: crecimiento-personal
 categories:
 - Motivacion
 - Crecimiento-personal
-
+youtubeLink: "https://youtu.be/7pe1dIZLL1I"
+facebookLink: "https://fb.watch/kEVI4tyvWh/"
+odysseLink: " "
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
 ---
 **¡NO SE QUE HACER CON MI VIDA, NO TENGO NADA!** Me quedo en un silencioso Woooao… Cuando lo escucho de personas con toda la juventud para construir y realizar sus sueños, como en adultos que cuentan con la sabiduría pero la menosprecian, tirando toda la juventud en vano.
 

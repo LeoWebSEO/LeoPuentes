@@ -7,6 +7,14 @@ keywords: deshacer la ansiedad, como quitar la ansiedad, que es ansiedad, tecnic
 author: Leonardo Puentes
 image: "/assets/images/superar-ansiedad.webp"
 permalink: /crecimiento-personal/dejar-superar-ansiedad.html
+youtubeLink: "https://youtu.be/8cN0XUWXs1U"
+facebookLink: "https://fb.watch/kENPi9N-X1/"
+odysseLink: "https://odysee.com/@LeoPuentes:2/superar-ansiedad-sin-medicamentos:0"
+tiktokLink: " "
+googlePodcastLink: " "
+spotifyLink: " "
+publish0xLink: " "
+
 ---
 Con mucha frecuencia me relaciono con personas que sufren de ansiedad; resultado de diferentes situaciones vividas. Razón por la cual, quiero compartirte esta lectura con 12 técnicas para combatir la ansiedad y no permitir que te domine.
 
