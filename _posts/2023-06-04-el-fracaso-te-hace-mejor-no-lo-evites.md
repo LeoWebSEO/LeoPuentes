@@ -16,7 +16,7 @@ odysseLink: " "
 tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7241372826702204165?is_from_webapp=1&sender_device=pc&web_id=7208258509364184582"
 googlePodcastLink: " "
 spotifyLink: " "
-publish0xLink: " "
+publish0xLink: "https://www.publish0x.com/big-dreams-with-the-power-of-your-mind/avoiding-this-mistake-postpones-your-wealth-xxzmxdx"
 ---
 Este contenido es funcional a toda inversión que desees hacer, pero está más orientado a la inversión en bolsa de valores o también llamado trading con instrumentos financieros regulados. Pero que eso no te limite a leer y compartir este artículo, ya que siempre trato de dar el máximo valor al contenido para que sea de ayuda a las personas. Y espero sea de ayuda para ti independientemente del sector que desees invertir.
 
