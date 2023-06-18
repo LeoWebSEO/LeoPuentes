@@ -1,6 +1,6 @@
 ---
 layout: post
-permalink: falla-sistema-educativo-intelecto-vs-memoria.html
+permalink: no-evitar-error-para-el-exito.html
 title: Evitar este error posterga tu Riqueza
 description: 'Existe un error que a pesar de ser un error no se debe de anular, el evitarlo hará que se postergue no solo la riqueza sino también el éxito.'
 keywords: antonimo del fracaso, al borde del fracaso, el fracaso, the flash, como superar un trauma, superar el fracaso, fracaso igual a aprendizaje, se aprende con el fracaso
@@ -131,4 +131,4 @@ Comenta qué otros errores son necesarios en el camino a la riqueza.
 
 Te veo en otra oportunidad.
 
-Éxitos.
+Éxitos. 
