@@ -10,13 +10,13 @@ slug: crecimiento-personal
 categories:
 - Motivacion
 - Crecimiento-Personal
-youtubeLink: " "
+youtubeLink: "https://www.youtube.com/watch?v=WdsaUqQfj_E"
 facebookLink: " "
 odysseLink: " "
 tiktokLink: " "
 googlePodcastLink: " "
 spotifyLink: " "
-publish0xLink: " "
+publish0xLink: "https://www.publish0x.com/big-dreams-with-the-power-of-your-mind/rediscovering-the-strength-of-modern-people-a-journey-to-sto-xmjknqx"
 ---
 ¿Alguna vez te has preguntado cuál es tu verdadero valor como persona en la sociedad moderna?
 
