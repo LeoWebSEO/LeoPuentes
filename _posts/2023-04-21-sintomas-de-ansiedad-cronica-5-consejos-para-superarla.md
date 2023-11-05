@@ -12,7 +12,7 @@ image: "/assets/images/5-consejos-superar-ansiedad-cronica.webp"
 slug: crecimiento-personal
 categories:
 - Motivacion
-- Crecimineto-Personal
+- Crecimiento-Personal
 youtubeLink: "https://youtu.be/fyrbjaZsEgI"
 facebookLink: "https://fb.watch/kEW5Qoj2bK/"
 odysseLink: "https://odysee.com/@LeoPuentes:2/podcast-ansiedad-cronica-como-se-trata:f"

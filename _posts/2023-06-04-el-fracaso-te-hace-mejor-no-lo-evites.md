@@ -9,7 +9,7 @@ image: "/assets/images/no-evitar-farcasar.webp"
 slug: crecimiento-personal
 categories:
 - Motivacion
-- Crecimineto-Personal
+- Crecimiento-Personal
 youtubeLink: "https://youtu.be/ZfO_NB5u910"
 facebookLink: "https://fb.watch/leX3yANID3/"
 odysseLink: " "

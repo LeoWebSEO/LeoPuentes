@@ -9,7 +9,7 @@ image: "/assets/images/sistema-educativo-intelecto-memoria.webp"
 slug: crecimiento-personal
 categories:
 - Motivacion
-- Crecimineto-Personal
+- Crecimiento-Personal
 youtubeLink: "https://youtu.be/Lw2XFWv8CaI"
 facebookLink: "https://fb.watch/kEVelD7KQG/"
 odysseLink: " "
