@@ -11,9 +11,9 @@ categories:
 - Motivacion
 - Crecimiento-Personal
 youtubeLink: "https://youtu.be/9EtnfBVbXSs"
-facebookLink: " "
+facebookLink: "https://fb.watch/o8H2JBDZTn/"
 odysseLink: " "
-tiktokLink: " "
+tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7298339636735134981"
 googlePodcastLink: " "
 spotifyLink: " "
 publish0xLink: "https://www.publish0x.com/big-dreams-with-the-power-of-your-mind/what-to-do-with-the-power-of-the-mind-xpxpjwl"
@@ -56,9 +56,9 @@ Sueña, pero eso sí, sueña en grande. De esa forma te aseguras de no caer en c
 
 Conoce dos lemas importantes en mi vida. Asegúrate de tatuarlos en tu mente.
 
-* El éxito no es la meta, el éxito es la consecuencia de la disciplina.
+> _El éxito no es la meta, el éxito es la consecuencia de la disciplina._
 
-* No busques trabajo, genéralo.
+> _No busques trabajo, genéralo._
 
 Te invitamos a que compartas tus comentarios o sugerencias sobre este contenido. Tu opinión es muy importante y valiosa.
 
