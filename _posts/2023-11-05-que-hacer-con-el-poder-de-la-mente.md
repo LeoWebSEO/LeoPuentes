@@ -15,7 +15,7 @@ facebookLink: "https://fb.watch/o8H2JBDZTn/"
 odysseLink: " "
 tiktokLink: "https://www.tiktok.com/@leopuentes.me/video/7298339636735134981"
 googlePodcastLink: " "
-spotifyLink: " "
+spotifyLink: "https://open.spotify.com/show/3pzo9ZNYPJJSCl4yyJhiZA"
 publish0xLink: "https://www.publish0x.com/big-dreams-with-the-power-of-your-mind/what-to-do-with-the-power-of-the-mind-xpxpjwl"
 ---
 Pregunta que durante miles de años ha dado motivos para que el ser humano cree o destruya grandes maravillas. Todo gracias a la conexión que tiene la mente con uno de los órganos más complejos que poseemos, EL CEREBRO.
