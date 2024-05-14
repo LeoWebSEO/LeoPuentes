@@ -15,8 +15,8 @@ facebookLink: " "
 odysseLink: " "
 tiktokLink: " "
 googlePodcastLink: " "
-spotifyLink: " "
-publish0xLink: " "
+spotifyLink: "https://podcasters.spotify.com/pod/show/leo-puentes-a/episodes/Reinvntate--Descubre-cmo-brillar-en-tiempos-de-crisis-e2jla4o"
+publish0xLink: "https://www.publish0x.com/big-dreams-with-the-power-of-your-mind/how-can-you-reinvent-yourself-in-times-of-crisis-xrxelgp"
 ---
 En tiempos de crisis es donde surgen muchas preguntas con pocas respuestas o pocas preguntas incapaces de generar respuestas. Posiblemente la pandemia del COVID-19 sigue recabando en lo más profundo de tus pensamientos, aun sigue lastimando las heridas sin darle oportunidad de sanar.
 
