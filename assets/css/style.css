@@ -509,4 +509,30 @@ pre[class*="language-"] {
     transform: scale(1.1);
     box-shadow: 0 0 5px 2px rgba(132, 28, 185, 0.5), 0 0 12px 5px rgba(231, 52, 147, 0.5); }
 
+.footer-contenido {
+  background-color: #14191f;
+  grid-column: 1/7;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr; }
+
+.header-contenido {
+  grid-column: 1/7;
+  grid-template-columns: 1fr;
+  color: #fff225; }
+  .header-contenido img {
+    width: 116px;
+    border-radius: 50%;
+    height: auto; }
+  .header-contenido h2 {
+    margin-top: 15px; }
+
+.social-contenido {
+  text-align: center; }
+  .social-contenido img {
+    margin: 0 10px; }
+
+.img-text {
+  display: grid;
+  grid-template-columns: 1fr; }
+
 /*# sourceMappingURL=style.css.map */

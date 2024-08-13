@@ -1,0 +1,36 @@
+---
+layout: contenido
+title: Contenido y Donaciones a Leo Puentes
+description: Mejora tu vida con crecimiento personal y educación financiera. ¡Apoya este proyecto con donaciones a Leo Puentes!
+permalink: /contenido/
+---
+<!-- iconos sociales -->
+<section class="social-contenido">
+    <a href="https://leopuentes.me/" target="_blank" title="productos y tienda de leo puentes"><img loading="lazy" src="/assets/images/landing/store.png" alt="libro de leonardo puentes"></a>
+    <a href="mailto:elsermillonario@gmail.com" target="_blank" title="correo de contacto con leo puentes"><img loading="lazy" src="/assets/images/landing/email.png" alt="comunicarse con leo puentes"></a>
+    <a href="https://www.youtube.com/@LeoPuentesA" target="_blank" title="canal de youtube de leo puentes"><img loading="lazy" src="/assets/images/landing/youtube.png" alt="youtube de leo puentes"></a>
+    <a href="https://www.tiktok.com/@leopuentes.me" target="_blank" title="canal de tik tok de leo puentes"><img loading="lazy" src="/assets/images/landing/tik-tok.png" alt="tik tok de leo puentes"></a>
+    <a href="https://www.facebook.com/LeoPuentes.me" target="_blank" title="facebook de leo puentes"><img loading="lazy" src="/assets/images/landing/social-media.png" alt="facebook de leo puentes"></a>
+    <a href="https://www.instagram.com/leopuentes.me" target="_blank" title="Instagram de leo puentes"><img loading="lazy" src="/assets/images/landing/instagram.png" alt="instagram de leo puentes"></a>    
+</section>
+
+<!-- Cuadros de informacion e imagenes -->
+<section class="img-text">
+    <section class="public-second">  
+        {%- for posts in site.posts limit:3 -%}
+        <small class="ocultar">{% increment variable %}</small>
+            <section class="second-public">                
+                {%- assign list_post = site.posts[variable] -%}
+                <article>
+                    {% if list_post.image %}
+                        <a href="{{ list_post.url | relative_url }}" title="{{ list_post.title }}"><img src="{{list_post.image}}" alt="{{ list_post.title }}" loading="lazy"></a>
+                    {% endif %} 
+                </article>
+                <section>
+                    <h2><a href="{{list_post.url | relative_url }}" title="{{ list_post.title }}">{{ list_post.title }}</a></h2>
+                    <span>En {% for category in list_post.categories %}<a href="{{ 'categorias.html' | relative_url }}#{{ category | downcase | replace:'-',' ' }}" title="{{ category }}">{{category | replace:'-',' ' }}</a> , {% endfor %}</span>{{ list_post.date | date: '%b %d, %Y' }}
+                </section>
+            </section>
+        {%endfor%}
+    </section>
+</section>
