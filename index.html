@@ -78,7 +78,7 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
                     <div class="categorie-date">
                         <span>
                             {% for category in list_post.categories %}
-                                {% assign seconcatego = post.categories[1] %}
+                                {% assign seconcatego = post.categories[0] %}
                             {% endfor %}
                             <a href="{{ 'categorias.html' | relative_url }}#{{ seconcatego | downcase }}" title="{{ post.title }}">{{ seconcatego | replace:'-',' ' }}</a>
                         </span>
