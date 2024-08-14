@@ -548,6 +548,9 @@ pre[class*="language-"]
         box-shadow: 0 0 5px 2px rgba(132, 28, 185, 0.5), 0 0 12px 5px rgba(231, 52, 147, 0.5)
 
 // Pagina Contenido y donaciones
+.body-contenido
+    width: 700px
+
 .footer-contenido
     background-color: $fondo
     grid-column: 1 / 7
@@ -567,9 +570,50 @@ pre[class*="language-"]
 
 .social-contenido
     text-align: center
+    margin: 30px 0
     img
         margin: 0 10px
 
 .img-text
     display: grid
     grid-template-columns: 1fr
+
+.public-contenido
+    display: grid
+    grid-column: 1 / 4
+    grid-template-rows: 0px
+
+.second-contenido
+    display: grid
+    margin: 0px 15px 15px 15px
+    grid-template-columns: repeat(3, 1fr)
+    align-items: center
+    img
+        width: 97%
+    article
+        display: grid
+        grid-column: 1/2
+    section
+        display: grid
+        grid-column: 2/4
+
+.donacion-cafe
+    text-align: center
+    color: $amarillo
+    border-top: dotted 2px
+    padding: 10px
+    margin: 30px 0
+    h3
+        font-weight: normal
+
+.opciones-cafe
+    text-align: center
+    display: grid
+    grid-column: 1fr
+    grid-template-columns: repeat(3, 1fr)
+    img
+        width: 70%
+
+.copied
+    background-color: $link-hover
+    color: $fondo

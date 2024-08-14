@@ -5,11 +5,37 @@
 <html lang="es">
     <head>
         {% include head.html %}
+        <script>
+            function copyToClipboard(id, fullAddress, button) {
+            // Crea un elemento temporal para copiar la dirección completa
+            var tempInput = document.createElement('input');
+            tempInput.value = fullAddress;
+            document.body.appendChild(tempInput);
+
+            // Selecciona y copia el texto del elemento temporal
+            tempInput.select();
+            tempInput.setSelectionRange(0, 99999); // Para dispositivos móviles
+            document.execCommand('copy');
+
+            // Elimina el elemento temporal
+            document.body.removeChild(tempInput);
+
+            // Cambia el texto del botón a "Copiado!" y el color a verde
+            button.textContent = "Copiado!";
+            button.classList.add('copied');
+
+            // Restaura el texto y el color original después de 2 segundos
+            setTimeout(() => {
+                button.textContent = "Copiar Nuevamente";
+                button.classList.remove('copied');
+            }, 2000);
+            }
+        </script>            
     </head> 
-<body>
+<body class="body-contenido">
 
     <header class="header-contenido">
-        <img loading="lazy" src="/assets/images/logo/perfil-leo-puentes.webp" alt="">
+        <a href="/" title="sitio web ofial de Leo Puentes"><img loading="lazy" src="/assets/images/logo/perfil-leo-puentes.webp" alt="foto perfil leo puentes"></a>
         <h2>Leo Puentes</h2>
         <em>Reconocer que estamos solos, es tal vez </br> el paso más importante para avanzar!</em>
     </header>

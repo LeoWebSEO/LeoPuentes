@@ -2,7 +2,9 @@
 <nav>
     <ul>
         {% for item in site.data.menu %}
-        <li><a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}">{{item.title}}</a></li>
+            <li>
+                <a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}" {% if item.title == "Deseas Donar!" %} target="_blank" {% endif %}>{{item.title}}</a>
+            </li>
         {% endfor %}
     </ul>
     <section class="buscar">
@@ -10,5 +12,5 @@
     </section>
 </nav>
 <section class="donar">
-    <a href="https://www.paypal.com/donate/?hosted_button_id=UUNHTLSBB7SD6" target="_blank"><img src="{{ site.logo-donar }}" alt="donar a leo puentes"></a>
+    <a href="/contenido" target="_blank"><img src="{{ site.logo-donar }}" alt="donar a leo puentes"></a>
 </section>

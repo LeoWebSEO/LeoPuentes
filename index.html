@@ -47,7 +47,6 @@ keywords: programacion html, programacion web, optimizacion web seo, programar p
         {%- for posts in site.posts limit:3 -%}
         <small class="ocultar">{% increment variable %}</small>
             <section class="second-public">
-                
                 {%- assign list_post = site.posts[variable] -%}
                 <article>
                     {% if list_post.image %}
