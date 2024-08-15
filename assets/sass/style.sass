@@ -549,6 +549,7 @@ pre[class*="language-"]
 
 // Pagina Contenido y donaciones
 .body-contenido
+    display: grid
     width: 700px
 
 .footer-contenido
@@ -598,6 +599,8 @@ pre[class*="language-"]
         grid-column: 2/3
 
 .donacion-cafe
+    display: grid
+    grid-template-columns: 1fr
     text-align: center
     color: $amarillo
     border-top: dotted 2px
@@ -609,7 +612,6 @@ pre[class*="language-"]
 .opciones-cafe
     text-align: center
     display: grid
-    grid-column-template: 1fr
     grid-template-columns: repeat(3, 1fr)
     img
         width: 70%
@@ -617,21 +619,3 @@ pre[class*="language-"]
 .copied
     background-color: $link-hover
     color: $fondo
-
-@media (max-width: 699px)
-    .body-contenido
-        width: 400px
-
-    .header-contenido,.footer-contenido,.social-contenido,.donacion-cafe
-        grid-column: 1 / 3
-
-    .opciones-cafe
-        grid-template-columns: 1fr
-        img
-            width: 60%
-        section
-            margin-bottom: 30px
-
-    .img-text
-        h2
-            font-size: 14px

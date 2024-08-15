@@ -3,7 +3,7 @@
     <ul>
         {% for item in site.data.menu %}
             <li>
-                <a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}" {% if item.title == "Deseas Donar!" %} target="_blank" {% endif %}>{{item.title}}</a>
+                <a class="{% if page.url == item.link %}active{% endif %}" href="{{item.link}}" {% if item.title == "Donación!" %} target="_blank" {% endif %}>{{item.title}}</a>
             </li>
         {% endfor %}
     </ul>
